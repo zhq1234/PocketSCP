@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.1050
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0476
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6724
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 25.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 303.7528
+HEADER 10 - Pocket volume (convex hull)       : 11.6220
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM   3151  CD2 TYR A 198      61.680  48.822 111.045  0.00  0.00           C 0
+ATOM   3131   CB GLN A 197      59.406  43.388 113.149  0.00  0.00           C 0
+ATOM   3144    N TYR A 198      59.276  45.611 110.674  0.00  0.00           N 0
+ATOM   3070    O LYS A 194      61.743  44.118 110.686  0.00  0.00           O 0
+ATOM   3071   CB LYS A 194      64.842  43.395 111.535  0.00  0.00           C 0
+ATOM   3074   CE LYS A 194      67.102  44.723 113.047  0.00  0.00           C 0
+ATOM   3072   CG LYS A 194      65.552  42.865 112.781  0.00  0.00           C 0
+ATOM   3068   CA LYS A 194      63.531  42.677 111.210  0.00  0.00           C 0
+ATOM   3129    C GLN A 197      58.446  45.202 111.630  0.00  0.00           C 0
+ATOM   3134  NE2 GLN A 197      59.140  43.394 116.241  0.00  0.00           N 1
+ATOM   3198   OG SER A 201      57.460  49.581 112.413  0.70  7.50           O 0
+ATOM   3130    O GLN A 197      57.364  45.731 111.875  0.61  4.29           O 0
+ATOM   5035  CE1 PHE A 315      65.293  47.441 110.449  0.00  0.00           C 0
+ATOM   3153  CE2 TYR A 198      61.993  50.087 111.530  0.00  0.00           C 0
+ATOM   5037   CZ PHE A 315      66.530  47.796 110.975  0.00  0.00           C 0
+ATOM   3197   CB SER A 201      56.123  49.576 112.921  0.00  0.00           C 0
+ATOM   3135  OE1 GLN A 197      60.467  41.729 115.885  0.35  7.50           O 0
+ATOM   3133   CD GLN A 197      59.640  42.497 115.396  0.00  0.00           C 0
+TER
+END

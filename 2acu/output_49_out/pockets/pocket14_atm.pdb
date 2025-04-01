@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0900
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8967
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5857
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 42.8000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 184.0353
+HEADER 10 - Pocket volume (convex hull)       : 4.2802
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.8750
+ATOM   2183   CG LEU A 138      61.614  60.250  96.278  0.00  0.00           C 0
+ATOM   2152  OD1 ASN A 136      64.395  59.286  93.997  0.00  0.00           O 0
+ATOM   2166   CD ILE A 137      63.642  55.467  97.315  0.00  0.00           C 0
+ATOM   2164  CG1 ILE A 137      63.426  56.090  95.935  0.00  0.00           C 0
+ATOM   2696    O ASN A 171      59.832  61.563 102.393  0.00  0.00           O 0
+ATOM   2184  CD1 LEU A 138      62.204  61.620  96.619  0.00  0.00           C 0
+ATOM   2641    O MET A 168      60.628  57.919 101.007  0.75  5.36           O 0
+ATOM   2185  CD2 LEU A 138      60.650  59.838  97.392  0.00  0.00           C 0
+ATOM   2642   CB MET A 168      63.145  56.128 101.227  0.00  0.00           C 0
+ATOM   2644   SD MET A 168      65.923  56.381 100.624  0.00  0.00           S 0
+ATOM   2639   CA MET A 168      61.999  56.376 102.208  0.00  0.00           C 0
+ATOM   2643   CG MET A 168      64.545  56.296 101.825  0.00  0.00           C 0
+ATOM   2697   CB ASN A 171      60.425  59.853 104.556  0.00  0.00           C 0
+ATOM   2699  ND2 ASN A 171      61.578  58.601 106.322  0.00  0.00           N 0
+TER
+END

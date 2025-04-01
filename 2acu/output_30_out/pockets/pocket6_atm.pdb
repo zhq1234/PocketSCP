@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0434
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6910
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4934
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 37.1429
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 127.8606
+HEADER 10 - Pocket volume (convex hull)       : 2.7027
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM   3228    O GLY A 203      51.996  49.004 105.855  0.62  3.21           O 0
+ATOM   2850    O ALA A 180      51.503  46.226 102.025  0.69  1.07           O 0
+ATOM   3257  CG2 VAL A 205      49.845  44.415 104.719  0.00  0.00           C 0
+ATOM   2819   NZ LYS A 178      49.733  51.304 105.879  0.62  9.84           N 1
+ATOM    105    N ASN A   7      45.667  49.025 101.033  0.56  4.37           N 0
+ATOM     70    O LEU A   5      45.005  45.347 103.150  0.48  8.57           O 0
+ATOM     87   CA LEU A   6      45.595  46.640 100.869  0.00  0.00           C 0
+ATOM     93  CD2 LEU A   6      47.670  44.300 101.000  0.00  0.00           C 0
+ATOM   2848   CA ALA A 180      50.921  48.043 100.564  0.00  0.00           C 0
+ATOM   2851   CB ALA A 180      49.751  47.615  99.674  0.00  0.00           C 0
+ATOM   2817   CD LYS A 178      49.295  52.785 103.952  0.00  0.00           C 0
+ATOM    111  ND2 ASN A   7      46.494  52.864 101.920  0.66  3.28           N 0
+ATOM    106   CA ASN A   7      45.363  50.459 100.934  0.00  0.00           C 0
+ATOM   2818   CE LYS A 178      50.309  51.881 104.656  0.00  0.00           C 0
+ATOM    109   CB ASN A   7      46.661  51.068 100.399  0.00  0.00           C 0
+TER
+END

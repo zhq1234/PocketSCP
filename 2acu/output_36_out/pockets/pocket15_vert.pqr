@@ -1,0 +1,62 @@
+HEADER
+HEADER This is a pqr format file writen by the programm fpocket.                 
+HEADER It represent the voronoi vertices of a single pocket found by the         
+HEADER algorithm.                                                                
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0907
+HEADER 1  - Drug Score                        : 0.0057
+HEADER 2  - Number of V. Vertices             :    40
+HEADER 3  - Mean alpha-sphere radius          : 3.7162
+HEADER 4  - Mean alpha-sphere SA              : 0.4273
+HEADER 5  - Mean B-factor                     : 0.0000
+HEADER 6  - Hydrophobicity Score              : 11.2000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Volume Score                      : 4.4000
+HEADER 9  - Real volume (approximation)       : 303.0124
+HEADER 10 - Charge Score                      :    -2
+HEADER 11 - Local hydrophobic density Score   : 18.6000
+HEADER 12 - Number of apolar alpha sphere     :    20
+HEADER 13 - Proportion of apolar alpha sphere : 0.5000
+ATOM      1    O STP    15      70.641  35.992 108.791    0.00     3.74
+ATOM      2    C STP    15      70.694  35.622 108.662    0.00     3.64
+ATOM      3    C STP    15      70.218  35.453 108.673    0.00     3.44
+ATOM      4    C STP    15      70.468  35.464 108.641    0.00     3.51
+ATOM      5    O STP    15      71.232  35.531 109.082    0.00     3.46
+ATOM      6    O STP    15      73.200  39.342 108.109    0.00     3.79
+ATOM      7    O STP    15      72.859  39.284 107.255    0.00     3.60
+ATOM      8    O STP    15      71.179  36.831 109.651    0.00     4.01
+ATOM      9    O STP    15      70.560  37.153 108.879    0.00     4.08
+ATOM     10    O STP    15      68.699  38.034 108.641    0.00     3.97
+ATOM     11    C STP    15      68.400  38.662 107.791    0.00     3.86
+ATOM     12    O STP    15      70.663  38.380 107.356    0.00     3.79
+ATOM     13    O STP    15      70.801  38.073 107.774    0.00     3.87
+ATOM     14    O STP    15      70.650  37.682 108.431    0.00     4.00
+ATOM     15    C STP    15      73.524  39.960 109.820    0.00     3.56
+ATOM     16    O STP    15      72.186  39.037 107.482    0.00     3.65
+ATOM     17    O STP    15      71.671  39.024 107.207    0.00     3.60
+ATOM     18    O STP    15      73.994  39.253 109.392    0.00     4.29
+ATOM     19    C STP    15      73.113  39.313 108.100    0.00     3.78
+ATOM     20    C STP    15      66.912  41.399 109.342    0.00     3.46
+ATOM     21    C STP    15      66.678  40.955 107.315    0.00     3.45
+ATOM     22    O STP    15      68.275  38.225 108.813    0.00     3.95
+ATOM     23    O STP    15      68.327  38.203 108.743    0.00     3.98
+ATOM     24    O STP    15      68.213  38.355 108.835    0.00     3.90
+ATOM     25    C STP    15      68.408  38.133 108.600    0.00     4.03
+ATOM     26    O STP    15      67.959  37.472 108.467    0.00     3.62
+ATOM     27    C STP    15      68.335  38.583 107.937    0.00     3.89
+ATOM     28    C STP    15      68.123  38.985 107.861    0.00     3.75
+ATOM     29    C STP    15      67.013  40.387 107.447    0.00     3.40
+ATOM     30    C STP    15      67.018  40.738 108.168    0.00     3.67
+ATOM     31    C STP    15      66.770  40.835 107.643    0.00     3.54
+ATOM     32    C STP    15      66.778  40.574 109.351    0.00     3.73
+ATOM     33    O STP    15      66.475  40.495 109.466    0.00     3.55
+ATOM     34    C STP    15      66.630  40.900 107.683    0.00     3.51
+ATOM     35    C STP    15      66.452  40.999 108.345    0.00     3.53
+ATOM     36    C STP    15      66.778  41.127 109.157    0.00     3.63
+ATOM     37    C STP    15      66.711  40.794 109.136    0.00     3.75
+ATOM     38    C STP    15      66.736  40.885 108.863    0.00     3.74
+ATOM     39    O STP    15      66.358  40.682 109.290    0.00     3.53
+ATOM     40    O STP    15      66.181  40.663 109.248    0.00     3.41
+TER
+END

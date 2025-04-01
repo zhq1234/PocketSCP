@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.1806
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.9250
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4658
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 55.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 205.2188
+HEADER 10 - Pocket volume (convex hull)       : 4.0912
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   4077  OD1 ASN A 256      50.034  36.611 112.429  0.75  3.21           O 0
+ATOM   4075   CG ASN A 256      50.037  37.529 111.610  0.00  0.00           C 0
+ATOM      1    N ALA A   1      43.277  37.904 108.442  0.00  0.00           N 0
+ATOM   4076  ND2 ASN A 256      49.167  38.523 111.763  0.00  0.00           N 0
+ATOM   4071   CA ASN A 256      51.077  36.485 109.442  0.00  0.00           C 0
+ATOM     55  CD2 LEU A   4      46.005  40.411 105.343  0.00  0.00           C 0
+ATOM    209  CG2 ILE A  14      46.707  35.305 103.510  0.00  0.00           C 0
+ATOM   4086    C LEU A 257      52.240  35.635 105.184  0.00  0.00           C 0
+ATOM   4072    C ASN A 256      51.552  36.901 108.049  0.00  0.00           C 0
+ATOM   4087    O LEU A 257      51.818  34.530 105.525  0.83  3.21           O 0
+ATOM   4109  CG2 VAL A 258      50.002  37.919 102.807  0.00  0.00           C 0
+ATOM   4103    N VAL A 258      51.954  36.317 104.079  0.00  0.00           N 0
+ATOM     54  CD1 LEU A   4      46.441  38.950 103.311  0.00  0.00           C 0
+ATOM      4    O ALA A   1      44.048  37.125 105.775  0.38  5.36           O 0
+ATOM   4015    O MET A 253      49.498  32.630 108.243  0.46  7.50           O 0
+ATOM   4032    O GLN A 254      50.216  33.465 111.625  0.59  9.64           O 0
+ATOM   4073    O ASN A 256      51.461  38.055 107.630  0.42  8.57           O 0
+TER
+END

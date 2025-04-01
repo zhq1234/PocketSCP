@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0883
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7544
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5304
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 21.1111
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 191.7145
+HEADER 10 - Pocket volume (convex hull)       : 1.4044
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   3426  NH2 ARG A 217      68.797  22.532  96.202  0.29  5.47           N 0
+ATOM   3375    O GLY A 213      65.722  26.004  98.319  0.31  1.07           O 0
+ATOM   3391   CA PRO A 215      64.409  23.355  94.810  0.00  0.00           C 0
+ATOM   3600   CG LEU A 228      62.892  21.043 100.058  0.00  0.00           C 0
+ATOM   3601  CD1 LEU A 228      62.400  20.819  98.627  0.00  0.00           C 0
+ATOM   3599   CB LEU A 228      63.902  19.986 100.513  0.00  0.00           C 0
+ATOM   3393    O PRO A 215      66.373  22.914  93.468  0.81  7.50           O 0
+ATOM   3356    O LEU A 212      63.429  24.816  99.623  0.21  1.07           O 0
+ATOM   3394   CB PRO A 215      63.015  22.724  94.797  0.00  0.00           C 0
+ATOM   3570   OG SER A 226      68.765  20.019  99.649  0.41  2.14           O 0
+ATOM   3619   CG GLU A 229      67.982  17.084 100.985  0.00  0.00           C 0
+ATOM   3622  OE2 GLU A 229      69.644  17.516  99.260  0.54  3.21           O 1
+ATOM   3382    O SER A 214      66.322  25.248  95.742  0.00  0.00           O 0
+ATOM   3595    N LEU A 228      65.317  21.507 101.757  0.38  1.09           N 0
+ATOM   3576    N LEU A 227      67.760  23.215 101.554  0.45  1.09           N 0
+TER
+END

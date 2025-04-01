@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0259
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.5820
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3902
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -0.3750
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 137.7762
+HEADER 10 - Pocket volume (convex hull)       : 2.2884
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2222
+ATOM   1333   CG GLU A  84      62.261  57.863  82.767  0.00  0.00           C 0
+ATOM   1877   CG PRO A 117      66.836  54.949  80.175  0.00  0.00           C 0
+ATOM   2113   OG SER A 133      68.896  55.747  84.300  0.48  9.64           O 0
+ATOM   1332   CB GLU A  84      62.108  56.499  83.442  0.00  0.00           C 0
+ATOM   1313    O HIS A  83      63.538  55.336  86.434  0.54  5.36           O 0
+ATOM   2122    O ASP A 134      68.616  58.714  87.661  0.42  6.43           O 0
+ATOM   2136  CG2 THR A 135      66.690  55.109  87.642  0.00  0.00           C 0
+ATOM   1878   CD PRO A 117      67.769  54.069  81.010  0.00  0.00           C 0
+ATOM   1876   CB PRO A 117      65.653  54.018  79.899  0.00  0.00           C 0
+ATOM   1278    O THR A  81      63.979  51.052  81.894  0.48  2.14           O 0
+ATOM   1312    C HIS A  83      62.641  54.547  86.139  0.00  0.00           C 0
+ATOM   1310    N HIS A  83      62.471  52.179  85.440  0.70  1.09           N 0
+ATOM   1833    O PHE A 115      67.426  50.877  83.461  0.70  5.36           O 0
+ATOM   2112   CB SER A 133      69.324  54.502  84.856  0.00  0.00           C 0
+TER
+END

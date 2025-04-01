@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.1857
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.1492
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6201
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 45.8889
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 350.4013
+HEADER 10 - Pocket volume (convex hull)       : 21.2848
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.2800
+ATOM   3460   CG TRP A 219      72.381  28.616  91.374  0.00  0.00           C 0
+ATOM   3459   CB TRP A 219      72.893  28.666  89.933  0.00  0.00           C 0
+ATOM   3462  CD2 TRP A 219      71.194  29.125  91.888  0.00  0.00           C 0
+ATOM   4796  CD2 LEU A 300      70.867  36.731  90.328  0.00  0.00           C 0
+ATOM   4731    O ARG A 296      70.511  33.130  96.592  0.23  6.43           O 0
+ATOM   3547  OD2 ASP A 224      73.819  26.947  95.768  0.80  4.29           O 1
+ATOM   3497   NZ LYS A 221      78.191  29.601  94.682  0.50  7.66           N 1
+ATOM   4710  CD1 TRP A 295      72.986  28.905  99.341  0.00  0.00           C 0
+ATOM   4755    O VAL A 297      68.266  33.332  93.866  0.63  1.07           O 0
+ATOM   3466  CZ2 TRP A 219      70.004  29.151  93.961  0.00  0.00           C 0
+ATOM   3463  CE2 TRP A 219      71.105  28.738  93.220  0.00  0.00           C 0
+ATOM   3495   CD LYS A 221      76.850  28.307  93.109  0.00  0.00           C 0
+ATOM   3461  CD1 TRP A 219      72.950  27.898  92.341  0.00  0.00           C 0
+ATOM   3464  CE3 TRP A 219      70.121  29.759  91.273  0.00  0.00           C 0
+ATOM   3465  NE1 TRP A 219      72.100  27.868  93.364  0.00  0.00           N 0
+ATOM   4789    N LEU A 300      71.559  38.310  92.977  0.60  4.37           N 0
+ATOM   4783   CB ALA A 299      71.405  37.892  96.070  0.00  0.00           C 0
+ATOM   4779    N ALA A 299      69.482  37.150  94.725  0.61  1.09           N 0
+ATOM   4814  CD1 LEU A 301      76.670  37.625  95.444  0.00  0.00           C 0
+ATOM   4714  NE1 TRP A 295      72.506  28.148  98.359  0.76  1.09           N 0
+ATOM   4790   CA LEU A 300      72.262  38.805  91.785  0.00  0.00           C 0
+ATOM   4808    N LEU A 301      74.371  39.534  92.525  0.41  4.37           N 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.1130
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8990
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6369
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 21.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 2.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 264.0171
+HEADER 10 - Pocket volume (convex hull)       : 15.9158
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   4829    O SER A 302      76.206  43.672  88.167  0.52  8.57           O 0
+ATOM   2053  ND2 ASN A 129      81.347  47.544  84.488  0.36  6.56           N 0
+ATOM   4851    O THR A 304      77.735  47.802  91.644  0.00  0.00           O 0
+ATOM   4854  OG1 THR A 304      77.702  44.469  92.027  0.37  6.43           O 0
+ATOM   4827   CA SER A 302      76.175  41.366  88.807  0.00  0.00           C 0
+ATOM   4830   CB SER A 302      75.686  40.666  87.536  0.00  0.00           C 0
+ATOM   2043    O GLY A 128      78.992  43.617  82.377  0.00  0.00           O 0
+ATOM   4863   CA SER A 305      76.837  48.938  89.271  0.00  0.00           C 0
+ATOM   4866   CB SER A 305      76.714  48.673  87.769  0.00  0.00           C 0
+ATOM   2047    N ASN A 129      79.843  45.747  82.256  0.66  1.09           N 0
+ATOM   2042    C GLY A 128      79.744  44.468  81.905  0.00  0.00           C 0
+ATOM   2067  CG2 VAL A 130      75.045  43.892  85.022  0.00  0.00           C 0
+ATOM   1990  CD2 LEU A 124      75.767  42.469  81.225  0.00  0.00           C 0
+ATOM   2048   CA ASN A 129      78.887  46.452  83.123  0.00  0.00           C 0
+ATOM   2061    N VAL A 130      76.665  46.064  83.788  0.64  1.09           N 0
+ATOM   4862    N SER A 305      76.309  47.779  90.006  0.62  1.09           N 0
+ATOM   4850    C THR A 304      76.702  47.313  91.188  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.1074
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7290
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4081
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 29.1429
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 223.1215
+HEADER 10 - Pocket volume (convex hull)       : 7.4902
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM   1295  CD1 TYR A  82      59.728  49.205  80.303  0.00  0.00           C 0
+ATOM   1889    O GLY A 118      64.704  49.175  75.021  0.00  0.00           O 0
+ATOM   1379  CD2 LEU A  87      59.670  52.299  78.081  0.00  0.00           C 0
+ATOM   1378  CD1 LEU A  87      61.523  53.338  79.421  0.00  0.00           C 0
+ATOM   1876   CB PRO A 117      65.358  52.561  79.258  0.00  0.00           C 0
+ATOM   1278    O THR A  81      63.886  51.082  81.783  0.72  1.07           O 0
+ATOM   1896    O LYS A 119      64.766  45.109  75.825  0.59  9.64           O 0
+ATOM   1297  CE1 TYR A  82      59.488  48.199  79.375  0.00  0.00           C 0
+ATOM   1281  OG1 THR A  81      63.702  47.129  81.407  0.75  1.07           O 0
+ATOM   1279   CB THR A  81      64.648  48.194  81.272  0.00  0.00           C 0
+ATOM   1886    N GLY A 118      66.669  50.262  77.026  0.00  0.00           N 0
+ATOM   1894   CA LYS A 119      65.567  46.656  74.251  0.00  0.00           C 0
+ATOM   1898   CG LYS A 119      64.551  45.367  72.469  0.00  0.00           C 0
+ATOM   1300   OH TYR A  82      59.367  45.876  78.956  0.37  9.64           O 0
+ATOM   1901   NZ LYS A 119      62.307  43.993  71.057  0.00  0.00           N 1
+ATOM   1936  CD1 PHE A 121      62.671  43.097  79.655  0.00  0.00           C 0
+TER
+END

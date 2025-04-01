@@ -1,0 +1,59 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : -0.0123
+HEADER 1  - Drug Score                        : 0.0267
+HEADER 2  - Number of alpha spheres           :    51
+HEADER 3  - Mean alpha-sphere radius          : 3.8784
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4596
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 22.6923
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.8462
+HEADER 9  - Pocket volume (Monte Carlo)       : 397.2445
+HEADER 10 - Pocket volume (convex hull)       : 54.5988
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 16.3158
+HEADER 13 - Number of apolar alpha sphere     :    19
+HEADER 14 - Proportion of apolar alpha sphere : 0.3725
+ATOM    566    O GLY A  38      42.852  28.391  94.818  0.56  4.29           O 0
+ATOM   4349  CE1 PHE A 273      42.042  25.958  99.138  0.00  0.00           C 0
+ATOM     18   OG SER A   2      41.176  32.994 102.606  0.49  4.29           O 0
+ATOM    596   CG ARG A  40      42.029  31.906  94.242  0.00  0.00           C 0
+ATOM     16    O SER A   2      44.145  34.843 102.577  0.00  0.00           O 0
+ATOM    203    N ILE A  14      46.485  34.129 100.830  0.00  0.00           N 0
+ATOM    209  CG2 ILE A  14      46.506  31.731 102.842  0.00  0.00           C 0
+ATOM    153    O LYS A  11      42.961  39.584  97.305  0.41  4.29           O 0
+ATOM     31   NE ARG A   3      38.873  35.695  99.474  0.67  7.66           N 0
+ATOM    194   CG PRO A  13      44.606  35.301  96.720  0.00  0.00           C 0
+ATOM    195   CD PRO A  13      44.869  36.753  97.126  0.00  0.00           C 0
+ATOM    595   CB ARG A  40      43.143  32.954  94.248  0.00  0.00           C 0
+ATOM     34  NH2 ARG A   3      37.265  34.798  98.101  0.57  9.84           N 0
+ATOM    193   CB PRO A  13      45.246  34.450  97.817  0.00  0.00           C 0
+ATOM   4409   CZ PHE A 276      43.690  28.507 103.309  0.00  0.00           C 0
+ATOM    228  CD1 LEU A  15      47.050  28.237 101.131  0.00  0.00           C 0
+ATOM    222    N LEU A  15      48.238  31.813 100.090  0.00  0.00           N 0
+ATOM    190   CA PRO A  13      45.277  35.340  99.060  0.00  0.00           C 0
+ATOM     29   CG ARG A   3      40.866  36.317 100.951  0.00  0.00           C 0
+ATOM    598   NE ARG A  40      40.179  31.018  93.074  0.57  4.37           N 0
+ATOM   1103   CB GLU A  71      37.549  35.034  93.363  0.00  0.00           C 0
+ATOM   1107  OE2 GLU A  71      35.164  32.920  94.560  0.57  7.50           O 1
+ATOM     33  NH1 ARG A   3      37.065  37.004  98.827  0.60  6.56           N 1
+ATOM   1087    O GLU A  70      38.510  39.265  93.490  0.65  6.43           O 0
+ATOM    154   CB LYS A  11      40.885  40.844  98.759  0.00  0.00           C 0
+ATOM   4347  CD1 PHE A 273      43.409  25.847  98.915  0.00  0.00           C 0
+ATOM    576  CD1 TYR A  39      48.054  28.555  95.252  0.00  0.00           C 0
+ATOM    565    C GLY A  38      43.582  27.467  94.465  0.00  0.00           C 0
+ATOM   4345   CB PHE A 273      45.375  24.550  97.996  0.00  0.00           C 0
+ATOM    225    O LEU A  15      48.069  31.163  97.279  0.70  4.29           O 0
+ATOM    226   CB LEU A  15      48.622  29.362  99.609  0.00  0.00           C 0
+ATOM     32   CZ ARG A   3      37.764  35.866  98.738  0.00  0.00           C 0
+ATOM     30   CD ARG A   3      39.556  36.723 100.272  0.00  0.00           C 0
+ATOM   1102    O GLU A  71      40.488  35.521  93.593  0.84  6.43           O 0
+ATOM   1100   CA GLU A  71      38.229  36.404  93.388  0.00  0.00           C 0
+ATOM    591    N ARG A  40      44.847  31.375  93.704  0.59  1.09           N 0
+ATOM    571   CA TYR A  39      45.311  29.017  93.715  0.00  0.00           C 0
+TER
+END

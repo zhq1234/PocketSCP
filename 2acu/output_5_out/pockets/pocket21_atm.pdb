@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.2550
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.0878
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5219
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 28.8750
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 327.4232
+HEADER 10 - Pocket volume (convex hull)       : 17.2995
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0800
+ATOM   4407  CD2 PHE A 276      43.803  27.638 107.017  0.00  0.00           C 0
+ATOM    210   CD ILE A  14      47.054  32.934 104.295  0.00  0.00           C 0
+ATOM   4019   CE MET A 253      46.593  29.461 104.267  0.00  0.00           C 0
+ATOM      1    N ALA A   1      42.655  34.121 107.230  0.00  0.00           N 0
+ATOM   4032    O GLN A 254      49.797  31.011 110.045  0.00  0.00           O 0
+ATOM      5   CB ALA A   1      44.617  35.628 106.580  0.00  0.00           C 0
+ATOM   4015    O MET A 253      49.880  31.452 106.187  0.46  3.21           O 0
+ATOM   4409  CE2 PHE A 276      43.009  27.991 108.102  0.00  0.00           C 0
+ATOM   3963  NH1 ARG A 250      47.605  27.162 106.850  0.57  2.19           N 1
+ATOM   4030   CA GLN A 254      50.244  29.556 108.152  0.00  0.00           C 0
+ATOM   4034   CG GLN A 254      49.678  28.033 110.114  0.00  0.00           C 0
+ATOM   4460  OE2 GLU A 279      45.533  26.331 113.782  0.55  8.57           O 1
+ATOM   3964  NH2 ARG A 250      46.890  25.809 108.567  0.14  4.37           N 0
+ATOM      4    O ALA A   1      43.445  33.410 104.830  0.36  7.50           O 0
+ATOM   4070    N ASN A 256      51.934  34.411 109.595  0.67  4.37           N 0
+ATOM   4077  OD1 ASN A 256      51.603  37.419 111.425  0.48  9.64           O 0
+ATOM   4071   CA ASN A 256      52.021  35.782 109.075  0.00  0.00           C 0
+ATOM   4073    O ASN A 256      51.044  36.438 106.988  0.45  9.64           O 0
+TER
+END

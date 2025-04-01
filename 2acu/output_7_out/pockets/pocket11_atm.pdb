@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0545
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2013
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5949
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 49.6250
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 252.4364
+HEADER 10 - Pocket volume (convex hull)       : 5.2061
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   4793   CG LEU A 300      70.076  38.332  90.264  0.00  0.00           C 0
+ATOM    299  CZ2 TRP A  20      65.635  31.954  90.013  0.00  0.00           C 0
+ATOM   4772   SG CYS A 298      67.127  36.824  93.103  0.00  0.00           S 0
+ATOM   4794  CD1 LEU A 300      68.571  38.471  90.510  0.00  0.00           C 0
+ATOM   3445   CG PRO A 218      67.806  29.345  89.028  0.00  0.00           C 0
+ATOM   3466  CZ3 TRP A 219      69.498  29.710  92.542  0.00  0.00           C 0
+ATOM   3444   CB PRO A 218      69.272  29.213  88.611  0.00  0.00           C 0
+ATOM   4754    O VAL A 297      68.116  32.448  94.570  0.63  1.07           O 0
+ATOM   3463  CE3 TRP A 219      70.722  29.398  91.963  0.00  0.00           C 0
+ATOM   4730    O ARG A 296      70.313  31.793  96.978  0.50  8.57           O 0
+ATOM   4788    N LEU A 300      71.774  37.826  93.166  0.64  7.66           N 0
+ATOM   4778    N ALA A 299      70.131  36.387  95.139  0.58  2.19           N 0
+ATOM   4782   CB ALA A 299      72.310  36.819  96.140  0.00  0.00           C 0
+ATOM   4768   CA CYS A 298      67.933  35.208  95.086  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.1209
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9483
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5816
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 11.5000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 265.8353
+HEADER 10 - Pocket volume (convex hull)       : 5.9697
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   5003   CD GLU A 313      76.318  47.469 106.766  0.00  0.00           C 0
+ATOM   5001   CB GLU A 313      74.999  46.580 104.849  0.00  0.00           C 0
+ATOM   5005  OE2 GLU A 313      75.811  47.279 107.894  0.00  0.00           O 1
+ATOM   5004  OE1 GLU A 313      76.774  48.588 106.443  0.80  9.64           O 0
+ATOM   5038  OXT PHE A 315      69.503  46.452 104.791  0.46  7.50           O 1
+ATOM   5012    N GLU A 314      73.238  44.048 104.948  0.52  1.09           N 0
+ATOM   2562  CE1 HIS A 163      68.357  47.714 107.352  0.00  0.00           C 0
+ATOM   5016   CB GLU A 314      72.675  42.699 106.802  0.00  0.00           C 0
+ATOM   5035  CE1 PHE A 315      68.559  44.107 108.944  0.00  0.00           C 0
+ATOM   2563  NE2 HIS A 163      68.063  48.836 108.004  0.00  0.00           N 1
+ATOM   5019  OE1 GLU A 314      72.084  42.485 109.495  0.64  6.43           O 0
+ATOM   5027    N PHE A 315      70.423  43.971 104.912  0.59  1.09           N 0
+ATOM   5037   CZ PHE A 315      67.480  44.916 109.279  0.00  0.00           C 0
+TER
+END

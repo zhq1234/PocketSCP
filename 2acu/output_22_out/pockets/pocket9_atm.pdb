@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0501
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.1281
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6092
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -38.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 315.4579
+HEADER 10 - Pocket volume (convex hull)       : 7.7611
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0909
+ATOM   3529   CB GLU A 223      76.988  19.655 100.383  0.00  0.00           C 0
+ATOM   3533  OE2 GLU A 223      77.573  18.559 103.341  0.00  0.00           O 1
+ATOM   3531   CD GLU A 223      78.241  18.707 102.294  0.00  0.00           C 0
+ATOM   4676  NH2 ARG A 293      75.860  25.390 104.290  0.54  9.84           N 0
+ATOM   3532  OE1 GLU A 223      79.461  18.950 102.179  0.70  6.43           O 0
+ATOM   3557   CG PRO A 225      72.476  24.239 102.289  0.00  0.00           C 0
+ATOM   3553   CA PRO A 225      70.907  22.442 101.531  0.00  0.00           C 0
+ATOM   4675  NH1 ARG A 293      74.589  24.406 105.990  0.53  6.56           N 1
+ATOM   3528    O GLU A 223      76.026  22.083  99.461  0.56  9.64           O 0
+ATOM   3558   CD PRO A 225      72.985  23.510 101.044  0.00  0.00           C 0
+ATOM   3540    N ASP A 224      74.257  20.925  98.639  0.54  4.37           N 0
+ATOM   3543    O ASP A 224      71.249  21.039  99.091  0.29  9.64           O 0
+ATOM   3542    C ASP A 224      72.126  21.830  99.433  0.00  0.00           C 0
+ATOM   3514    O PRO A 222      75.967  17.509  97.317  0.00  0.00           O 0
+ATOM   3526   CA GLU A 223      76.265  19.714  99.036  0.00  0.00           C 0
+ATOM   3556   CB PRO A 225      71.056  23.685 102.411  0.00  0.00           C 0
+ATOM   3552    N PRO A 225      72.009  22.522 100.563  0.00  0.00           N 0
+TER
+END

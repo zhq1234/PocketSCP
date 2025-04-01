@@ -1,0 +1,49 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.1687
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    29
+HEADER 3  - Mean alpha-sphere radius          : 3.9072
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6550
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -5.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 355.5193
+HEADER 10 - Pocket volume (convex hull)       : 26.2707
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.6364
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.3793
+ATOM   1972    O PRO A 123      73.130  47.619  79.434  0.00  0.00           O 0
+ATOM   1971    C PRO A 123      72.522  46.653  78.977  0.00  0.00           C 0
+ATOM   1973   CB PRO A 123      70.317  48.010  79.109  0.00  0.00           C 0
+ATOM   1986    O LEU A 124      74.918  46.556  76.170  0.55  9.64           O 0
+ATOM   1856   CE LYS A 116      72.084  56.004  78.724  0.00  0.00           C 0
+ATOM   1854   CG LYS A 116      70.635  54.486  80.053  0.00  0.00           C 0
+ATOM   1874    O PRO A 117      67.233  53.263  77.317  0.46  7.50           O 0
+ATOM   1852    O LYS A 116      69.040  51.377  79.543  0.55  2.14           O 0
+ATOM   1873    C PRO A 117      66.651  52.279  77.772  0.00  0.00           C 0
+ATOM   1886   CA GLY A 118      65.892  51.388  75.596  0.00  0.00           C 0
+ATOM   1921  OE1 GLU A 120      69.992  44.179  74.729  0.56  6.43           O 0
+ATOM   1970   CA PRO A 123      70.997  46.663  78.857  0.00  0.00           C 0
+ATOM   1918   CB GLU A 120      67.483  44.804  76.030  0.00  0.00           C 0
+ATOM   1983    N LEU A 124      73.064  45.671  78.259  0.65  1.09           N 0
+ATOM   1897   CG LYS A 119      66.520  47.616  72.426  0.00  0.00           C 0
+ATOM   1899   CE LYS A 119      68.313  46.887  70.923  0.00  0.00           C 0
+ATOM   2082  CG1 VAL A 131      73.113  50.526  80.302  0.00  0.00           C 0
+ATOM   2008  OD1 ASP A 125      77.127  50.615  75.870  0.00  0.00           O 0
+ATOM   1857   NZ LYS A 116      73.375  56.300  78.088  0.65  8.75           N 1
+ATOM   2007   CG ASP A 125      77.545  50.625  77.047  0.00  0.00           C 0
+ATOM   2009  OD2 ASP A 125      78.515  51.260  77.514  0.00  0.00           O 1
+ATOM   1885    N GLY A 118      65.977  51.377  77.064  0.59  2.19           N 0
+ATOM   2083  CG2 VAL A 131      74.820  52.245  81.152  0.00  0.00           C 0
+ATOM   1892    N LYS A 119      65.437  49.193  74.672  0.82  2.19           N 0
+ATOM   1914    N GLU A 120      65.732  46.517  75.758  0.58  1.09           N 0
+ATOM   2006   CB ASP A 125      76.975  49.568  77.994  0.00  0.00           C 0
+ATOM   1855   CD LYS A 116      72.078  54.937  79.820  0.00  0.00           C 0
+TER
+END

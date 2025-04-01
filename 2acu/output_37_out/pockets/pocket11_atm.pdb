@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0783
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9365
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5291
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -24.4286
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 182.0231
+HEADER 10 - Pocket volume (convex hull)       : 2.7354
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM   1343    N LYS A  85      58.942  58.440  84.583  0.71  2.19           N 0
+ATOM   1348   CG LYS A  85      57.653  60.688  86.016  0.00  0.00           C 0
+ATOM   2204  OD2 ASP A 139      61.028  62.405  89.058  0.78  2.14           O 1
+ATOM   1336  OE2 GLU A  84      59.786  59.642  81.728  0.62  8.57           O 1
+ATOM   2202   CG ASP A 139      61.527  61.277  89.265  0.00  0.00           C 0
+ATOM   2201   CB ASP A 139      60.516  60.132  89.181  0.00  0.00           C 0
+ATOM   1333   CG GLU A  84      61.671  58.177  82.098  0.00  0.00           C 0
+ATOM   1329   CA GLU A  84      61.030  57.030  84.223  0.00  0.00           C 0
+ATOM   1314    O HIS A  83      63.597  56.176  85.467  0.57  8.57           O 0
+ATOM   2203  OD1 ASP A 139      62.712  61.140  89.636  0.46  7.50           O 0
+ATOM   2132   CA THR A 135      67.601  57.606  88.948  0.00  0.00           C 0
+ATOM   2122    O ASP A 134      68.583  58.810  86.656  0.52  9.64           O 0
+ATOM   2145    N ASN A 136      66.193  58.760  90.641  0.70  5.47           N 0
+ATOM   2148    O ASN A 136      63.512  58.078  91.282  0.65  3.21           O 0
+TER
+END

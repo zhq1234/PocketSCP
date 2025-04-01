@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.2182
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9992
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5356
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -4.2000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.0791
+HEADER 10 - Pocket volume (convex hull)       : 3.1875
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2500
+ATOM   4657  ND2 ASN A 292      68.091  34.933 111.709  0.00  0.00           N 0
+ATOM   5017   CD GLU A 314      69.800  41.393 110.910  0.00  0.00           C 0
+ATOM   5018  OE1 GLU A 314      68.855  40.727 111.388  0.76  5.36           O 0
+ATOM   5019  OE2 GLU A 314      70.692  41.735 111.717  0.00  0.00           O 1
+ATOM   5016   CG GLU A 314      70.124  41.314 109.417  0.00  0.00           C 0
+ATOM   4695  ND2 ASN A 294      73.724  36.216 105.228  0.69  9.84           N 0
+ATOM   4999    O GLU A 313      73.412  41.750 106.182  0.00  0.00           O 0
+ATOM   4696  OD1 ASN A 294      74.677  35.444 107.051  0.00  0.00           O 0
+ATOM   3007  CD1 LEU A 190      69.263  35.238 105.857  0.00  0.00           C 0
+ATOM   4655   CB ASN A 292      69.796  33.222 111.864  0.00  0.00           C 0
+ATOM   4654    O ASN A 292      71.973  32.240 110.510  0.79  4.29           O 0
+ATOM   4653    C ASN A 292      70.926  32.038 109.896  0.00  0.00           C 0
+ATOM   5014    O GLU A 314      69.034  41.579 106.132  0.76  8.57           O 0
+ATOM   5012   CA GLU A 314      70.968  42.433 107.256  0.00  0.00           C 0
+ATOM   4652   CA ASN A 292      69.614  32.353 110.617  0.00  0.00           C 0
+TER
+END

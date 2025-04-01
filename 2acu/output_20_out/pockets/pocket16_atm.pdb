@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : -0.1090
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0479
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6736
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 10.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.4353
+HEADER 10 - Pocket volume (convex hull)       : 3.8103
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   2744    C GLY A 174      54.749  63.362  98.304  0.00  0.00           C 0
+ATOM   2775   CE LYS A 176      48.701  63.265  94.066  0.00  0.00           C 0
+ATOM   2772   CB LYS A 176      50.215  61.068  95.961  0.00  0.00           C 0
+ATOM   2743   CA GLY A 174      54.817  64.850  98.657  0.00  0.00           C 0
+ATOM   2745    O GLY A 174      55.494  62.856  97.466  0.59  4.29           O 0
+ATOM   2776   NZ LYS A 176      49.166  63.855  92.802  0.00  0.00           N 1
+ATOM   2768    N LYS A 176      51.801  60.844  97.824  0.00  0.00           N 0
+ATOM   2290  OE1 GLU A 145      53.311  59.801  94.185  0.84  8.57           O 0
+ATOM   2769   CA LYS A 176      50.393  60.684  97.432  0.00  0.00           C 0
+ATOM   2752    O LEU A 175      51.557  61.240 100.044  0.45  8.57           O 0
+ATOM   2751    C LEU A 175      52.260  61.115  99.042  0.00  0.00           C 0
+ATOM   2749    N LEU A 175      54.182  62.672  99.290  0.28  2.19           N 0
+ATOM   2773   CG LYS A 176      48.797  61.099  95.389  0.00  0.00           C 0
+TER
+END

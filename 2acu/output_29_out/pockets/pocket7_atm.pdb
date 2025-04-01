@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0057
+HEADER 1  - Drug Score                        : 0.0040
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0587
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5793
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 38.8000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 212.8964
+HEADER 10 - Pocket volume (convex hull)       : 3.4670
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM    563    N GLY A  38      42.446  24.997  92.066  0.00  0.00           N 0
+ATOM    551   CB VAL A  37      42.645  21.711  90.582  0.00  0.00           C 0
+ATOM    548   CA VAL A  37      42.165  23.165  90.555  0.00  0.00           C 0
+ATOM    549    C VAL A  37      43.087  24.027  91.420  0.00  0.00           C 0
+ATOM   4366   CG LYS A 274      44.013  20.105  99.257  0.00  0.00           C 0
+ATOM   4303   CA ALA A 270      46.887  19.479  94.074  0.00  0.00           C 0
+ATOM   4368   CE LYS A 274      41.832  19.000  99.406  0.00  0.00           C 0
+ATOM   4306   CB ALA A 270      46.389  18.140  93.526  0.00  0.00           C 0
+ATOM   4305    O ALA A 270      46.943  19.889  96.436  0.59  1.07           O 0
+ATOM   4348  CD2 PHE A 273      43.715  24.178  96.841  0.00  0.00           C 0
+ATOM   4350  CE2 PHE A 273      42.580  24.946  97.074  0.00  0.00           C 0
+ATOM   4367   CD LYS A 274      43.323  18.812  99.698  0.00  0.00           C 0
+ATOM    550    O VAL A  37      44.307  24.101  91.281  0.77  1.07           O 0
+ATOM   4345   CB PHE A 273      46.060  23.836  96.057  0.00  0.00           C 0
+TER
+END

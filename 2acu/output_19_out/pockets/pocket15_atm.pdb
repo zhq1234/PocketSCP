@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0915
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8931
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4614
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 10.4444
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 161.4842
+HEADER 10 - Pocket volume (convex hull)       : 2.0522
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   1313    O HIS A  83      63.318  55.614  85.900  0.28  8.57           O 0
+ATOM   2113   OG SER A 133      69.777  55.797  83.041  0.35  4.29           O 0
+ATOM   2122    O ASP A 134      68.014  58.105  86.522  0.38  8.57           O 0
+ATOM   2136  CG2 THR A 135      66.759  54.709  87.077  0.00  0.00           C 0
+ATOM   1878   CD PRO A 117      66.532  53.393  79.939  0.00  0.00           C 0
+ATOM   1877   CG PRO A 117      65.018  53.570  79.806  0.00  0.00           C 0
+ATOM   1333   CG GLU A  84      61.289  58.215  83.024  0.00  0.00           C 0
+ATOM   1278    O THR A  81      63.565  51.229  82.189  0.00  0.00           O 0
+ATOM   1833    O PHE A 115      67.406  51.497  82.712  0.66  4.29           O 0
+ATOM   1310    N HIS A  83      62.341  52.435  84.888  0.00  0.00           N 0
+ATOM   2112   CB SER A 133      69.867  54.681  83.930  0.00  0.00           C 0
+ATOM   1332   CB GLU A  84      61.330  56.811  83.631  0.00  0.00           C 0
+ATOM   1378  CD1 LEU A  87      61.710  54.194  81.159  0.00  0.00           C 0
+TER
+END

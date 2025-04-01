@@ -1,2 +1,0 @@
-# PocketSCP
-PocketSCP

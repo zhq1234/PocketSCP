@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    27:
+HEADER 0  - Pocket Score                      : -0.1451
+HEADER 1  - Drug Score                        : 0.0034
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8842
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5273
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 40.0000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 290.3384
+HEADER 10 - Pocket volume (convex hull)       : 8.5494
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.7059
+ATOM   2067  CG2 VAL A 130      73.885  45.465  85.508  0.00  0.00           C 0
+ATOM   4829    O SER A 302      76.430  43.833  89.036  0.44  3.21           O 0
+ATOM   4830   CB SER A 302      75.792  40.774  88.089  0.00  0.00           C 0
+ATOM   2061    N VAL A 130      76.257  45.997  83.823  0.00  0.00           N 0
+ATOM   2066  CG1 VAL A 130      73.600  44.131  83.484  0.00  0.00           C 0
+ATOM   2042    C GLY A 128      80.322  43.561  83.649  0.00  0.00           C 0
+ATOM   2043    O GLY A 128      80.578  43.583  84.853  0.00  0.00           O 0
+ATOM   2041   CA GLY A 128      81.049  42.586  82.719  0.00  0.00           C 0
+ATOM   2047    N ASN A 129      79.425  44.369  83.092  0.79  3.28           N 0
+ATOM   2049    C ASN A 129      77.248  45.546  83.060  0.00  0.00           C 0
+ATOM   4831   OG SER A 302      74.377  40.578  88.172  0.42  6.43           O 0
+ATOM   1990  CD2 LEU A 124      74.839  42.609  80.274  0.00  0.00           C 0
+ATOM   1953   CB PHE A 122      70.138  42.722  81.369  0.00  0.00           C 0
+ATOM   1956  CD2 PHE A 122      69.675  42.744  83.831  0.00  0.00           C 0
+ATOM   2048   CA ASN A 129      78.616  45.416  83.732  0.00  0.00           C 0
+TER
+END

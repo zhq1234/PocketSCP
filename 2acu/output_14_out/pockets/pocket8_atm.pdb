@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0641
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9215
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6741
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 44.1667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 198.9949
+HEADER 10 - Pocket volume (convex hull)       : 4.6653
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4545
+ATOM   4499    O SER A 282      57.475  26.102 117.478  0.84  1.07           O 0
+ATOM   4497   CA SER A 282      55.278  26.358 118.202  0.00  0.00           C 0
+ATOM   4500   CB SER A 282      55.240  27.251 119.444  0.00  0.00           C 0
+ATOM   4501   OG SER A 282      54.131  28.151 119.384  0.80  9.64           O 0
+ATOM   4558  CG2 THR A 286      60.060  28.593 117.966  0.00  0.00           C 0
+ATOM   4607  CD2 LEU A 289      62.428  32.243 113.905  0.00  0.00           C 0
+ATOM   4538    C MET A 285      58.977  26.870 114.218  0.00  0.00           C 0
+ATOM   4052   NE ARG A 255      56.086  32.244 111.069  0.68  5.47           N 0
+ATOM   4539    O MET A 285      59.745  27.294 113.355  0.84  1.07           O 0
+ATOM   4540   CB MET A 285      56.475  27.149 113.765  0.00  0.00           C 0
+ATOM   4553    N THR A 286      59.386  26.801 115.482  0.00  0.00           N 0
+ATOM   4055  NH2 ARG A 255      57.768  33.742 110.393  0.54  3.28           N 0
+ATOM   4606  CD1 LEU A 289      61.984  32.041 111.472  0.00  0.00           C 0
+ATOM   4542   SD MET A 285      54.312  28.090 112.285  0.00  0.00           S 0
+ATOM   4051   CD ARG A 255      55.130  31.154 110.825  0.00  0.00           C 0
+ATOM   4050   CG ARG A 255      53.689  31.581 111.107  0.00  0.00           C 0
+ATOM   4554   CA THR A 286      60.702  27.260 115.948  0.00  0.00           C 0
+ATOM   3985  CE1 PHE A 251      58.301  29.014 110.528  0.00  0.00           C 0
+ATOM   4604   CB LEU A 289      62.275  29.946 112.927  0.00  0.00           C 0
+TER
+END

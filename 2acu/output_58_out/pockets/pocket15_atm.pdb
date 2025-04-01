@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0863
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.5788
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4222
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 31.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 128.6944
+HEADER 10 - Pocket volume (convex hull)       : 6.0140
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1905
+ATOM   1377  CD1 LEU A  87      61.810  53.718  79.602  0.00  0.00           C 0
+ATOM   1888    O GLY A 118      63.643  50.199  74.692  0.74  6.43           O 0
+ATOM   1297  CE1 TYR A  82      60.033  48.792  79.251  0.00  0.00           C 0
+ATOM   1378  CD2 LEU A  87      59.729  53.840  78.202  0.00  0.00           C 0
+ATOM   1886   CA GLY A 118      65.428  51.444  75.549  0.00  0.00           C 0
+ATOM   1895    O LYS A 119      64.444  45.950  74.859  0.83  7.50           O 0
+ATOM   1300   OH TYR A  82      59.592  46.559  78.508  0.33  8.57           O 0
+ATOM   1887    C GLY A 118      64.861  50.205  74.854  0.00  0.00           C 0
+ATOM   1917    O GLU A 120      66.823  46.068  78.087  0.76  2.14           O 0
+ATOM   1885    N GLY A 118      65.674  51.303  76.992  0.53  4.37           N 0
+ATOM   1295  CD1 TYR A  82      60.363  49.654  80.289  0.00  0.00           C 0
+ATOM   1279   CB THR A  81      64.927  48.196  81.473  0.00  0.00           C 0
+ATOM   1937  CE1 PHE A 121      61.428  43.649  78.371  0.00  0.00           C 0
+ATOM   1935  CD1 PHE A 121      62.748  43.261  78.169  0.00  0.00           C 0
+ATOM   1894    C LYS A 119      65.376  46.728  74.658  0.00  0.00           C 0
+ATOM   1281  OG1 THR A  81      63.797  47.323  81.555  0.00  0.00           O 0
+ATOM   1299   CZ TYR A  82      59.789  47.450  79.516  0.00  0.00           C 0
+TER
+END

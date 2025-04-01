@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.1487
+HEADER 1  - Drug Score                        : 0.0020
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2931
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5367
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 67.6667
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.8174
+HEADER 10 - Pocket volume (convex hull)       : 0.9192
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8667
+ATOM    209  CG2 ILE A  14      45.557  32.468 101.834  0.00  0.00           C 0
+ATOM   4404   CB PHE A 276      44.123  26.261 104.920  0.00  0.00           C 0
+ATOM    228  CD1 LEU A  15      46.624  28.564  99.591  0.00  0.00           C 0
+ATOM   4019   CE MET A 253      46.593  29.461 104.267  0.00  0.00           C 0
+ATOM     17   CB SER A   2      40.805  33.733 102.660  0.00  0.00           C 0
+ATOM   4405   CG PHE A 276      43.356  26.607 106.198  0.00  0.00           C 0
+ATOM   4408  CE1 PHE A 276      41.379  26.421 107.490  0.00  0.00           C 0
+ATOM   4406  CD1 PHE A 276      42.142  25.970 106.420  0.00  0.00           C 0
+ATOM   4407  CD2 PHE A 276      43.803  27.638 107.017  0.00  0.00           C 0
+ATOM   4409  CE2 PHE A 276      43.009  27.991 108.102  0.00  0.00           C 0
+ATOM   4410   CZ PHE A 276      41.772  27.418 108.376  0.00  0.00           C 0
+ATOM      4    O ALA A   1      43.445  33.410 104.830  0.36  7.50           O 0
+ATOM      1    N ALA A   1      42.655  34.121 107.230  0.00  0.00           N 0
+TER
+END

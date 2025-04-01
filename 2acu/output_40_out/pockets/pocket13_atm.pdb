@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.1296
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1540
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6083
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -21.1111
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 230.7268
+HEADER 10 - Pocket volume (convex hull)       : 5.2810
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1111
+ATOM    784   CB ASN A  52      51.479  37.392  76.653  0.00  0.00           C 0
+ATOM    735   CA GLN A  49      57.971  35.364  79.346  0.00  0.00           C 0
+ATOM    802  OE2 GLU A  53      53.889  34.694  77.782  0.74  2.14           O 1
+ATOM    739   CG GLN A  49      57.287  34.616  76.965  0.00  0.00           C 0
+ATOM    685   CA HIS A  46      57.956  41.031  82.690  0.00  0.00           C 0
+ATOM    687    O HIS A  46      59.256  40.542  80.801  0.00  0.00           O 0
+ATOM    720    O HIS A  48      58.351  37.396  81.273  0.39  2.14           O 0
+ATOM    769   CB GLU A  51      52.589  39.018  81.696  0.00  0.00           C 0
+ATOM    780    N ASN A  52      51.654  37.323  79.068  0.50  2.19           N 0
+ATOM   1546  OD2 ASP A  98      51.931  42.371  76.576  0.67  2.14           O 1
+ATOM    765    N GLU A  51      53.553  36.804  81.400  0.59  3.28           N 0
+ATOM    751    N ASN A  50      56.089  35.342  80.606  0.65  1.09           N 0
+ATOM    691  ND1 HIS A  46      56.724  43.728  81.070  0.59  6.56           N 1
+ATOM   1481   NZ LYS A  94      56.591  45.622  75.949  0.00  0.00           N 1
+ATOM    772  OE1 GLU A  51      52.891  41.681  82.814  0.00  0.00           O 0
+ATOM    692  CE1 HIS A  46      55.703  44.564  80.894  0.00  0.00           C 0
+ATOM    689   CG HIS A  46      56.684  43.167  82.275  0.00  0.00           C 0
+ATOM   1480   CE LYS A  94      56.338  46.151  77.298  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.1166
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0876
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5311
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 21.8333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 197.6874
+HEADER 10 - Pocket volume (convex hull)       : 4.6918
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0952
+ATOM   3055   CB GLU A 193      63.223  38.539 112.634  0.00  0.00           C 0
+ATOM   4055  NH2 ARG A 255      59.399  34.221 111.050  0.76  7.66           N 0
+ATOM   3133  NE2 GLN A 197      60.875  40.365 114.968  0.66  8.75           N 1
+ATOM   3052   CA GLU A 193      62.863  38.872 111.184  0.00  0.00           C 0
+ATOM   3056   CG GLU A 193      63.533  37.068 112.916  0.00  0.00           C 0
+ATOM   3131   CG GLN A 197      59.457  41.933 113.854  0.00  0.00           C 0
+ATOM   3111   CB ILE A 196      58.822  40.249 108.949  0.00  0.00           C 0
+ATOM   3054    O GLU A 193      61.565  40.883 111.055  0.00  0.00           O 0
+ATOM   4607  CD2 LEU A 289      62.002  33.719 113.208  0.00  0.00           C 0
+ATOM   3113  CG2 ILE A 196      57.304  40.068 108.978  0.00  0.00           C 0
+ATOM   4050   CG ARG A 255      55.227  32.719 112.706  0.00  0.00           C 0
+ATOM   4048    O ARG A 255      53.720  36.046 110.819  0.00  0.00           O 0
+ATOM   4052   NE ARG A 255      57.604  33.289 112.225  0.85  4.37           N 0
+ATOM   4049   CB ARG A 255      54.705  33.515 111.507  0.00  0.00           C 0
+ATOM   4606  CD1 LEU A 289      60.166  32.611 114.479  0.00  0.00           C 0
+ATOM   3114   CD ILE A 196      59.318  37.894 108.354  0.00  0.00           C 0
+ATOM   3183  OE1 GLN A 200      55.681  41.516 111.450  0.00  0.00           O 0
+TER
+END

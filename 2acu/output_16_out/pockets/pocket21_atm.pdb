@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.2147
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9078
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4709
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 15.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 198.0897
+HEADER 10 - Pocket volume (convex hull)       : 1.8664
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0667
+ATOM   5002   CD GLU A 313      75.180  45.541 108.192  0.00  0.00           C 0
+ATOM   2561  CE1 HIS A 163      68.919  47.624 107.333  0.00  0.00           C 0
+ATOM   5003  OE1 GLU A 313      74.577  45.200 109.232  0.00  0.00           O 0
+ATOM   5004  OE2 GLU A 313      75.733  46.646 108.003  0.00  0.00           O 1
+ATOM   2562  NE2 HIS A 163      68.575  48.607 108.161  0.56  3.28           N 1
+ATOM   2576  CD1 LEU A 164      70.091  51.958 105.794  0.00  0.00           C 0
+ATOM   4996    N GLU A 313      74.342  43.861 104.323  0.61  1.09           N 0
+ATOM   5037  OXT PHE A 315      69.500  45.232 104.566  0.44  2.14           O 1
+ATOM   5000   CB GLU A 313      74.128  43.719 106.796  0.00  0.00           C 0
+ATOM   4983   CB HIS A 312      75.481  46.038 102.344  0.00  0.00           C 0
+ATOM   2545  ND2 ASN A 162      69.073  47.767 103.319  0.62  6.56           N 0
+ATOM   4979    N HIS A 312      73.668  44.650 101.539  0.33  1.09           N 0
+ATOM   4948    O PRO A 310      70.370  46.462 100.518  0.74  6.43           O 0
+TER
+END

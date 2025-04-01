@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.0884
+HEADER 1  - Drug Score                        : 0.0059
+HEADER 2  - Number of alpha spheres           :    24
+HEADER 3  - Mean alpha-sphere radius          : 3.6217
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4055
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 48.3333
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.7778
+HEADER 9  - Pocket volume (Monte Carlo)       : 106.1993
+HEADER 10 - Pocket volume (convex hull)       : 1.0903
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 23.0000
+HEADER 13 - Number of apolar alpha sphere     :    24
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   3208   CG LYS A 202      56.533  51.647 109.348  0.00  0.00           C 0
+ATOM   2627   CG GLU A 167      61.087  53.785 107.488  0.00  0.00           C 0
+ATOM   3149  CD1 TYR A 198      61.581  49.816 109.824  0.00  0.00           C 0
+ATOM   2679  CD1 LEU A 170      56.925  52.701 104.985  0.00  0.00           C 0
+ATOM   3145    C TYR A 198      58.073  47.262 109.058  0.00  0.00           C 0
+ATOM   3207   CB LYS A 202      55.565  50.998 108.357  0.00  0.00           C 0
+ATOM   2610   CB VAL A 166      60.256  50.257 103.048  0.00  0.00           C 0
+ATOM   3147   CB TYR A 198      60.615  47.508 109.400  0.00  0.00           C 0
+ATOM   2556    O HIS A 163      62.991  51.305 105.100  0.49  1.07           O 0
+ATOM   2611  CG1 VAL A 166      58.751  49.991 102.971  0.00  0.00           C 0
+ATOM   3239   CD ILE A 204      55.200  49.335 104.336  0.00  0.00           C 0
+ATOM   3165   CA CYS A 199      56.787  46.383 107.148  0.00  0.00           C 0
+ATOM   3164    N CYS A 199      57.964  46.427 108.028  0.00  0.00           N 0
+ATOM   3169   SG CYS A 199      58.348  45.691 104.922  0.00  0.00           S 0
+ATOM   2554   CA HIS A 163      64.200  49.215 105.363  0.00  0.00           C 0
+ATOM   3094  CD1 LEU A 195      61.803  44.668 104.097  0.00  0.00           C 0
+ATOM   2612  CG2 VAL A 166      60.896  49.041 102.373  0.00  0.00           C 0
+TER
+END

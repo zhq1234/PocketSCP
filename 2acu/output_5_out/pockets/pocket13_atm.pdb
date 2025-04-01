@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0793
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.1169
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6218
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 8.6000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.2000
+HEADER 9  - Pocket volume (Monte Carlo)       : 274.0721
+HEADER 10 - Pocket volume (convex hull)       : 5.0918
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   4637  CD1 TYR A 291      67.958  23.108 109.526  0.00  0.00           C 0
+ATOM   4623    O SER A 290      68.528  26.560 112.681  0.55  8.57           O 0
+ATOM   4639  CE1 TYR A 291      68.082  21.723 109.501  0.00  0.00           C 0
+ATOM   4676  NH2 ARG A 293      72.058  25.156 109.586  0.48  7.66           N 0
+ATOM   3664   CZ ARG A 232      68.580  18.057 111.462  0.00  0.00           C 0
+ATOM   3666  NH2 ARG A 232      69.354  18.529 110.474  0.16  7.66           N 0
+ATOM   3665  NH1 ARG A 232      69.169  17.491 112.522  0.00  0.00           N 1
+ATOM   4641   CZ TYR A 291      66.950  20.950 109.272  0.00  0.00           C 0
+ATOM   4571    O THR A 287      64.207  23.559 112.111  0.57  1.07           O 0
+ATOM   3663   NE ARG A 232      67.247  18.083 111.324  0.65  1.09           N 0
+ATOM   4573  CG2 THR A 287      63.259  20.551 112.587  0.00  0.00           C 0
+ATOM   3662   CD ARG A 232      66.313  17.564 112.333  0.00  0.00           C 0
+ATOM   4574  OG1 THR A 287      62.070  20.518 114.689  0.62  7.50           O 0
+ATOM   4625   OG SER A 290      66.063  25.260 115.928  0.67  9.64           O 0
+ATOM   4569   CA THR A 287      62.736  22.697 113.800  0.00  0.00           C 0
+ATOM   4624   CB SER A 290      66.412  25.133 114.547  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.1041
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2174
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6942
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 47.3333
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 217.8580
+HEADER 10 - Pocket volume (convex hull)       : 4.6262
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.8000
+ATOM   1953   CB PHE A 122      70.022  43.219  81.194  0.00  0.00           C 0
+ATOM   1954   CG PHE A 122      69.572  42.957  82.634  0.00  0.00           C 0
+ATOM   1989  CD1 LEU A 124      73.714  41.796  79.281  0.00  0.00           C 0
+ATOM   1955  CD1 PHE A 122      70.425  43.369  83.649  0.00  0.00           C 0
+ATOM   1956  CD2 PHE A 122      68.644  41.956  82.896  0.00  0.00           C 0
+ATOM   1958  CE2 PHE A 122      68.615  41.414  84.176  0.00  0.00           C 0
+ATOM   4831   OG SER A 302      73.021  40.962  86.955  0.83  7.50           O 0
+ATOM   1990  CD2 LEU A 124      74.648  43.201  81.169  0.00  0.00           C 0
+ATOM   1959   CZ PHE A 122      69.437  41.862  85.204  0.00  0.00           C 0
+ATOM   4795  CD2 LEU A 300      69.874  38.692  88.304  0.00  0.00           C 0
+ATOM   4830   CB SER A 302      74.334  41.492  86.754  0.00  0.00           C 0
+ATOM   2032    O SER A 127      77.627  40.436  80.374  0.91  6.43           O 0
+ATOM   2043    O GLY A 128      76.729  42.842  83.656  0.00  0.00           O 0
+ATOM   2041   CA GLY A 128      78.362  41.319  82.896  0.00  0.00           C 0
+ATOM   1957  CE1 PHE A 122      70.361  42.867  84.943  0.00  0.00           C 0
+TER
+END

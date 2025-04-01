@@ -42,7 +42,10 @@
     <div id="colorTip" class="colorTip">
       volume->
     </div>
-    <el-button icon="el-icon-search" circle @click="handleChange"></el-button>
+     <el-button icon="el-icon-search" circle @click="handleChange"></el-button>
+     <el-input v-model="input" placeholder="请输入内容" class="custom-input"></el-input>  
+      <!-- <el-button icon="el-icon-search" circle @click="handleChange1"></el-button>
+     <el-input v-model="input" placeholder="请输入时间片" class="custom-input"></el-input>   -->
     <div
         class="sub_center_center"
         draggable="true"
@@ -72,8 +75,8 @@ export default {
     return {
       value1: "1",
       margin: 10,
-      width: 740,
-      height: 600,
+      width: 5040,
+      height: 890,
       data: [],
       quadtree: null,
       svg_item: null,
@@ -110,7 +113,7 @@ export default {
       subPlotPathEnd:'',
       color: '',
       rect: null,
-      frameNode: '1_1,40_1,163_1,715_1,725_1',
+      frameNode: '1_1,40_1,163_1,715_1,725_1,',
       pathList: [],
       pathLabel: '',
       lastTransform: {
@@ -118,8 +121,9 @@ export default {
         y: 0,
         k: 1,
       },
-      startColor: 'skyblue',
-      endColor: 'red',
+      // startColor: 'green',
+      // // startColor: 'skyblue',
+      // endColor: 'red',
       colorScale: null,
       colorSelect: 1,
       colorNameList: ['','volume','alphanum','totalsasa','polarsasa','apolarsasa','mlohyden','malspra','msoacc','hydropscore','propolatoms','alspdensity','alphaspmaxdist','polarityscore','frame'],
@@ -133,6 +137,7 @@ export default {
       maxOpacity: 1,  //最大透明度
       maxDensity: 0,
       densityGirdSize: 3, //密度格大小
+      input:'',
     }
   },
   mounted(){
@@ -166,11 +171,94 @@ export default {
       "pushColor",
       "pushToTransformList",
     ]),
+    //选时间
+    handleChange1(){
+      let that = this;
+      that.frameNode='1_1,40_1,163_1,715_1,725_1,'
+      const inputValue=that.input;
+      console.log(inputValue);
+     
+      
+       
+        console.log(that.frameNode)
+        console.log('111')
+        // console.log(res.data.data['select_pocket']);
+       
+        const language =d=>{
+          // console.log(d.frameID)
+        // if(d.frame_pocket in res.data.data['select_pocket'])
+        // if(d.frame_pocket in res.data.data['select_pocket']){
+          // && d.volume>600
+          if( d.frameID==inputValue ){
+            // that.selectNode.push(d)
+            // that.frameNode += (d.frame_pocket + ',')
+            // console.log(that.frameNode)
+            // console.log(that.frameNode)
+          // console.log('true')
+          console.log(that.frameNode)
+          let color='rgb(0, 252, 200)';
+          
+        let tempColor = color.split('(')[1].split(')')[0].split(',');
+        let temp = [];
+        tempColor.forEach(item => {
+          item = parseInt(item);
+          item /= 255;
+          // temp.push(item);
+          temp.push(item);
+        })
+        let tempOpacity = ++that.densityMap[Math.floor(that.xScale(d.x) / that.densityGirdSize)][Math.floor(that.yScale(d.y) / that.densityGirdSize)] * that.opacityK / 1000 + parseFloat(that.minOpacity);
+        tempOpacity = tempOpacity > that.maxOpacity? that.maxOpacity:tempOpacity;
+        // console.log(that.densityMap[Math.floor(that.xScale(d.x))][Math.floor(that.yScale(d.y))] / that.maxDensity);
+        // if(that.densityMap[Math.floor(that.xScale(d.x))][Math.floor(that.yScale(d.y))] / that.maxDensity > 0.01){
+        //   tempOpacity = that.maxOpacity;
+        // }else{
+        //   tempOpacity = that.minOpacity;
+        // }
+        
+
+        temp.push(tempOpacity);
+        // console.log(temp);
+        // console.log(temp);
+        return temp;
+        }
+        let color = that.colorScale(Math.pow(d.volume,1/2));
+        let tempColor = color.split('(')[1].split(')')[0].split(',');
+        let temp = [];
+        tempColor.forEach(item => {
+          item = parseInt(item);
+          item /= 255;
+          // temp.push(item);
+          temp.push(item);
+        })
+        let tempOpacity = ++that.densityMap[Math.floor(that.xScale(d.x) / that.densityGirdSize)][Math.floor(that.yScale(d.y) / that.densityGirdSize)] * that.opacityK / 1000 + parseFloat(that.minOpacity);
+        tempOpacity = tempOpacity > that.maxOpacity? that.maxOpacity:tempOpacity;
+     
+
+        temp.push(tempOpacity);
+        // console.log(temp);
+        // console.log(temp);
+        return temp;
+
+      }
+      
+     
+      //使用fc.weblFillColor()创建一个新的颜色访问器，并将其传递给点序列的 decorate() 方法。
+      console.log(that.scatterPlotFramePocketData["forceData"])
+
+      const fillColor = fc.webglFillColor().value(language).data(that.scatterPlotFramePocketData["forceData"]);
+      
+      // const fillColor1 = fc.webglFillColor().value(language).data(that.scatterPlotFramePocketData["forceData"]);
+      //这行代码使用 .decorate() 方法修改 WebGL 点序列的绘制程序。这里的修改是将填充颜色设置为 fillColor 生成的颜色。
+      that.pointSeries.decorate(program => {fillColor(program)});
+      
+      console.log(that.frameNode)
+    },
 
     async initRequire() {
       let that = this;
       await axios.post('api/forcePlot/index').then((res) => {
           if (res.status === 200) {
+            console.log(res.data.data)
             // that.scatterPlotFramePocketData = res.data.data
             that.initScatterPlotFramePocketData(res.data.data); // 初始化数据
             that.maxData["maxX"] = res.data.data["maxX"];
@@ -179,6 +267,7 @@ export default {
             for(var i = 2; i < that.colorNameList.length; i++){
               that.valueExtent.push([res.data.data["min_"+that.colorNameList[i]],res.data.data["max_"+that.colorNameList[i]]]);
             }
+            console.log(that.valueExtent)
             that.quadtree = d3
               .quadtree()
               .x(d => d.x)
@@ -215,12 +304,14 @@ export default {
     },
     async  handleChange(){
       let that = this;
-      that.frameNode=''
+      that.frameNode='1_1,40_1,163_1,715_1,725_1,'
+      const inputValue=that.input;
+      console.log(inputValue);
       await axios({
         method: 'post',
         url: 'api/forcePlot/select_residue_pocket',
         data: {
-          'frame_pocket': that.frame
+          'residue': inputValue
         }
       }).then((res) => {
        
@@ -229,12 +320,12 @@ export default {
         console.log(res.data.data['select_pocket']);
        
         const language =d=>{
-          
+          // && d.volume>500
         // if(d.frame_pocket in res.data.data['select_pocket'])
         // if(d.frame_pocket in res.data.data['select_pocket']){
-          if( res.data.data['select_pocket'].includes(d.frame_pocket)){
+          if( res.data.data['select_pocket'].includes(d.frame_pocket) ){
             // that.selectNode.push(d)
-           that.frameNode += (d.frame_pocket + ',')
+            // that.frameNode += (d.frame_pocket + ',')
             // console.log(that.frameNode)
             // console.log(that.frameNode)
           // console.log('true')
@@ -301,7 +392,9 @@ export default {
       
       let that = this;
       // 定义颜色范围
+      // that.startColor = "#90EE90";
       that.startColor = "#1E90FF";
+      // that.endColor = "#87CEEB";
       that.endColor = "red";
       // 创建颜色比例尺
 
@@ -344,8 +437,13 @@ export default {
       that.xScaleOriginal = that.xScale.copy();
       that.yScaleOriginal = that.yScale.copy();
 
-
+      let filteredData = this.scatterPlotFramePocketData["forceData"].filter(d => {
+        let framePocketNumber = parseInt(d.frame_pocket.split('_')[0], 10);
+        return framePocketNumber < 10;
+      });
       //初始化密度图
+      console.log(filteredData)
+      console.log(that.scatterPlotFramePocketData["forceData"])
       that.initDensityMap();
 
       that.selectItemFlag = false;
@@ -357,6 +455,8 @@ export default {
 
 
       const languageFill = d =>{
+        // console.log(d);
+        if(d.frameID<1001){
         let color = that.colorScale(Math.pow(d.volume,1/2));
         let tempColor = color.split('(')[1].split(')')[0].split(',');
         let temp = [];
@@ -379,10 +479,14 @@ export default {
         
 
         temp.push(tempOpacity);
-        // console.log(temp);
+        //  console.log(temp);
         return temp;
+        }else{
+          return [0,0,0,0];
+        }
       };
-      const fillColor = fc.webglFillColor().value(languageFill).data(that.scatterPlotFramePocketData["forceData"]);
+      // //  const fillColor = fc.webglFillColor().value(languageFill).data(filteredData);
+        const fillColor = fc.webglFillColor().value(languageFill).data(that.scatterPlotFramePocketData["forceData"]);
       that.pointSeries.decorate(program => {fillColor(program)});
 
       that.zoomFun = (event) => {
@@ -799,15 +903,25 @@ export default {
       document.getElementById('colorTip').innerHTML = that.colorNameList[that.colorSelect] + '->';
 
 
-      if(parseInt(that.colorSelect) == 14){
+      if(parseInt(that.colorSelect) == 14 ){
+        console.log('切换到体积了')
         that.colorScale = d3.scaleLinear()
         .domain([that.valueExtent[that.colorSelect][0],that.valueExtent[that.colorSelect][1]])
         .range([that.startColor,that.endColor]);
-      }else{
+      }
+      else if(parseInt(that.colorSelect) == 1){
         that.colorScale = d3.scaleLinear()
-        .domain([1 + that.valueExtent[that.colorSelect][0] + Math.abs(that.valueExtent[that.colorSelect][0]),1 + that.valueExtent[that.colorSelect][1] + Math.abs(that.valueExtent[that.colorSelect][0])])
+        .domain([Math.pow(that.valueExtent[that.colorSelect][0],1/2),Math.pow(that.valueExtent[that.colorSelect][1],1/2)])
         .range([that.startColor,that.endColor]);
       }
+      else {
+        // console.log('此处做过更改,貌似疏水性有负值不太行')
+        that.colorScale = d3.scaleLinear()
+            .domain([1 + that.valueExtent[that.colorSelect][0] + Math.abs(that.valueExtent[that.colorSelect][0]),1 + that.valueExtent[that.colorSelect][1] + Math.abs(that.valueExtent[that.colorSelect][0])])
+          //  .domain([Math.pow(that.valueExtent[that.colorSelect][0],1/2),Math.pow(that.valueExtent[that.colorSelect][1],1/2)])
+        .range([that.startColor,that.endColor]);
+      }
+      
       
 
 
@@ -859,19 +973,26 @@ export default {
             tempValue = d.alphaspmaxdist;
             break;
           case 13:
-            tempValue = d.polarityscore;
+           tempValue = d.polarityscore;
             break;
           case 14:
             tempValue = d.frameID;
             break;
         }
-        if(parseInt(that.colorSelect) == 14){
+        if(parseInt(that.colorSelect) == 14 ){
           tempValue = tempValue;
-        }else{
+        }
+         else if(parseInt(that.colorSelect) == 1){
+           tempValue = Math.pow(tempValue,1/2)
+         }
+
+        else{
+          //  tempValue = tempValue;
           tempValue = 1 + tempValue + Math.abs(that.valueExtent[that.colorSelect][0]);
         }
         
-        let color = that.colorScale(tempValue);
+          //  let color = that.colorScale(Math.pow(tempValue,1/2));
+               let color = that.colorScale(tempValue);
         let tempColor = color.split('(')[1].split(')')[0].split(',');
         let temp = [];
         tempColor.forEach(item => {
@@ -889,8 +1010,9 @@ export default {
         // }else{
         //   tempOpacity = that.minOpacity;
         // }
+        console.log(tempOpacity);
         temp.push(tempOpacity);
-        // console.log(temp);
+        //  console.log(temp);
         return temp;
       };
 
@@ -931,14 +1053,21 @@ export default {
 }
 </script>
 <style scoped>
+.custom-input {
+  /* 你的自定义样式 */
+  width: 200px;
+  /* border: 2px solid #409EFF; */
+  border-radius: 4px;
+  padding: 10px;
+}
   #chart-container{
     width: 740px;
-    height: 430px;
+    height: 130px;
     position: relative;
   }
   #chart{
-    width: 740px;
-    height: 600px;
+    width: 900px;
+    height: 800px;
   }
   .x-axis{
     display: none;

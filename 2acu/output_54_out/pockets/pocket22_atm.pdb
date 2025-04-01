@@ -1,0 +1,47 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.2092
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 4.0034
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5754
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -21.0000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 470.9998
+HEADER 10 - Pocket volume (convex hull)       : 53.4303
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.7778
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.3214
+ATOM   2097   CB PRO A 132      74.698  52.267  87.582  0.00  0.00           C 0
+ATOM   4897   CE LYS A 307      74.870  56.401  94.081  0.00  0.00           C 0
+ATOM   4865    O SER A 305      76.409  50.783  90.402  0.46  7.50           O 0
+ATOM   2098   CG PRO A 132      76.130  52.204  87.049  0.00  0.00           C 0
+ATOM   4890    N LYS A 307      73.807  52.043  93.331  0.54  2.19           N 0
+ATOM   4874   CA HIS A 306      73.840  50.815  91.300  0.00  0.00           C 0
+ATOM   4879  CD2 HIS A 306      71.549  53.175  90.007  0.00  0.00           C 0
+ATOM   2110    O SER A 133      71.753  55.646  88.334  0.64  6.43           O 0
+ATOM   2125  OD2 ASP A 134      72.846  60.089  89.617  0.00  0.00           O 1
+ATOM   4882  NE2 HIS A 306      70.596  53.926  90.549  0.54  2.19           N 1
+ATOM   4898   NZ LYS A 307      75.515  57.688  93.781  0.00  0.00           N 1
+ATOM   2130    N THR A 135      68.973  57.796  89.201  0.00  0.00           N 0
+ATOM   4895   CG LYS A 307      75.316  54.023  95.211  0.00  0.00           C 0
+ATOM   4896   CD LYS A 307      75.478  55.544  95.194  0.00  0.00           C 0
+ATOM   4919  OD2 ASP A 308      68.144  54.186  94.132  0.61  5.36           O 1
+ATOM   2133    O THR A 135      67.823  57.856  91.715  0.00  0.00           O 0
+ATOM   2124  OD1 ASP A 134      70.846  61.030  89.732  0.00  0.00           O 0
+ATOM   4918  OD1 ASP A 308      68.270  53.592  96.221  0.50  7.50           O 0
+ATOM   4894   CB LYS A 307      73.838  53.649  95.065  0.00  0.00           C 0
+ATOM   2095    C PRO A 132      73.555  53.491  85.690  0.00  0.00           C 0
+ATOM   2096    O PRO A 132      74.039  53.966  84.664  0.72  4.29           O 0
+ATOM   4881  CE1 HIS A 306      70.085  53.232  91.562  0.00  0.00           C 0
+ATOM   2109    C SER A 133      71.583  56.135  87.218  0.00  0.00           C 0
+ATOM   2118    N ASP A 134      71.441  57.429  86.950  0.72  4.37           N 0
+ATOM   2108   CA SER A 133      71.946  55.319  85.975  0.00  0.00           C 0
+TER
+END

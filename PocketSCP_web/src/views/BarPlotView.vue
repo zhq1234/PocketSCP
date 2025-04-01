@@ -17,7 +17,7 @@ export default {
   props: { bar: undefined },
 
   data() {
-    let width = 450,
+    let width = 500,
       height = 230,
       margin = 10;
     return {
@@ -174,7 +174,8 @@ export default {
         .selectAll("g.timeLineChart")
         .data([1])
         .join("g")
-        .attr("transform", `translate(${[that.margin * 2 - 10, that.margin]})`)
+        // .attr("transform", `translate(${[that.margin * 2 - 10, that.margin]})`)
+        .attr("transform", `translate(${[that.margin * 2-5 , that.margin]})`)
         .attr("class", "timeLineChart");
       // that.chart.append("rect").attr("width", that.chartWidth - that.margin * 2).attr("height", that.chartHeight - that.margin * 2).style("fill", "#a83f3f")
       let timeLineScaleLinearAxisBottom = d3
@@ -208,7 +209,7 @@ export default {
         .join("g")
         .attr(
           "transform",
-          `translate(${[15, that.chartHeight - that.margin * 2]})`
+          `translate(${[12, that.chartHeight - that.margin * 2]})`
         )
         .attr("class", "axisBottom")
         .call(timeLineAxisBottom);
@@ -218,7 +219,7 @@ export default {
         .join("g")
         .attr("class", "axisLeft")
         .call(timeLineAxisLeft)
-        .attr("transform", `translate(${[15, 0]})`);
+        .attr("transform", `translate(${[14, 0]})`);
       // that.chart.selectAll("g.axisRight").data([1]).join("g").attr("transform", `translate(${[that.chartWidth - that.margin * 1.8, 0]})`).attr("class", "axisRight").call(timeLineAxisRight);
       // 边框
       that.chart
@@ -247,47 +248,48 @@ export default {
         .attr("transform", `translate(${[0, 0]})`)
         .attr("class", "rectBar");
       // 绘制柱状图
-      that.chart
-        .selectAll("rect.bar")
-        .data(that.barData)
-        .join("rect")
-        .attr(
-          "class",
-          (d) =>
-            "bar " +
-            "cluster" +
-            that.bar.barClass +
-            " cluster_" +
-            d["j"] +
-            that.bar.barClass
-        )
-        .attr("id", (d) => {
-          return "bar_" + d["frame_pocket"];
-        })
-        .attr(
-          "x",
-          (d) =>
-            d["i"] * that.barWidth +
-            (that.barWidth / that.clusterBar) * d["j"] +
-            15
-        )
-        .attr(
-          "y",
-          (d) =>
-            that.chartHeight -
-            timeLineScaleLinearAxisLeft(that.maxValue - d["volume"]) -
-            that.margin * 2
-        )
-        .attr("width", that.barWidth / that.clusterBar) // 宽度为
-        .attr("height", (d) =>
-          timeLineScaleLinearAxisLeft(that.maxValue - d["volume"])
-        )
-        .style("fill", (d) => {
-          return that.barColors[d["j"]];})
-        .style("opacity", 1)
-        .on("click", that.barClick)
-        .on("mouseenter", "")
-        .on("mouseleave", "");
+      // that.chart
+      //   .selectAll("rect.bar")
+      //   .data(that.barData)
+      //   .join("rect")
+      //   .attr(
+      //     "class",
+      //     (d) =>
+      //       "bar " +
+      //       "cluster" +
+      //       that.bar.barClass +
+      //       " cluster_" +
+      //       d["j"] +
+      //       that.bar.barClass
+      //   )
+      //   .attr("id", (d) => {
+      //     return "bar_" + d["frame_pocket"];
+      //   })
+      //   .attr(
+      //     "x",
+      //     (d) =>
+      //       d["i"] * that.barWidth +
+      //       (that.barWidth / that.clusterBar) * d["j"] +
+      //        15
+            
+      //   )
+      //   .attr(
+      //     "y",
+      //     (d) =>
+      //       that.chartHeight -
+      //       timeLineScaleLinearAxisLeft(that.maxValue - d["volume"]) -
+      //       that.margin * 2
+      //   )
+      //   .attr("width", that.barWidth / that.clusterBar) // 宽度为
+      //   .attr("height", (d) =>
+      //     timeLineScaleLinearAxisLeft(that.maxValue - d["volume"])
+      //   )
+      //   .style("fill", (d) => {
+      //     return that.barColors[d["j"]];})
+      //   .style("opacity", 1)
+      //   .on("click", that.barClick)
+      //   .on("mouseenter", "")
+      //   .on("mouseleave", "");
 
       
         console.log('that.same_frame.length:',that.same_frame.length);
@@ -330,7 +332,9 @@ export default {
           .style("fill", (d) => {
             return 'rgb(0,0,0)';
           })
-          .style("opacity", 1);
+          // 从1修改成了0
+          // .style("opacity", 1);
+          .style("opacity", 0);
       }
       
     
@@ -357,20 +361,21 @@ export default {
         })
         .curve(d3.curveMonotoneX);
       let pathLine;
-      that.dataList.forEach(item => {
-        pathLine = that.chart.append('path')
-        .datum(item)
-        .attr('class', 'line')
-        .attr('fill', 'none')
-        .attr('stroke', (d) => {
-          let temp = that.barColors[that.index];
-          that.index += 1;
-          return temp;
-        })
-        .attr('stroke-width', 2)
-        .attr('d', line);
-        that.linePathList.push(pathLine);
-      });
+      //绘制折线图
+      // that.dataList.forEach(item => {
+      //   pathLine = that.chart.append('path')
+      //   .datum(item)
+      //   .attr('class', 'line')
+      //   .attr('fill', 'none')
+      //   .attr('stroke', (d) => {
+      //     let temp = that.barColors[that.index];
+      //     that.index += 1;
+      //     return temp;
+      //   })
+      //   .attr('stroke-width', 2)
+      //   .attr('d', line);
+      //   that.linePathList.push(pathLine);
+      // });
       that.index = 0; 
       
 
@@ -411,6 +416,7 @@ export default {
             return that.barColors[d["j"]];
           });
           console.log('===================');
+        
           // let len = 0;
           // console.log(that.barData);
           // that.chart.selectAll(".dot")
@@ -521,180 +527,180 @@ export default {
       //   });
 
       //折线显示按钮
-      that.chart.append("rect")
-          .attr("x", 340)
-          .attr("y", -6)
-          .attr("width", 30)
-          .attr("height", 15)
-          .attr("fill", "deepskyblue")
-          .attr('user-select', 'none')
-          .attr('cursor','pointer')
-          .on('click',function() {
-              if(!this.lineEnable){
-                this.parentNode.querySelectorAll('.line').forEach(item => {
-                  item.style.display = 'none';
-                });
-              }else{
-                this.parentNode.querySelectorAll('.line').forEach(item => {
-                  item.style.display = 'block';
-                });
-              }
-              this.lineEnable = !this.lineEnable;
-        });
+      // that.chart.append("rect")
+      //     .attr("x", 340)
+      //     .attr("y", -6)
+      //     .attr("width", 30)
+      //     .attr("height", 15)
+      //     .attr("fill", "deepskyblue")
+      //     .attr('user-select', 'none')
+      //     .attr('cursor','pointer')
+      //     .on('click',function() {
+      //         if(!this.lineEnable){
+      //           this.parentNode.querySelectorAll('.line').forEach(item => {
+      //             item.style.display = 'none';
+      //           });
+      //         }else{
+      //           this.parentNode.querySelectorAll('.line').forEach(item => {
+      //             item.style.display = 'block';
+      //           });
+      //         }
+      //         this.lineEnable = !this.lineEnable;
+      //   });
 
-      that.chart.append("text")
-      .attr("x", 355)
-      .attr("y", 2)
-      .attr("text-anchor", "middle")
-      .attr("dominant-baseline", "middle")
-      .text("折线")
-      .style("fill", "#ffffff")
-      .style("font-family", "Arial")
-      .style("font-size", "10px")
-      .attr('cursor', 'pointer')
-      .attr('user-select', 'none')
-      .on('click',function() {
-              if(!this.lineEnable){
-                this.parentNode.querySelectorAll('.line').forEach(item => {
-                  item.style.display = 'none';
-                });
-              }else{
-                this.parentNode.querySelectorAll('.line').forEach(item => {
-                  item.style.display = 'block';
-                });
-              }
-              this.lineEnable = !this.lineEnable;
-        });
+      // that.chart.append("text")
+      // .attr("x", 355)
+      // .attr("y", 2)
+      // .attr("text-anchor", "middle")
+      // .attr("dominant-baseline", "middle")
+      // .text("折线")
+      // .style("fill", "#ffffff")
+      // .style("font-family", "Arial")
+      // .style("font-size", "8px")
+      // .attr('cursor', 'pointer')
+      // .attr('user-select', 'none')
+      // .on('click',function() {
+      //         if(!this.lineEnable){
+      //           this.parentNode.querySelectorAll('.line').forEach(item => {
+      //             item.style.display = 'none';
+      //           });
+      //         }else{
+      //           this.parentNode.querySelectorAll('.line').forEach(item => {
+      //             item.style.display = 'block';
+      //           });
+      //         }
+      //         this.lineEnable = !this.lineEnable;
+      //   });
 
 
 
 
         //散点显示按钮
-        that.chart.append("rect")
-          .attr("x", 300)
-          .attr("y", -6)
-          .attr("width", 30)
-          .attr("height", 15)
-          .attr("fill", "deepskyblue")
-          .attr('user-select', 'none')
-          .attr('cursor','pointer')
-          .on('click',function() {
-              if(!this.dotEnable){
-                this.parentNode.querySelectorAll('.dot').forEach(item => {
-                  item.style.display = 'none';
-                });
-              }else{
-                this.parentNode.querySelectorAll('.dot').forEach(item => {
-                  item.style.display = 'block';
-                });
-              }
-              this.dotEnable = !this.dotEnable;
-        });
+      //   that.chart.append("rect")
+      //     .attr("x", 300)
+      //     .attr("y", -6)
+      //     .attr("width", 30)
+      //     .attr("height", 15)
+      //     .attr("fill", "deepskyblue")
+      //     .attr('user-select', 'none')
+      //     .attr('cursor','pointer')
+      //     .on('click',function() {
+      //         if(!this.dotEnable){
+      //           this.parentNode.querySelectorAll('.dot').forEach(item => {
+      //             item.style.display = 'none';
+      //           });
+      //         }else{
+      //           this.parentNode.querySelectorAll('.dot').forEach(item => {
+      //             item.style.display = 'block';
+      //           });
+      //         }
+      //         this.dotEnable = !this.dotEnable;
+      //   });
 
-      that.chart.append("text")
-      .attr("x", 315)
-      .attr("y", 2)
-      .attr("text-anchor", "middle")
-      .attr("dominant-baseline", "middle")
-      .text("散点")
-      .style("fill", "#ffffff")
-      .style("font-family", "Arial")
-      .style("font-size", "10px")
-      .attr('cursor', 'pointer')
-      .attr('user-select', 'none')
-      .on('click',function() {
-              if(!this.dotEnable){
-                this.parentNode.querySelectorAll('.dot').forEach(item => {
-                  item.style.display = 'none';
-                });
-              }else{
-                this.parentNode.querySelectorAll('.dot').forEach(item => {
-                  item.style.display = 'block';
-                });
-              }
-              this.dotEnable = !this.dotEnable;
-        });
+      // that.chart.append("text")
+      // .attr("x", 315)
+      // .attr("y", 2)
+      // .attr("text-anchor", "middle")
+      // .attr("dominant-baseline", "middle")
+      // .text("散点")
+      // .style("fill", "#ffffff")
+      // .style("font-family", "Arial")
+      // .style("font-size", "8px")
+      // .attr('cursor', 'pointer')
+      // .attr('user-select', 'none')
+      // .on('click',function() {
+      //         if(!this.dotEnable){
+      //           this.parentNode.querySelectorAll('.dot').forEach(item => {
+      //             item.style.display = 'none';
+      //           });
+      //         }else{
+      //           this.parentNode.querySelectorAll('.dot').forEach(item => {
+      //             item.style.display = 'block';
+      //           });
+      //         }
+      //         this.dotEnable = !this.dotEnable;
+      //   });
 
 
         //条状图显示按钮
-        that.chart.append("rect")
-          .attr("x", 260)
-          .attr("y", -6)
-          .attr("width", 30)
-          .attr("height", 15)
-          .attr("fill", "deepskyblue")
-          .attr('user-select', 'none')
-          .attr('cursor','pointer')
-          .on('click',function() {
-              if(!this.barEnabel){
-                this.parentNode.querySelectorAll('.bar ').forEach(item => {
-                  item.style.display = 'none';
-                });
-              }else{
-                this.parentNode.querySelectorAll('.bar ').forEach(item => {
-                  item.style.display = 'block';
-                });
-              }
-              this.barEnabel = !this.barEnabel;
-        });
+      //   that.chart.append("rect")
+      //     .attr("x", 260)
+      //     .attr("y", -6)
+      //     .attr("width", 30)
+      //     .attr("height", 15)
+      //     .attr("fill", "deepskyblue")
+      //     .attr('user-select', 'none')
+      //     .attr('cursor','pointer')
+      //     .on('click',function() {
+      //         if(!this.barEnabel){
+      //           this.parentNode.querySelectorAll('.bar ').forEach(item => {
+      //             item.style.display = 'none';
+      //           });
+      //         }else{
+      //           this.parentNode.querySelectorAll('.bar ').forEach(item => {
+      //             item.style.display = 'block';
+      //           });
+      //         }
+      //         this.barEnabel = !this.barEnabel;
+      //   });
 
-      that.chart.append("text")
-      .attr("x", 275)
-      .attr("y", 2)
-      .attr("text-anchor", "middle")
-      .attr("dominant-baseline", "middle")
-      .text("条形")
-      .style("fill", "#ffffff")
-      .style("font-family", "Arial")
-      .style("font-size", "10px")
-      .attr('cursor', 'pointer')
-      .attr('user-select', 'none')
-      .on('click',function() {
-              if(!this.barEnabel){
-                this.parentNode.querySelectorAll('.bar ').forEach(item => {
-                  item.style.display = 'none';
-                });
-              }else{
-                this.parentNode.querySelectorAll('.bar ').forEach(item => {
-                  item.style.display = 'block';
-                });
-              }
-              this.barEnabel = !this.barEnabel;
-        });
+      // that.chart.append("text")
+      // .attr("x", 275)
+      // .attr("y", 2)
+      // .attr("text-anchor", "middle")
+      // .attr("dominant-baseline", "middle")
+      // .text("条形")
+      // .style("fill", "#ffffff")
+      // .style("font-family", "Arial")
+      // .style("font-size", "8px")
+      // .attr('cursor', 'pointer')
+      // .attr('user-select', 'none')
+      // .on('click',function() {
+      //         if(!this.barEnabel){
+      //           this.parentNode.querySelectorAll('.bar ').forEach(item => {
+      //             item.style.display = 'none';
+      //           });
+      //         }else{
+      //           this.parentNode.querySelectorAll('.bar ').forEach(item => {
+      //             item.style.display = 'block';
+      //           });
+      //         }
+      //         this.barEnabel = !this.barEnabel;
+      //   });
 
 
 
 
 
       //重叠帧显示按钮
-      that.chart.append("rect")
-          .attr("x", 220)
-          .attr("y", -6)
-          .attr("width", 30)
-          .attr("height", 15)
-          .attr("fill", "deepskyblue")
-          .attr('user-select', 'none')
-          .attr('cursor','pointer');
+      // that.chart.append("rect")
+      //     .attr("x", 220)
+      //     .attr("y", -6)
+      //     .attr("width", 30)
+      //     .attr("height", 15)
+      //     .attr("fill", "deepskyblue")
+      //     .attr('user-select', 'none')
+      //     .attr('cursor','pointer');
 
-      that.chart.append("text")
-      .attr("x", 235)
-      .attr("y", 2)
-      .attr("text-anchor", "middle")
-      .attr("dominant-baseline", "middle")
-      .text("显示")
-      .style("fill", "#ffffff")
-      .style("font-family", "Arial")
-      .style("font-size", "10px")
-      .attr('cursor', 'pointer')
-      .attr('user-select', 'none')
-      .on('click',function() {    
-            if(that.same_frame.length != 0){
-              that.showCrossFrames();
-            }else{
-              alert('same frame is not exist!');
-            }
+      // that.chart.append("text")
+      // .attr("x", 235)
+      // .attr("y", 2)
+      // .attr("text-anchor", "middle")
+      // .attr("dominant-baseline", "middle")
+      // .text("显示")
+      // .style("fill", "#ffffff")
+      // .style("font-family", "Arial")
+      // .style("font-size", "8px")
+      // .attr('cursor', 'pointer')
+      // .attr('user-select', 'none')
+      // .on('click',function() {    
+      //       if(that.same_frame.length != 0){
+      //         that.showCrossFrames();
+      //       }else{
+      //         alert('same frame is not exist!');
+      //       }
             
-        });
+      //   });
 
 
         // that.chart

@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0408
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6162
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4454
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 4.8571
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 177.4148
+HEADER 10 - Pocket volume (convex hull)       : 3.9628
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM    294  CD1 TRP A  20      62.481  33.061  87.746  0.00  0.00           C 0
+ATOM    725  CE1 HIS A  48      63.596  35.675  84.048  0.00  0.00           C 0
+ATOM    298  NE1 TRP A  20      63.684  33.372  88.223  0.78  4.37           N 0
+ATOM    317   CG LYS A  21      63.521  29.358  87.012  0.00  0.00           C 0
+ATOM    726  NE2 HIS A  48      63.976  35.309  82.827  0.71  7.66           N 1
+ATOM    312    N LYS A  21      60.953  30.369  85.996  0.68  3.28           N 0
+ATOM    334    N SER A  22      59.778  28.872  83.887  0.56  2.19           N 0
+ATOM    721   CB HIS A  48      60.370  35.498  82.262  0.00  0.00           C 0
+ATOM    722   CG HIS A  48      61.746  35.300  82.899  0.00  0.00           C 0
+ATOM    337    O SER A  22      58.438  29.869  81.450  0.69  8.57           O 0
+ATOM    723  CD2 HIS A  48      62.840  35.091  82.172  0.00  0.00           C 0
+ATOM    734    N GLN A  49      58.766  35.790  79.573  0.72  2.19           N 0
+ATOM    737    O GLN A  49      56.428  33.722  79.750  0.00  0.00           O 0
+ATOM    738   CB GLN A  49      57.886  34.790  77.559  0.00  0.00           C 0
+ATOM    365   CD PRO A  24      57.570  30.041  77.283  0.00  0.00           C 0
+ATOM    313   CA LYS A  21      61.591  29.173  85.427  0.00  0.00           C 0
+ATOM    277    O THR A  19      57.421  31.582  85.552  0.27  3.21           O 0
+TER
+END

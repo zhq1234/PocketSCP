@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.1213
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9194
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6827
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 41.5000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 124.5757
+HEADER 10 - Pocket volume (convex hull)       : 0.8972
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1333
+ATOM   1577   CE LYS A 100      43.164  41.200  73.236  0.00  0.00           C 0
+ATOM   1571   CA LYS A 100      44.219  41.120  77.202  0.00  0.00           C 0
+ATOM   1578   NZ LYS A 100      43.189  42.377  72.355  0.00  0.00           N 1
+ATOM   1573    O LYS A 100      41.982  41.612  77.858  0.43  6.43           O 0
+ATOM   1512    O LEU A  96      46.074  43.759  78.663  0.46  3.21           O 0
+ATOM   1595    O LEU A 101      43.078  44.986  80.028  0.56  4.29           O 0
+ATOM   1572    C LYS A 100      43.150  41.501  78.229  0.00  0.00           C 0
+ATOM   1592    N LEU A 101      43.661  42.267  79.188  0.00  0.00           N 0
+ATOM   1531    O SER A  97      47.139  42.452  75.425  0.58  6.43           O 0
+ATOM   1529   CA SER A  97      47.533  44.475  76.595  0.00  0.00           C 0
+ATOM   1532   CB SER A  97      48.010  45.483  75.548  0.00  0.00           C 0
+ATOM   1533   OG SER A  97      47.617  46.857  75.609  0.75  8.57           O 0
+ATOM   1576   CD LYS A 100      44.475  41.024  74.005  0.00  0.00           C 0
+TER
+END

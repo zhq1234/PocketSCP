@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0638
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8244
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5835
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 5.7500
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 291.8247
+HEADER 10 - Pocket volume (convex hull)       : 13.3594
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2632
+ATOM   3777   NZ LYS A 239      58.194  17.394 115.848  0.00  0.00           N 1
+ATOM   4515  OE1 GLN A 283      57.267  22.084 121.069  0.00  0.00           O 0
+ATOM   4572  CG2 THR A 287      60.735  25.351 118.025  0.00  0.00           C 0
+ATOM   4573  OG1 THR A 287      59.997  24.793 115.756  0.00  0.00           O 0
+ATOM   4512   CG GLN A 283      57.153  24.313 120.207  0.00  0.00           C 0
+ATOM   4530  OD1 ASP A 284      55.052  21.860 114.799  0.67  9.64           O 0
+ATOM   4509    C GLN A 283      56.488  25.503 117.408  0.00  0.00           C 0
+ATOM   4510    O GLN A 283      57.674  25.785 117.251  0.00  0.00           O 0
+ATOM   4525   CA ASP A 284      56.241  24.749 115.086  0.00  0.00           C 0
+ATOM   4511   CB GLN A 283      55.786  24.652 119.608  0.00  0.00           C 0
+ATOM   4490   OG SER A 281      52.790  24.232 117.509  0.00  0.00           O 0
+ATOM   4531  OD2 ASP A 284      53.237  22.866 115.358  0.00  0.00           O 1
+ATOM   3660   CG ARG A 232      63.382  22.189 113.249  0.00  0.00           C 0
+ATOM   3737   CD ILE A 236      58.928  21.928 112.994  0.00  0.00           C 0
+ATOM   3735  CG1 ILE A 236      58.005  20.713 112.898  0.00  0.00           C 0
+ATOM   3724   CB ALA A 235      61.282  16.419 112.407  0.00  0.00           C 0
+ATOM   3658    O ARG A 232      61.411  19.449 110.850  0.00  0.00           O 0
+ATOM   3656   CA ARG A 232      63.528  20.197 111.499  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.1273
+HEADER 1  - Drug Score                        : 0.0066
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.4383
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3708
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 83.5000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 94.8267
+HEADER 10 - Pocket volume (convex hull)       : 1.4365
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1834   CG PHE A 115      70.136  47.139  85.238  0.00  0.00           C 0
+ATOM   1251  CZ2 TRP A  79      65.503  42.459  84.547  0.00  0.00           C 0
+ATOM   1932    O PHE A 121      66.389  43.701  81.419  0.93  1.07           O 0
+ATOM   1956  CD2 PHE A 122      69.104  41.170  83.423  0.00  0.00           C 0
+ATOM   1838  CE2 PHE A 115      70.665  46.322  87.428  0.00  0.00           C 0
+ATOM   2066  CG1 VAL A 130      73.066  42.974  82.861  0.00  0.00           C 0
+ATOM   1835  CD1 PHE A 115      71.501  47.073  84.987  0.00  0.00           C 0
+ATOM   1268   CB CYS A  80      66.002  46.184  86.262  0.00  0.00           C 0
+ATOM   4842   SG CYS A 303      71.004  42.992  88.846  0.00  0.00           S 0
+ATOM   2065   CB VAL A 130      73.771  44.060  83.678  0.00  0.00           C 0
+ATOM   2067  CG2 VAL A 130      74.258  43.635  85.065  0.00  0.00           C 0
+ATOM   1269   SG CYS A  80      65.930  45.289  87.856  0.00  0.00           S 0
+ATOM   4795  CD2 LEU A 300      68.652  40.232  89.897  0.00  0.00           C 0
+ATOM   1958  CE2 PHE A 122      68.574  40.548  84.547  0.00  0.00           C 0
+ATOM   1252  CZ3 TRP A  79      64.241  41.823  86.469  0.00  0.00           C 0
+ATOM   1836  CD2 PHE A 115      69.719  46.759  86.508  0.00  0.00           C 0
+TER
+END

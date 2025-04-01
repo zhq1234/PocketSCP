@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0714
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9198
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5823
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 25.8000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 6.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 243.3949
+HEADER 10 - Pocket volume (convex hull)       : 8.5823
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   4705   CA TRP A 295      71.280  30.572 101.882  0.00  0.00           C 0
+ATOM   4693    O ASN A 294      73.710  31.179 103.376  0.68  4.29           O 0
+ATOM   4710  CD1 TRP A 295      71.917  27.702 100.830  0.00  0.00           C 0
+ATOM   3497   NZ LYS A 221      76.726  28.302  96.821  0.00  0.00           N 1
+ATOM   4728    N ARG A 296      70.740  31.882  99.900  0.63  3.28           N 0
+ATOM   4714  NE1 TRP A 295      71.799  27.082  99.660  0.64  1.09           N 0
+ATOM   4731    O ARG A 296      69.930  31.245  97.206  0.78  2.14           O 0
+ATOM   4732   CB ARG A 296      70.445  34.016  98.464  0.00  0.00           C 0
+ATOM   3462  CD2 TRP A 219      72.899  28.157  92.853  0.00  0.00           C 0
+ATOM   3464  CE3 TRP A 219      72.456  29.289  92.178  0.00  0.00           C 0
+ATOM   3496   CE LYS A 221      77.022  27.571  95.581  0.00  0.00           C 0
+ATOM   3459   CB TRP A 219      74.630  27.075  91.318  0.00  0.00           C 0
+ATOM   3467  CZ3 TRP A 219      71.422  30.045  92.719  0.00  0.00           C 0
+ATOM   3466  CZ2 TRP A 219      71.202  28.494  94.539  0.00  0.00           C 0
+ATOM   4712  CE2 TRP A 295      70.641  27.424  99.104  0.00  0.00           C 0
+ATOM   3460   CG TRP A 219      73.762  27.103  92.578  0.00  0.00           C 0
+ATOM   3463  CE2 TRP A 219      72.263  27.759  94.023  0.00  0.00           C 0
+TER
+END

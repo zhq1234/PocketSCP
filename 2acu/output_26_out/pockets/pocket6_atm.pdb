@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     6:
+HEADER 0  - Pocket Score                      : -0.0703
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9559
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6190
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -19.3333
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 220.2535
+HEADER 10 - Pocket volume (convex hull)       : 4.6702
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM   1349   CE LYS A  85      58.145  61.606  88.005  0.00  0.00           C 0
+ATOM   2200   CB ASP A 139      60.631  60.766  90.196  0.00  0.00           C 0
+ATOM   1347   CG LYS A  85      58.256  59.821  86.271  0.00  0.00           C 0
+ATOM   2202  OD1 ASP A 139      61.917  62.801  90.182  0.59  7.50           O 0
+ATOM   1332   CG GLU A  84      61.866  57.897  82.528  0.00  0.00           C 0
+ATOM   2147    O ASN A 136      62.711  58.177  91.361  0.00  0.00           O 0
+ATOM   2148   CB ASN A 136      64.548  60.191  91.091  0.00  0.00           C 0
+ATOM   2144    N ASN A 136      65.581  58.064  90.283  0.73  2.19           N 0
+ATOM   1348   CD LYS A  85      57.828  61.263  86.547  0.00  0.00           C 0
+ATOM   1350   NZ LYS A  85      57.920  63.038  88.243  0.09  8.75           N 1
+ATOM   1313    O HIS A  83      63.092  55.669  86.282  0.46  7.50           O 0
+ATOM   2208    N THR A 140      59.857  57.717  90.710  0.00  0.00           N 0
+ATOM   1342    N LYS A  85      59.174  57.659  84.526  0.77  2.19           N 0
+ATOM   1328   CA GLU A  84      61.153  56.272  84.408  0.00  0.00           C 0
+TER
+END

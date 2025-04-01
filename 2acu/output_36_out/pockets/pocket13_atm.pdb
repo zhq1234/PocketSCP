@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0854
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8875
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7611
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -2.5000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 325.7070
+HEADER 10 - Pocket volume (convex hull)       : 7.2007
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0556
+ATOM   3764   CB ALA A 238      58.571  13.091 111.078  0.00  0.00           C 0
+ATOM   3763    O ALA A 238      55.468  12.711 112.308  0.73  2.14           O 0
+ATOM   3761   CA ALA A 238      57.196  13.761 111.007  0.00  0.00           C 0
+ATOM   3815  ND2 ASN A 241      53.131  10.272 111.388  0.00  0.00           N 0
+ATOM   3810   CA ASN A 241      52.360  13.303 110.496  0.00  0.00           C 0
+ATOM   3826    O LYS A 242      54.954  15.131 107.044  0.71  8.57           O 0
+ATOM   3753    O ALA A 237      55.307  15.374 109.819  0.00  0.00           O 0
+ATOM   3825    C LYS A 242      53.903  15.631 106.644  0.00  0.00           C 0
+ATOM   3812    O ASN A 241      50.773  13.910 108.814  0.00  0.00           O 0
+ATOM   3850  CG2 THR A 243      54.047  14.488 102.632  0.00  0.00           C 0
+ATOM   3811    C ASN A 241      51.902  14.094 109.269  0.00  0.00           C 0
+ATOM   3823    N LYS A 242      52.827  14.896 108.751  0.00  0.00           N 0
+ATOM   3813   CB ASN A 241      51.604  12.005 110.783  0.00  0.00           C 0
+ATOM   3845    N THR A 243      53.700  15.951 105.369  0.68  1.09           N 0
+ATOM   3824   CA LYS A 242      52.682  15.744 107.559  0.00  0.00           C 0
+ATOM   3890  NE2 GLN A 246      50.400  17.391 103.026  0.00  0.00           N 1
+ATOM   4370   NZ LYS A 274      46.855  15.166  99.882  0.00  0.00           N 1
+ATOM   4321  OE2 GLU A 271      51.643  16.638 100.604  0.94  2.14           O 1
+ATOM   3829   CD LYS A 242      49.952  16.873 107.661  0.00  0.00           C 0
+TER
+END

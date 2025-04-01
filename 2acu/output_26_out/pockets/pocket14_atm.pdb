@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.1165
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6371
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4043
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 15.2000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 173.7270
+HEADER 10 - Pocket volume (convex hull)       : 2.5681
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.4000
+ATOM    418  CG2 THR A  28      50.194  29.820  77.542  0.00  0.00           C 0
+ATOM    417   CB THR A  28      49.584  28.591  78.223  0.00  0.00           C 0
+ATOM    848    N ALA A  57      45.316  32.705  77.959  0.00  0.00           N 0
+ATOM    837  CG1 VAL A  56      46.198  32.620  74.079  0.00  0.00           C 0
+ATOM    898   CB GLU A  60      40.219  31.520  76.649  0.00  0.00           C 0
+ATOM    849   CA ALA A  57      44.499  31.875  78.857  0.00  0.00           C 0
+ATOM    900   CD GLU A  60      40.000  29.669  75.000  0.00  0.00           C 0
+ATOM    835    O VAL A  56      43.650  33.170  76.547  0.71  5.36           O 0
+ATOM    476   NZ LYS A  32      44.998  26.670  76.895  0.00  0.00           N 1
+ATOM    901  OE1 GLU A  60      40.486  30.022  73.903  0.72  8.57           O 0
+ATOM    834    C VAL A  56      44.849  33.206  76.819  0.00  0.00           C 0
+ATOM    419  OG1 THR A  28      49.971  27.300  77.743  0.52  7.50           O 0
+ATOM    474   CD LYS A  32      44.369  27.663  79.139  0.00  0.00           C 0
+ATOM    475   CE LYS A  32      45.394  26.908  78.291  0.00  0.00           C 0
+TER
+END

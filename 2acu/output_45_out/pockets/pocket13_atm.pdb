@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0641
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    20
+HEADER 3  - Mean alpha-sphere radius          : 4.0877
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6105
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -24.6667
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 263.0542
+HEADER 10 - Pocket volume (convex hull)       : 5.2279
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1000
+ATOM   2125  OD2 ASP A 134      71.591  60.495  89.294  0.00  0.00           O 1
+ATOM   2148   CB ASN A 136      64.965  59.442  92.260  0.00  0.00           C 0
+ATOM   2150  ND2 ASN A 136      65.349  60.475  94.460  0.33  9.84           N 0
+ATOM   2124  OD1 ASP A 134      70.591  61.762  87.808  0.00  0.00           O 0
+ATOM   2133    O THR A 135      67.817  57.634  91.283  0.70  3.21           O 0
+ATOM   2132    C THR A 135      66.909  57.632  90.453  0.00  0.00           C 0
+ATOM   2203  OD2 ASP A 139      62.827  61.757  90.900  0.00  0.00           O 1
+ATOM   2121    O ASP A 134      68.586  58.487  86.576  0.43  6.43           O 0
+ATOM   2130    N THR A 135      68.719  57.547  88.627  0.00  0.00           N 0
+ATOM   2120    C ASP A 134      69.241  58.139  87.557  0.00  0.00           C 0
+ATOM   2144    N ASN A 136      65.601  57.748  90.665  0.63  3.28           N 0
+ATOM   2131   CA THR A 135      67.333  57.265  89.029  0.00  0.00           C 0
+ATOM   1313    O HIS A  83      63.461  55.559  86.297  0.59  3.21           O 0
+ATOM   1331   CB GLU A  84      62.206  57.185  84.271  0.00  0.00           C 0
+ATOM   2200   CB ASP A 139      61.287  60.244  89.970  0.00  0.00           C 0
+ATOM   2147    O ASN A 136      62.745  57.584  91.243  0.00  0.00           O 0
+TER
+END

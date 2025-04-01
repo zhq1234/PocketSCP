@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0296
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0756
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5689
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 15.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 372.0677
+HEADER 10 - Pocket volume (convex hull)       : 27.6152
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   2417    N LYS A 154      44.847  49.069  90.833  0.00  0.00           N 0
+ATOM   2404    O VAL A 153      44.209  51.036  90.040  0.35  4.29           O 0
+ATOM   1627   CB TYR A 103      41.340  47.405  86.147  0.00  0.00           C 0
+ATOM   2421   CB LYS A 154      43.278  47.902  92.281  0.00  0.00           C 0
+ATOM   2376   CA GLY A 151      41.832  53.677  86.289  0.00  0.00           C 0
+ATOM   2377    C GLY A 151      42.572  52.602  85.494  0.00  0.00           C 0
+ATOM   2378    O GLY A 151      42.190  52.148  84.416  0.60  8.57           O 0
+ATOM   2423   CD LYS A 154      41.079  48.860  92.963  0.00  0.00           C 0
+ATOM    125  ND2 ASN A   8      42.818  52.480  94.829  0.32  6.56           N 0
+ATOM   2425   NZ LYS A 154      39.019  50.011  93.860  0.52  5.47           N 1
+ATOM   1629  CD1 TYR A 103      40.824  45.634  87.862  0.00  0.00           C 0
+ATOM   1628   CG TYR A 103      40.427  46.318  86.719  0.00  0.00           C 0
+ATOM   2335    O VAL A 148      43.811  54.823  90.172  0.35  6.43           O 0
+ATOM   1631  CE1 TYR A 103      40.152  44.507  88.322  0.00  0.00           C 0
+ATOM   2424   CE LYS A 154      39.991  48.924  94.037  0.00  0.00           C 0
+ATOM   2351    O ASP A 149      42.298  57.820  89.148  0.50  9.64           O 0
+ATOM   2375    N GLY A 151      42.275  55.053  86.558  0.67  6.56           N 0
+TER
+END

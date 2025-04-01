@@ -1,0 +1,49 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0652
+HEADER 1  - Drug Score                        : 0.0329
+HEADER 2  - Number of alpha spheres           :    37
+HEADER 3  - Mean alpha-sphere radius          : 3.6421
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4005
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 26.2143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 324.4507
+HEADER 10 - Pocket volume (convex hull)       : 33.0366
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 24.4828
+HEADER 13 - Number of apolar alpha sphere     :    29
+HEADER 14 - Proportion of apolar alpha sphere : 0.7838
+ATOM   2943   SG CYS A 186      60.169  35.335 106.279  0.00  0.00           S 0
+ATOM   4607  CD2 LEU A 289      60.525  32.417 111.981  0.00  0.00           C 0
+ATOM   3114   CD ILE A 196      60.000  38.591 107.599  0.00  0.00           C 0
+ATOM   4054  NH1 ARG A 255      55.924  33.648 110.858  0.61  7.66           N 1
+ATOM   3023    O THR A 191      62.575  36.390 107.036  0.00  0.00           O 0
+ATOM   4055  NH2 ARG A 255      56.716  31.631 110.024  0.73  4.37           N 0
+ATOM   3984  CD2 PHE A 251      57.385  28.906 108.392  0.00  0.00           C 0
+ATOM   2972   CD PRO A 188      61.558  28.613 105.649  0.00  0.00           C 0
+ATOM   4002   CG PRO A 252      54.998  30.682 104.696  0.00  0.00           C 0
+ATOM   2941    O CYS A 186      60.059  32.647 103.477  0.69  2.14           O 0
+ATOM   2940    C CYS A 186      61.095  33.179 103.869  0.00  0.00           C 0
+ATOM   3986  CE2 PHE A 251      58.534  29.379 109.014  0.00  0.00           C 0
+ATOM   3055   CB GLU A 193      63.782  38.312 111.940  0.00  0.00           C 0
+ATOM   3052   CA GLU A 193      63.538  39.068 110.633  0.00  0.00           C 0
+ATOM   3025  CG2 THR A 191      62.970  32.791 108.909  0.00  0.00           C 0
+ATOM   4090  CD2 LEU A 257      53.250  37.806 107.391  0.00  0.00           C 0
+ATOM   3182  NE2 GLN A 200      54.999  41.724 111.298  0.00  0.00           N 1
+ATOM   4048    O ARG A 255      51.789  35.366 110.126  0.46  9.64           O 0
+ATOM   4001   CB PRO A 252      54.687  31.950 105.492  0.00  0.00           C 0
+ATOM   4003   CD PRO A 252      54.916  29.529 105.698  0.00  0.00           C 0
+ATOM   4089  CD1 LEU A 257      55.106  36.089 107.217  0.00  0.00           C 0
+ATOM   3113  CG2 ILE A 196      58.334  40.856 108.660  0.00  0.00           C 0
+ATOM   2951    C HIS A 187      63.087  30.625 105.287  0.00  0.00           C 0
+ATOM   2966    N PRO A 188      62.725  29.481 105.862  0.00  0.00           N 0
+ATOM   3918    O LEU A 248      56.211  27.089 104.433  0.00  0.00           O 0
+ATOM   3340   CA PRO A 211      58.498  28.624 101.030  0.00  0.00           C 0
+ATOM   3024   CB THR A 191      63.744  34.104 108.774  0.00  0.00           C 0
+TER
+END

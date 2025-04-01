@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.1594
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8801
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5051
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 26.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 278.4503
+HEADER 10 - Pocket volume (convex hull)       : 11.4639
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   2849   CA ALA A 180      50.266  47.705  99.807  0.00  0.00           C 0
+ATOM   3229    O GLY A 203      50.355  48.187 105.976  0.00  0.00           O 0
+ATOM    105    N ASN A   7      44.889  48.014 100.908  0.64  4.37           N 0
+ATOM   2851    O ALA A 180      50.357  45.727 101.046  0.66  2.14           O 0
+ATOM     70    O LEU A   5      44.806  45.307 103.024  0.39  4.29           O 0
+ATOM   3258  CG2 VAL A 205      49.459  43.594 104.356  0.00  0.00           C 0
+ATOM     87   CA LEU A   6      45.529  45.812 100.386  0.00  0.00           C 0
+ATOM    106   CA ASN A   7      44.740  49.468 100.744  0.00  0.00           C 0
+ATOM     74  CD2 LEU A   5      40.672  46.293 103.944  0.00  0.00           C 0
+ATOM    108    O ASN A   7      42.785  50.733 100.928  0.64  6.43           O 0
+ATOM    111  ND2 ASN A   7      46.836  52.043 101.148  0.35  7.66           N 0
+ATOM   2820   NZ LYS A 178      48.226  53.867 105.947  0.41  9.84           N 1
+ATOM   2818   CD LYS A 178      49.385  53.216 103.817  0.00  0.00           C 0
+ATOM   2816   CB LYS A 178      50.197  52.683 101.423  0.00  0.00           C 0
+ATOM   2837    O PRO A 179      52.138  49.289 101.317  0.69  3.21           O 0
+ATOM    109   CB ASN A   7      46.021  49.890 100.021  0.00  0.00           C 0
+TER
+END

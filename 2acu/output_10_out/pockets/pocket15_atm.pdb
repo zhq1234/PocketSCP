@@ -1,0 +1,45 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0713
+HEADER 1  - Drug Score                        : 0.0023
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0108
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5610
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 35.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.5556
+HEADER 9  - Pocket volume (Monte Carlo)       : 393.6333
+HEADER 10 - Pocket volume (convex hull)       : 30.9325
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4286
+ATOM   4542   SD MET A 285      52.782  26.692 112.901  0.00  0.00           S 0
+ATOM   4497   CA SER A 282      54.138  24.528 117.492  0.00  0.00           C 0
+ATOM   4540   CB MET A 285      55.370  25.690 113.261  0.00  0.00           C 0
+ATOM   4501   OG SER A 282      55.113  26.154 119.130  0.69  6.43           O 0
+ATOM   4553    N THR A 286      58.260  25.082 114.624  0.00  0.00           N 0
+ATOM   4558  CG2 THR A 286      58.680  26.027 117.447  0.00  0.00           C 0
+ATOM   4554   CA THR A 286      59.562  25.549 115.121  0.00  0.00           C 0
+ATOM   4606  CD1 LEU A 289      59.607  30.371 112.623  0.00  0.00           C 0
+ATOM   4499    O SER A 282      56.255  24.324 116.488  0.00  0.00           O 0
+ATOM   4500   CB SER A 282      54.046  25.249 118.837  0.00  0.00           C 0
+ATOM   4496    N SER A 282      53.007  23.653 117.150  0.50  5.47           N 0
+ATOM   4035  NE2 GLN A 254      49.600  26.627 112.640  0.32  4.37           N 1
+ATOM   4052   NE ARG A 255      49.715  31.675 114.207  0.55  7.66           N 0
+ATOM   4055  NH2 ARG A 255      47.929  30.490 115.163  0.00  0.00           N 0
+ATOM   3985  CE1 PHE A 251      57.418  28.799 109.814  0.00  0.00           C 0
+ATOM   4543   CE MET A 285      53.221  27.736 111.528  0.00  0.00           C 0
+ATOM   4538    C MET A 285      57.849  25.288 113.376  0.00  0.00           C 0
+ATOM   4049   CB ARG A 255      52.083  32.232 111.233  0.00  0.00           C 0
+ATOM   4050   CG ARG A 255      51.391  31.529 112.403  0.00  0.00           C 0
+ATOM   4458  OE1 GLU A 279      44.855  25.985 113.311  0.55  9.64           O 0
+ATOM   4459  OE2 GLU A 279      45.053  24.449 114.830  0.41  9.64           O 1
+ATOM   4469    O LEU A 280      50.044  23.440 114.217  0.66  4.29           O 0
+ATOM   4457   CD GLU A 279      45.231  24.845 113.658  0.00  0.00           C 0
+TER
+END

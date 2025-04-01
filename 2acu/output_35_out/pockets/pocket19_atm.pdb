@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.1365
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8486
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6084
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 0.4000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 153.7403
+HEADER 10 - Pocket volume (convex hull)       : 2.2959
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM    385   CG GLN A  26      56.065  23.354  81.636  0.00  0.00           C 0
+ATOM    387  NE2 GLN A  26      57.216  21.558  82.711  0.00  0.00           N 1
+ATOM    432   CG GLU A  29      51.174  23.000  80.367  0.00  0.00           C 0
+ATOM    434  OE1 GLU A  29      49.951  20.996  80.402  0.64  9.64           O 0
+ATOM   4203    O VAL A 264      52.013  22.042  86.407  0.81  4.29           O 0
+ATOM   4204   CB VAL A 264      54.908  23.363  85.986  0.00  0.00           C 0
+ATOM    431   CB GLU A  29      50.867  23.703  81.691  0.00  0.00           C 0
+ATOM   4206  CG2 VAL A 264      56.088  22.400  86.125  0.00  0.00           C 0
+ATOM   4221  CG2 THR A 265      54.681  18.170  87.190  0.00  0.00           C 0
+ATOM   4202    C VAL A 264      53.058  22.054  87.057  0.00  0.00           C 0
+ATOM   4216    N THR A 265      53.535  20.979  87.678  0.77  1.09           N 0
+ATOM   4236   CD PRO A 266      50.208  18.998  86.470  0.00  0.00           C 0
+ATOM   4217   CA THR A 265      52.803  19.706  87.720  0.00  0.00           C 0
+TER
+END

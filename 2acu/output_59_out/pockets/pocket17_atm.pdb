@@ -1,0 +1,61 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.2565
+HEADER 1  - Drug Score                        : 0.0090
+HEADER 2  - Number of alpha spheres           :    46
+HEADER 3  - Mean alpha-sphere radius          : 4.0326
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5693
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 55.7143
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2143
+HEADER 9  - Pocket volume (Monte Carlo)       : 770.2369
+HEADER 10 - Pocket volume (convex hull)       : 154.3344
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.4286
+HEADER 13 - Number of apolar alpha sphere     :    21
+HEADER 14 - Proportion of apolar alpha sphere : 0.4565
+ATOM    208  CG1 ILE A  14      46.388  33.901 102.592  0.00  0.00           C 0
+ATOM   4086    O LEU A 257      51.304  33.812 104.901  0.85  3.21           O 0
+ATOM     54  CD1 LEU A   4      47.794  38.861 104.457  0.00  0.00           C 0
+ATOM    210   CD ILE A  14      45.501  33.538 103.786  0.00  0.00           C 0
+ATOM   4076  OD1 ASN A 256      48.997  35.016 110.510  0.00  0.00           O 0
+ATOM      4    O ALA A   1      42.405  36.006 107.027  0.31  5.36           O 0
+ATOM     27    O ARG A   3      42.076  39.193 103.943  0.69  5.36           O 0
+ATOM      5   CB ALA A   1      40.704  38.412 107.897  0.00  0.00           C 0
+ATOM     67    N LEU A   5      43.473  42.490 102.715  0.66  1.09           N 0
+ATOM     71   CB LEU A   5      42.190  44.468 103.027  0.00  0.00           C 0
+ATOM     53   CG LEU A   4      46.621  39.839 104.364  0.00  0.00           C 0
+ATOM   4108  CG2 VAL A 258      49.333  36.620 102.169  0.00  0.00           C 0
+ATOM   4018   CE MET A 253      47.032  29.754 106.061  0.00  0.00           C 0
+ATOM     55  CD2 LEU A   4      46.901  41.194 105.017  0.00  0.00           C 0
+ATOM     70    O LEU A   5      44.916  45.111 103.302  0.80  6.43           O 0
+ATOM   4072    O ASN A 256      51.995  37.337 107.837  0.00  0.00           O 0
+ATOM   3256  CG1 VAL A 205      50.057  42.401 104.264  0.00  0.00           C 0
+ATOM     49   CA LEU A   4      44.494  40.308 102.983  0.00  0.00           C 0
+ATOM   3226   CA GLY A 203      52.492  49.486 108.306  0.00  0.00           C 0
+ATOM   3178    O GLN A 200      53.855  47.271 110.646  0.40  4.29           O 0
+ATOM   3257  CG2 VAL A 205      49.476  44.657 104.836  0.00  0.00           C 0
+ATOM   3235    O ILE A 204      53.796  45.265 106.450  0.76  2.14           O 0
+ATOM   3182  NE2 GLN A 200      54.274  40.383 109.764  0.65  7.66           N 1
+ATOM   3267    N VAL A 206      53.572  42.192 104.717  0.65  2.19           N 0
+ATOM   3252   CA VAL A 205      51.907  43.998 104.742  0.00  0.00           C 0
+ATOM   4071    C ASN A 256      52.115  36.126 108.018  0.00  0.00           C 0
+ATOM   4085    C LEU A 257      51.863  34.886 104.679  0.00  0.00           C 0
+ATOM     73  CD1 LEU A   5      39.698  44.614 103.057  0.00  0.00           C 0
+ATOM   3227    C GLY A 203      52.540  48.950 106.874  0.00  0.00           C 0
+ATOM   3179   CB GLN A 200      54.665  43.948 110.815  0.00  0.00           C 0
+ATOM   3176   CA GLN A 200      54.843  45.262 110.051  0.00  0.00           C 0
+ATOM   4073   CB ASN A 256      50.846  36.512 110.203  0.00  0.00           C 0
+ATOM   3251    N VAL A 205      52.326  45.407 104.761  0.00  0.00           N 0
+ATOM   4014    O MET A 253      50.575  32.011 107.958  0.37  5.36           O 0
+ATOM   3180   CG GLN A 200      54.693  42.810 109.793  0.00  0.00           C 0
+ATOM   4070   CA ASN A 256      51.420  35.489 109.223  0.00  0.00           C 0
+ATOM   4083    N LEU A 257      52.389  35.190 107.113  0.00  0.00           N 0
+ATOM   4074   CG ASN A 256      49.578  36.024 110.907  0.00  0.00           C 0
+ATOM   4075  ND2 ASN A 256      49.279  36.542 112.095  0.65  8.75           N 0
+TER
+END

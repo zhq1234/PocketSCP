@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0982
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9987
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6754
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -25.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 252.9515
+HEADER 10 - Pocket volume (convex hull)       : 5.7508
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM    960  NH2 ARG A  63      36.820  33.243  72.681  0.00  0.00           N 0
+ATOM    895   CA GLU A  60      39.586  31.924  78.407  0.00  0.00           C 0
+ATOM    902  OE2 GLU A  60      41.224  28.239  76.773  0.58  7.50           O 1
+ATOM    899   CG GLU A  60      41.507  30.628  77.185  0.00  0.00           C 0
+ATOM    898   CB GLU A  60      40.507  30.705  78.340  0.00  0.00           C 0
+ATOM    957   NE ARG A  63      35.654  34.317  74.376  0.61  2.19           N 0
+ATOM    978   CB GLU A  64      34.122  29.198  78.963  0.00  0.00           C 0
+ATOM    982  OE2 GLU A  64      33.021  26.740  77.405  0.56  9.64           O 1
+ATOM    952    C ARG A  63      33.970  32.873  78.903  0.00  0.00           C 0
+ATOM    953    O ARG A  63      32.755  33.059  78.923  0.71  5.36           O 0
+ATOM    955   CG ARG A  63      34.477  34.945  76.392  0.00  0.00           C 0
+ATOM    974    N GLU A  64      34.452  31.660  79.163  0.00  0.00           N 0
+ATOM    954   CB ARG A  63      35.444  34.236  77.343  0.00  0.00           C 0
+ATOM    981  OE1 GLU A  64      34.807  26.245  78.637  0.43  9.64           O 0
+ATOM    980   CD GLU A  64      33.768  26.896  78.395  0.00  0.00           C 0
+ATOM    897    O GLU A  60      37.545  31.169  79.368  0.74  5.36           O 0
+TER
+END

@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0687
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9264
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5106
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 3.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 215.1103
+HEADER 10 - Pocket volume (convex hull)       : 4.0495
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   2698  ND2 ASN A 171      59.912  60.335 105.965  0.62  8.75           N 0
+ATOM   3211   NZ LYS A 202      58.464  54.802 111.118  0.61  9.84           N 1
+ATOM   3210   CE LYS A 202      58.805  54.010 109.928  0.00  0.00           C 0
+ATOM   2629  OE1 GLU A 167      62.778  56.000 108.652  0.70  9.64           O 0
+ATOM   2699  OD1 ASN A 171      57.737  60.724 105.738  0.00  0.00           O 0
+ATOM   2627   CG GLU A 167      61.808  54.974 106.687  0.00  0.00           C 0
+ATOM   2679  CD1 LEU A 170      57.009  54.381 105.122  0.00  0.00           C 0
+ATOM   2677   CB LEU A 170      56.703  56.512 104.042  0.00  0.00           C 0
+ATOM   2623   CA GLU A 167      61.034  55.560 104.484  0.00  0.00           C 0
+ATOM   3209   CD LYS A 202      57.554  53.502 109.210  0.00  0.00           C 0
+ATOM   2680  CD2 LEU A 170      54.718  55.014 104.375  0.00  0.00           C 0
+ATOM   2676    O LEU A 170      55.516  59.324 103.180  0.33  6.43           O 0
+ATOM   3206    O LYS A 202      53.548  52.572 107.945  0.62  7.50           O 0
+TER
+END

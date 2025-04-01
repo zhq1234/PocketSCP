@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.0968
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 4.0050
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5285
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 1.7000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.1000
+HEADER 9  - Pocket volume (Monte Carlo)       : 253.8909
+HEADER 10 - Pocket volume (convex hull)       : 10.6838
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.1786
+ATOM   1481   NZ LYS A  94      56.046  42.832  76.909  0.28  6.56           N 1
+ATOM   1546  OD2 ASP A  98      52.130  40.232  75.507  0.53  7.50           O 1
+ATOM   1544   CG ASP A  98      51.966  41.052  76.437  0.00  0.00           C 0
+ATOM   1545  OD1 ASP A  98      52.675  42.057  76.663  0.00  0.00           O 0
+ATOM    784   CB ASN A  52      51.745  36.497  76.184  0.00  0.00           C 0
+ATOM    739   CG GLN A  49      56.730  34.275  76.940  0.00  0.00           C 0
+ATOM    780    N ASN A  52      52.144  36.683  78.655  0.73  1.09           N 0
+ATOM    742  OE1 GLN A  49      57.688  34.226  74.717  0.00  0.00           O 0
+ATOM    738   CB GLN A  49      58.096  34.558  77.566  0.00  0.00           C 0
+ATOM    740   CD GLN A  49      56.820  33.813  75.483  0.00  0.00           C 0
+ATOM    734    N GLN A  49      59.194  35.477  79.633  0.59  5.47           N 0
+ATOM   1938  CE2 PHE A 121      62.370  41.049  77.438  0.00  0.00           C 0
+ATOM   1939   CZ PHE A 121      61.361  41.743  78.097  0.00  0.00           C 0
+ATOM    704    O VAL A  47      62.649  38.340  80.874  0.31  6.43           O 0
+ATOM    687    O HIS A  46      59.169  40.067  81.125  0.32  6.43           O 0
+ATOM    765    N GLU A  51      53.878  36.438  81.048  0.69  2.19           N 0
+ATOM    735   CA GLN A  49      57.928  35.131  78.974  0.00  0.00           C 0
+ATOM    720    O HIS A  48      58.243  36.745  81.233  0.00  0.00           O 0
+ATOM    751    N ASN A  50      56.285  35.018  80.604  0.00  0.00           N 0
+ATOM    772  OE1 GLU A  51      55.158  40.961  81.159  0.24  3.21           O 0
+ATOM    769   CB GLU A  51      53.294  38.809  80.852  0.00  0.00           C 0
+TER
+END

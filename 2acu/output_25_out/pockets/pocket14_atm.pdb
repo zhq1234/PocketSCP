@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0985
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8770
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6852
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 2.7500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 201.1354
+HEADER 10 - Pocket volume (convex hull)       : 0.8589
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM   2040    N GLY A 128      81.352  42.443  82.536  0.00  0.00           N 0
+ATOM   1989  CD1 LEU A 124      74.926  40.407  79.384  0.00  0.00           C 0
+ATOM   1987   CB LEU A 124      75.607  42.769  78.867  0.00  0.00           C 0
+ATOM   2017    O GLU A 126      82.774  43.351  79.293  0.44  8.57           O 0
+ATOM   1990  CD2 LEU A 124      75.717  41.928  81.234  0.00  0.00           C 0
+ATOM   2041   CA GLY A 128      80.260  41.991  83.412  0.00  0.00           C 0
+ATOM   2003   CA ASP A 125      78.872  46.027  78.887  0.00  0.00           C 0
+ATOM   2014    N GLU A 126      81.275  46.055  79.061  0.59  2.19           N 0
+ATOM   2004    C ASP A 125      80.149  45.645  79.639  0.00  0.00           C 0
+ATOM   2005    O ASP A 125      80.149  45.090  80.736  0.00  0.00           O 0
+ATOM   2002    N ASP A 125      77.654  45.415  79.435  0.00  0.00           N 0
+ATOM   1986    O LEU A 124      76.810  44.857  77.393  0.51  8.57           O 0
+ATOM   2009  OD2 ASP A 125      79.935  48.028  77.081  0.69  6.43           O 1
+ATOM   1985    C LEU A 124      76.727  44.922  78.619  0.00  0.00           C 0
+TER
+END

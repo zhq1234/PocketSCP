@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.1102
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7458
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3950
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 6.4444
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 199.1194
+HEADER 10 - Pocket volume (convex hull)       : 12.3417
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   1140  CD2 PHE A  73      43.718  41.854  94.166  0.00  0.00           C 0
+ATOM     33  NH1 ARG A   3      39.970  38.488  96.522  0.76  5.47           N 1
+ATOM    150    N LYS A  11      41.471  43.335  98.115  0.55  2.19           N 0
+ATOM   1087    O GLU A  70      37.749  40.178  93.257  0.76  3.21           O 0
+ATOM    157   CE LYS A  11      37.210  42.896  98.169  0.00  0.00           C 0
+ATOM   2426   NZ LYS A 154      39.332  46.990  93.753  0.00  0.00           N 1
+ATOM   1670  OD1 ASP A 105      42.292  43.271  91.196  0.57  3.21           O 0
+ATOM   1142  CE2 PHE A  73      44.171  42.866  95.006  0.00  0.00           C 0
+ATOM    136    O GLY A   9      39.579  47.118  96.780  0.46  4.29           O 0
+ATOM    158   NZ LYS A  11      35.754  42.709  98.105  0.00  0.00           N 1
+ATOM   1088   CB GLU A  70      34.927  41.127  92.009  0.00  0.00           C 0
+ATOM   1635   OH TYR A 103      38.248  43.837  89.400  0.45  6.43           O 0
+ATOM   1085   CA GLU A  70      36.295  40.841  91.387  0.00  0.00           C 0
+ATOM    141   CA ALA A  10      41.873  45.636  97.532  0.00  0.00           C 0
+TER
+END

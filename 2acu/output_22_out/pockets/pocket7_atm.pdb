@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0408
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7798
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4668
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 16.3333
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 164.3046
+HEADER 10 - Pocket volume (convex hull)       : 1.6745
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1818
+ATOM   3423   CD ARG A 217      68.510  23.751  94.616  0.00  0.00           C 0
+ATOM   3426  NH1 ARG A 217      69.068  22.625  97.266  0.00  0.00           N 1
+ATOM   3424   NE ARG A 217      67.636  23.799  95.797  0.00  0.00           N 0
+ATOM   3622  OE1 GLU A 229      66.645  17.501  97.717  0.79  2.14           O 0
+ATOM   3602  CD1 LEU A 228      60.965  19.464  96.761  0.00  0.00           C 0
+ATOM   3394    O PRO A 215      65.105  22.490  92.218  0.27  8.57           O 0
+ATOM   3395   CB PRO A 215      62.256  22.597  93.872  0.00  0.00           C 0
+ATOM   3425   CZ ARG A 217      67.933  23.284  96.997  0.00  0.00           C 0
+ATOM   3600   CB LEU A 228      61.972  18.993  98.961  0.00  0.00           C 0
+ATOM   3427  NH2 ARG A 217      67.039  23.417  97.986  0.50  2.19           N 0
+ATOM   3571   OG SER A 226      66.225  19.459  99.431  0.44  2.14           O 0
+ATOM   3601   CG LEU A 228      60.875  19.790  98.253  0.00  0.00           C 0
+ATOM   3596    N LEU A 228      63.000  20.157 100.910  0.39  1.09           N 0
+ATOM   3396   CG PRO A 215      61.390  23.344  94.887  0.00  0.00           C 0
+ATOM   3392   CA PRO A 215      63.544  23.422  93.849  0.00  0.00           C 0
+ATOM   3357    O LEU A 212      61.982  24.612  98.251  0.00  0.00           O 0
+TER
+END

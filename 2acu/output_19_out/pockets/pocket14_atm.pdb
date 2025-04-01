@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0820
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.7503
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3857
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 21.0000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 5.6000
+HEADER 9  - Pocket volume (Monte Carlo)       : 188.8101
+HEADER 10 - Pocket volume (convex hull)       : 8.5332
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4706
+ATOM    299  CZ2 TRP A  20      64.263  33.553  89.511  0.00  0.00           C 0
+ATOM    320   NZ LYS A  21      64.099  29.045  90.013  0.60  1.09           N 1
+ATOM   3446   CG PRO A 218      70.142  29.069  88.631  0.00  0.00           C 0
+ATOM   3447   CD PRO A 218      69.649  28.216  89.801  0.00  0.00           C 0
+ATOM    318   CD LYS A  21      64.193  29.693  87.597  0.00  0.00           C 0
+ATOM   3467  CZ3 TRP A 219      72.637  29.709  91.690  0.00  0.00           C 0
+ATOM   4755    O VAL A 297      67.201  33.738  94.041  0.44  4.29           O 0
+ATOM   3385   OG SER A 214      64.912  28.509  93.531  0.51  6.43           O 0
+ATOM    300  CZ3 TRP A  20      62.885  32.440  91.164  0.00  0.00           C 0
+ATOM   3466  CZ2 TRP A 219      72.018  28.316  93.540  0.00  0.00           C 0
+ATOM   4716  CZ3 TRP A 295      68.397  29.119  97.122  0.00  0.00           C 0
+ATOM   4731    O ARG A 296      69.457  32.815  96.456  0.56  8.57           O 0
+ATOM   3408    O ASP A 216      65.967  26.798  90.605  0.00  0.00           O 0
+ATOM   3422   CG ARG A 217      68.465  25.226  93.465  0.00  0.00           C 0
+ATOM   4715  CZ2 TRP A 295      70.118  27.556  96.629  0.00  0.00           C 0
+TER
+END

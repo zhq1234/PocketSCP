@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.1640
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0128
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4189
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 52.8571
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 246.7004
+HEADER 10 - Pocket volume (convex hull)       : 2.7820
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM      5   CB ALA A   1      43.527  37.113 106.560  0.00  0.00           C 0
+ATOM   4070   CA ASN A 256      51.069  36.756 108.864  0.00  0.00           C 0
+ATOM   4076  OD1 ASN A 256      50.723  38.482 111.297  0.33  9.64           O 0
+ATOM   4069    N ASN A 256      50.604  35.421 109.270  0.65  5.47           N 0
+ATOM   4072    O ASN A 256      51.421  38.269 107.034  0.55  8.57           O 0
+ATOM     55  CD2 LEU A   4      47.313  39.289 103.793  0.00  0.00           C 0
+ATOM    210   CD ILE A  14      46.783  34.324 104.092  0.00  0.00           C 0
+ATOM      1    N ALA A   1      43.685  34.904 107.504  0.00  0.00           N 0
+ATOM   4031    O GLN A 254      48.433  31.813 110.755  0.67  8.57           O 0
+ATOM   4014    O MET A 253      48.115  31.651 106.574  0.62  4.29           O 0
+ATOM   4071    C ASN A 256      51.469  37.105 107.429  0.00  0.00           C 0
+ATOM   4086    O LEU A 257      50.769  34.563 104.687  0.82  1.07           O 0
+TER
+END

@@ -10,8 +10,8 @@
           :on-remove="handleRemove"
           v-loading="loading"
   >
-      <el-button slot="trigger" size="small" type="primary">选取文件</el-button>
-      <el-button style="margin-left: 10px;" size="small" type="success" @click="submitUpload">上传到服务器</el-button>
+      <el-button slot="trigger" size="small" type="primary">select file</el-button>
+      <el-button style="margin-left: 10px;" size="small" type="success" @click="submitUpload">upload</el-button>
   </el-upload>
 </template>
   

@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0987
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8257
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5666
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 5.2500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 132.3590
+HEADER 10 - Pocket volume (convex hull)       : 0.5286
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    885  OE1 GLN A  59      42.464  37.641  75.706  0.00  0.00           O 0
+ATOM    957   NE ARG A  63      37.241  31.985  75.495  0.63  5.47           N 0
+ATOM    960  NH2 ARG A  63      38.815  31.390  73.893  0.50  9.84           N 0
+ATOM    880    O GLN A  59      39.026  34.594  79.057  0.36  7.50           O 0
+ATOM    835    O VAL A  56      43.818  33.124  78.259  0.71  1.07           O 0
+ATOM    837  CG1 VAL A  56      46.180  33.303  75.778  0.00  0.00           C 0
+ATOM    902  OE2 GLU A  60      42.650  28.868  76.750  0.69  7.50           O 1
+ATOM    898   CB GLU A  60      41.167  30.995  78.043  0.00  0.00           C 0
+ATOM    894    N GLU A  60      40.836  33.225  78.845  0.00  0.00           N 0
+ATOM    881   CB GLN A  59      42.036  35.824  78.312  0.00  0.00           C 0
+ATOM    879    C GLN A  59      40.230  34.368  79.157  0.00  0.00           C 0
+ATOM    895   CA GLU A  60      40.114  32.082  78.271  0.00  0.00           C 0
+TER
+END

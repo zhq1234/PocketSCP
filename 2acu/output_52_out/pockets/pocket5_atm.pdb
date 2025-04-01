@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0045
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    28
+HEADER 3  - Mean alpha-sphere radius          : 3.5679
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3633
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 21.6250
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.3750
+HEADER 9  - Pocket volume (Monte Carlo)       : 164.5791
+HEADER 10 - Pocket volume (convex hull)       : 7.2970
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.3571
+ATOM   1278    O THR A  81      64.341  51.281  82.025  0.00  0.00           O 0
+ATOM   1279   CB THR A  81      65.314  48.338  81.347  0.00  0.00           C 0
+ATOM   1295  CD1 TYR A  82      60.801  48.983  80.492  0.00  0.00           C 0
+ATOM   1876   CB PRO A 117      65.934  52.665  78.311  0.00  0.00           C 0
+ATOM   1378  CD1 LEU A  87      61.537  53.337  79.030  0.00  0.00           C 0
+ATOM   1297  CE1 TYR A  82      61.122  47.866  79.732  0.00  0.00           C 0
+ATOM   1281  OG1 THR A  81      64.298  47.377  81.046  0.73  2.14           O 0
+ATOM   1300   OH TYR A  82      60.971  45.528  79.364  0.36  8.57           O 0
+ATOM   1896    O LYS A 119      65.444  44.816  74.841  0.54  7.50           O 0
+ATOM   1889    O GLY A 118      65.418  48.964  74.490  0.35  2.14           O 0
+ATOM   1379  CD2 LEU A  87      59.710  52.481  77.746  0.00  0.00           C 0
+ATOM   1873   CA PRO A 117      66.850  51.452  78.500  0.00  0.00           C 0
+ATOM   1918    O GLU A 120      67.731  45.077  78.106  0.39  1.07           O 0
+ATOM   1888    C GLY A 118      66.622  48.769  74.643  0.00  0.00           C 0
+ATOM   1886    N GLY A 118      66.864  50.625  76.297  0.66  4.37           N 0
+ATOM   1930    N PHE A 121      66.962  42.997  78.361  0.64  3.28           N 0
+ATOM   1937  CD2 PHE A 121      63.909  42.098  80.041  0.00  0.00           C 0
+ATOM   1917    C GLU A 120      67.455  43.982  77.617  0.00  0.00           C 0
+TER
+END

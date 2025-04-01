@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0877
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6934
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5450
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 2.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 249.7705
+HEADER 10 - Pocket volume (convex hull)       : 15.4290
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0556
+ATOM   4267   CZ ARG A 268      56.336  17.650  92.201  0.00  0.00           C 0
+ATOM   4222  OG1 THR A 265      52.620  18.911  89.726  0.56  4.29           O 0
+ATOM   4221  CG2 THR A 265      52.582  18.385  87.343  0.00  0.00           C 0
+ATOM   4269  NH2 ARG A 268      56.823  16.402  92.212  0.00  0.00           N 0
+ATOM   4268  NH1 ARG A 268      57.143  18.664  91.858  0.00  0.00           N 1
+ATOM   4205  CG1 VAL A 264      54.663  21.982  86.249  0.00  0.00           C 0
+ATOM   4200    N VAL A 264      53.727  23.929  88.555  0.66  1.09           N 0
+ATOM   4265   CD ARG A 268      54.442  19.131  92.774  0.00  0.00           C 0
+ATOM   4194   OG SER A 263      52.741  23.367  91.464  0.70  2.14           O 0
+ATOM   4193   CB SER A 263      53.445  24.595  91.662  0.00  0.00           C 0
+ATOM   4170    O LYS A 262      56.623  25.709  92.407  0.00  0.00           O 0
+ATOM   4249   CG GLU A 267      49.948  15.549  91.155  0.00  0.00           C 0
+ATOM   4252  OE2 GLU A 267      49.525  16.329  88.952  0.86  3.21           O 1
+ATOM   4250   CD GLU A 267      49.398  15.365  89.738  0.00  0.00           C 0
+ATOM   4190   CA SER A 263      54.383  25.091  90.560  0.00  0.00           C 0
+ATOM   4266   NE ARG A 268      55.113  17.824  92.718  0.55  4.37           N 0
+TER
+END

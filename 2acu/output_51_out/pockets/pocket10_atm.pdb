@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0619
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.1160
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5863
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 22.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 284.3749
+HEADER 10 - Pocket volume (convex hull)       : 7.6363
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2941
+ATOM      5   CB ALA A   1      40.849  33.006 107.640  0.00  0.00           C 0
+ATOM   4405  CD1 PHE A 276      43.174  28.006 104.444  0.00  0.00           C 0
+ATOM      2   CA ALA A   1      42.261  32.833 107.076  0.00  0.00           C 0
+ATOM   4402    O PHE A 276      43.357  25.590 108.725  0.84  7.50           O 0
+ATOM   3962  NH1 ARG A 250      46.361  27.284 108.586  0.50  2.19           N 1
+ATOM   3963  NH2 ARG A 250      46.367  26.621 110.801  0.00  0.00           N 0
+ATOM      3    C ALA A   1      42.489  32.910 105.566  0.00  0.00           C 0
+ATOM      1    N ALA A   1      43.062  33.910 107.673  0.48  8.75           N 0
+ATOM   4031    O GLN A 254      48.993  32.488 111.156  0.72  4.29           O 0
+ATOM   4018   CE MET A 253      45.731  30.232 106.095  0.00  0.00           C 0
+ATOM   4029   CA GLN A 254      49.323  30.452 109.899  0.00  0.00           C 0
+ATOM   4403   CB PHE A 276      42.820  25.769 105.649  0.00  0.00           C 0
+ATOM   4014    O MET A 253      48.628  32.063 107.655  0.61  4.29           O 0
+ATOM   4076  OD1 ASN A 256      46.322  35.921 109.540  0.89  5.36           O 0
+ATOM     18   OG SER A   2      40.921  31.234 102.591  0.33  7.50           O 0
+ATOM   4033   CG GLN A 254      48.828  28.935 111.843  0.00  0.00           C 0
+TER
+END

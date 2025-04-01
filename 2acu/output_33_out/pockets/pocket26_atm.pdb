@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : -0.1518
+HEADER 1  - Drug Score                        : 0.0038
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0594
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7333
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -3.6000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 271.9554
+HEADER 10 - Pocket volume (convex hull)       : 9.2964
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8125
+ATOM   3705   CD LYS A 234      64.315  14.584 106.012  0.00  0.00           C 0
+ATOM   3707   NZ LYS A 234      64.796  12.011 105.903  0.00  0.00           N 1
+ATOM   3618    O GLU A 229      67.063  16.873 104.944  0.35  9.64           O 0
+ATOM   3647   CG PRO A 231      68.292  16.855 109.757  0.00  0.00           C 0
+ATOM   3648   CD PRO A 231      68.031  17.682 108.497  0.00  0.00           C 0
+ATOM   3701    C LYS A 234      60.900  15.725 109.527  0.00  0.00           C 0
+ATOM   3721    N ALA A 235      61.459  16.062 110.687  0.85  1.09           N 0
+ATOM   3722   CA ALA A 235      60.986  15.507 111.963  0.00  0.00           C 0
+ATOM   3703   CB LYS A 234      62.690  15.429 107.857  0.00  0.00           C 0
+ATOM   3764   CB ALA A 238      57.909  12.215 110.005  0.00  0.00           C 0
+ATOM   3702    O LYS A 234      59.796  15.195 109.417  0.78  2.14           O 0
+ATOM   3706   CE LYS A 234      63.967  13.136 106.361  0.00  0.00           C 0
+ATOM   3646   CB PRO A 231      67.022  17.114 110.570  0.00  0.00           C 0
+ATOM   3643   CA PRO A 231      65.896  17.231 109.542  0.00  0.00           C 0
+ATOM   3645    O PRO A 231      63.798  17.581 110.553  0.79  1.07           O 0
+ATOM   3725   CB ALA A 235      61.934  15.833 113.119  0.00  0.00           C 0
+TER
+END

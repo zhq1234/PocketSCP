@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0696
+HEADER 1  - Drug Score                        : 0.0024
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9440
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5789
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 49.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 242.6380
+HEADER 10 - Pocket volume (convex hull)       : 3.6848
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM   1599  CD2 LEU A 101      41.351  40.369  82.159  0.00  0.00           C 0
+ATOM    882   CG GLN A  59      41.589  35.958  76.978  0.00  0.00           C 0
+ATOM    864  CG2 ILE A  58      41.621  36.821  82.845  0.00  0.00           C 0
+ATOM    877    N GLN A  59      41.217  34.578  79.823  0.00  0.00           N 0
+ATOM    861    O ILE A  58      39.711  34.434  81.483  0.79  1.07           O 0
+ATOM    937  CD1 LEU A  62      37.152  37.559  83.494  0.00  0.00           C 0
+ATOM    878   CA GLN A  59      40.259  34.653  78.711  0.00  0.00           C 0
+ATOM   1573    O LYS A 100      41.449  41.361  78.205  0.00  0.00           O 0
+ATOM    935   CB LEU A  62      36.795  35.421  82.407  0.00  0.00           C 0
+ATOM    884  NE2 GLN A  59      40.598  36.937  74.933  0.00  0.00           N 1
+ATOM    938  CD2 LEU A  62      34.950  37.219  82.453  0.00  0.00           C 0
+ATOM    880    O GLN A  59      38.045  33.688  78.889  0.64  4.29           O 0
+ATOM   1554    O LEU A  99      44.507  39.653  79.496  0.00  0.00           O 0
+ATOM    950    N ARG A  63      35.369  33.490  80.277  0.71  1.09           N 0
+ATOM    954   CB ARG A  63      34.944  32.836  77.857  0.00  0.00           C 0
+ATOM    951   CA ARG A  63      34.382  33.125  79.249  0.00  0.00           C 0
+TER
+END

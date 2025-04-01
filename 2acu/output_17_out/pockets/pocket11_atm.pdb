@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    11:
+HEADER 0  - Pocket Score                      : -0.0947
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8985
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4952
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 47.1667
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 107.2681
+HEADER 10 - Pocket volume (convex hull)       : 0.5148
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM   3228    O GLY A 203      51.009  48.917 105.204  0.50  6.43           O 0
+ATOM    105    N ASN A   7      44.930  48.408 100.529  0.56  1.09           N 0
+ATOM     70    O LEU A   5      44.065  45.125 102.472  0.52  6.43           O 0
+ATOM    109   CB ASN A   7      45.987  50.407 101.479  0.00  0.00           C 0
+ATOM   2848   CA ALA A 180      50.373  47.725 100.096  0.00  0.00           C 0
+ATOM   2851   CB ALA A 180      49.416  47.279  98.988  0.00  0.00           C 0
+ATOM   3256  CG1 VAL A 205      49.987  43.435 102.413  0.00  0.00           C 0
+ATOM     87   CA LEU A   6      44.502  46.108  99.863  0.00  0.00           C 0
+ATOM   3255   CB VAL A 205      50.351  43.395 103.899  0.00  0.00           C 0
+ATOM     93  CD2 LEU A   6      46.944  44.367  98.552  0.00  0.00           C 0
+ATOM   2850    O ALA A 180      51.435  46.259 101.611  0.53  1.07           O 0
+ATOM   3251    N VAL A 205      52.016  45.143 104.289  0.65  1.09           N 0
+TER
+END

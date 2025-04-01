@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.1182
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9049
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4982
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 39.1429
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 250.5700
+HEADER 10 - Pocket volume (convex hull)       : 7.4293
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 16.0000
+HEADER 13 - Number of apolar alpha sphere     :    17
+HEADER 14 - Proportion of apolar alpha sphere : 0.9444
+ATOM   2644   CE MET A 168      66.138  57.868 101.827  0.00  0.00           C 0
+ATOM   2165   CD ILE A 137      65.057  53.932  95.773  0.00  0.00           C 0
+ATOM   2151  OD1 ASN A 136      64.898  59.597  93.747  0.27  5.36           O 0
+ATOM   4919  OD2 ASP A 308      68.186  53.740  96.094  0.82  8.57           O 1
+ATOM   2590   CA GLN A 165      64.278  53.452 100.363  0.00  0.00           C 0
+ATOM   2641   CB MET A 168      62.824  57.581 100.927  0.00  0.00           C 0
+ATOM   2642   CG MET A 168      63.717  58.812 101.095  0.00  0.00           C 0
+ATOM   2183  CD1 LEU A 138      62.700  61.823  96.668  0.00  0.00           C 0
+ATOM   2182   CG LEU A 138      62.051  60.464  96.396  0.00  0.00           C 0
+ATOM   2162   CB ILE A 137      63.096  55.514  95.015  0.00  0.00           C 0
+ATOM   2184  CD2 LEU A 138      61.213  59.995  97.587  0.00  0.00           C 0
+ATOM   2594   CG GLN A 165      66.142  52.117  99.070  0.00  0.00           C 0
+ATOM   2574   CB LEU A 164      67.406  53.407 103.498  0.00  0.00           C 0
+ATOM   2577  CD2 LEU A 164      69.482  54.828 103.741  0.00  0.00           C 0
+ATOM   2589    N GLN A 165      65.093  53.076 101.528  0.00  0.00           N 0
+ATOM   2593   CB GLN A 165      64.690  52.588  99.170  0.00  0.00           C 0
+TER
+END

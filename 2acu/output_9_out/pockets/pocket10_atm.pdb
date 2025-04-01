@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    10:
+HEADER 0  - Pocket Score                      : -0.0501
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    27
+HEADER 3  - Mean alpha-sphere radius          : 3.6888
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4624
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -5.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 146.5297
+HEADER 10 - Pocket volume (convex hull)       : 3.2347
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1111
+ATOM   1857   NZ LYS A 116      73.306  52.898  76.149  0.00  0.00           N 1
+ATOM   2002    N ASP A 125      76.983  47.018  77.751  0.75  1.09           N 0
+ATOM   1986    O LEU A 124      76.193  46.035  75.917  0.13  5.36           O 0
+ATOM   2003   CA ASP A 125      77.857  48.001  77.095  0.00  0.00           C 0
+ATOM   1985    C LEU A 124      76.271  46.073  77.143  0.00  0.00           C 0
+ATOM   2083  CG2 VAL A 131      75.539  49.204  80.208  0.00  0.00           C 0
+ATOM   2006   CB ASP A 125      78.138  49.148  78.069  0.00  0.00           C 0
+ATOM   1973   CB PRO A 123      71.605  47.604  79.313  0.00  0.00           C 0
+ATOM   1922  OE2 GLU A 120      70.973  46.615  73.877  0.00  0.00           O 1
+ATOM   1983    N LEU A 124      73.991  45.575  78.140  0.67  3.28           N 0
+ATOM   1855   CD LYS A 116      72.046  52.164  78.245  0.00  0.00           C 0
+ATOM   1918   CB GLU A 120      69.480  45.093  76.152  0.00  0.00           C 0
+ATOM   1874    O PRO A 117      67.421  51.553  76.877  0.58  5.36           O 0
+ATOM   1914    N GLU A 120      67.202  45.485  75.354  0.00  0.00           N 0
+ATOM   1917    O GLU A 120      67.605  45.910  78.207  0.00  0.00           O 0
+ATOM   1892    N LYS A 119      65.625  47.749  74.401  0.70  3.28           N 0
+ATOM   1886   CA GLY A 118      65.541  49.912  75.377  0.00  0.00           C 0
+ATOM   1856   CE LYS A 116      72.034  52.861  76.883  0.00  0.00           C 0
+ATOM   1854   CG LYS A 116      70.641  52.258  78.843  0.00  0.00           C 0
+ATOM   1852    O LYS A 116      68.218  49.851  79.654  0.00  0.00           O 0
+TER
+END

@@ -1,0 +1,61 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0390
+HEADER 1  - Drug Score                        : 0.0039
+HEADER 2  - Number of alpha spheres           :    64
+HEADER 3  - Mean alpha-sphere radius          : 3.7987
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4648
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 17.2500
+HEADER 7  - Polarity Score                    :    10
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 435.9452
+HEADER 10 - Pocket volume (convex hull)       : 68.5559
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 16.8000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   5017   CD GLU A 314      71.297  42.467 111.786  0.00  0.00           C 0
+ATOM   5019  OE2 GLU A 314      70.341  43.059 112.330  0.67  8.57           O 1
+ATOM   5016   CG GLU A 314      71.210  42.281 110.269  0.00  0.00           C 0
+ATOM   3074   NZ LYS A 194      66.439  41.334 114.783  0.64  9.84           N 1
+ATOM   5018  OE1 GLU A 314      72.250  41.975 112.428  0.00  0.00           O 0
+ATOM   3042  OE1 GLN A 192      64.440  41.132 102.950  0.59  3.21           O 0
+ATOM   4965  CD1 PHE A 311      68.467  42.536  99.862  0.00  0.00           C 0
+ATOM   2508    O ASN A 160      64.423  44.336  99.324  0.00  0.00           O 0
+ATOM   3095  CD2 LEU A 195      64.125  44.833 105.121  0.00  0.00           C 0
+ATOM   5029    O PHE A 315      67.205  46.169 105.691  0.79  2.14           O 0
+ATOM   2540   CA ASN A 162      65.524  47.723 102.071  0.00  0.00           C 0
+ATOM   5014    O GLU A 314      70.186  42.397 106.361  0.33  4.29           O 0
+ATOM   3055   CB GLU A 193      63.635  38.833 111.288  0.00  0.00           C 0
+ATOM   3023    O THR A 191      66.123  36.988 107.705  0.00  0.00           O 0
+ATOM   3051    N GLU A 193      63.729  39.189 108.891  0.65  1.09           N 0
+ATOM   3066    N LYS A 194      63.645  41.717 110.432  0.00  0.00           N 0
+ATOM   5030   CB PHE A 315      67.455  44.420 108.122  0.00  0.00           C 0
+ATOM   3070   CB LYS A 194      64.947  43.592 111.181  0.00  0.00           C 0
+ATOM   5013    C GLU A 314      70.465  43.157 107.287  0.00  0.00           C 0
+ATOM   5032  CD1 PHE A 315      68.392  45.118 110.332  0.00  0.00           C 0
+ATOM   3058  OE1 GLU A 193      64.824  36.196 113.026  0.00  0.00           O 0
+ATOM   3072   CD LYS A 194      66.508  43.290 113.204  0.00  0.00           C 0
+ATOM   3071   CG LYS A 194      65.124  43.046 112.599  0.00  0.00           C 0
+ATOM   3039   CG GLN A 192      64.826  38.978 104.138  0.00  0.00           C 0
+ATOM   3040   CD GLN A 192      64.727  39.936 102.950  0.00  0.00           C 0
+ATOM   5027   CA PHE A 315      68.435  44.609 106.962  0.00  0.00           C 0
+ATOM   5028    C PHE A 315      68.250  46.001 106.354  0.00  0.00           C 0
+ATOM   4657  ND2 ASN A 292      71.292  34.445 111.815  0.00  0.00           N 0
+ATOM   2522    O PHE A 161      63.425  45.973 101.343  0.00  0.00           O 0
+ATOM   4737  NH2 ARG A 296      70.201  39.459 102.398  0.36  6.56           N 0
+ATOM   3008  CD2 LEU A 190      69.409  36.104 103.265  0.00  0.00           C 0
+ATOM   3007  CD1 LEU A 190      70.297  35.422 105.428  0.00  0.00           C 0
+ATOM   3006   CG LEU A 190      69.094  35.254 104.497  0.00  0.00           C 0
+ATOM   3035   CA GLN A 192      64.259  38.786 106.607  0.00  0.00           C 0
+ATOM   3038   CB GLN A 192      63.910  39.445 105.271  0.00  0.00           C 0
+ATOM   4948    O PRO A 310      69.243  46.448 100.774  0.68  1.07           O 0
+ATOM   4960   CA PHE A 311      71.015  44.264 100.317  0.00  0.00           C 0
+ATOM   2545  ND2 ASN A 162      68.665  47.725 103.321  0.61  1.09           N 0
+ATOM   4979    N HIS A 312      72.371  45.058 102.039  0.69  3.28           N 0
+TER
+END

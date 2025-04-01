@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0605
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9911
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6857
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 4.6000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 289.0709
+HEADER 10 - Pocket volume (convex hull)       : 6.6805
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   5003  OE1 GLU A 313      73.858  48.837 107.008  0.00  9.64           O 0
+ATOM   5011    N GLU A 314      72.179  44.349 106.301  0.58  1.09           N 0
+ATOM   5004  OE2 GLU A 313      75.662  48.672 105.789  0.00  0.00           O 1
+ATOM   5018  OE1 GLU A 314      75.238  41.408 108.910  0.78  9.64           O 0
+ATOM   5002   CD GLU A 313      74.425  48.557 105.930  0.00  0.00           C 0
+ATOM   4982    O HIS A 312      75.521  44.837 103.401  0.00  0.00           O 0
+ATOM   5017   CD GLU A 314      73.990  41.416 109.001  0.00  0.00           C 0
+ATOM   5016   CG GLU A 314      73.057  41.822 107.860  0.00  0.00           C 0
+ATOM   5015   CB GLU A 314      71.835  42.676 108.208  0.00  0.00           C 0
+ATOM   4997   CA GLU A 313      73.191  45.830 104.604  0.00  0.00           C 0
+ATOM   5030   CB PHE A 315      68.315  46.684 108.805  0.00  0.00           C 0
+ATOM   5013    C GLU A 314      70.016  44.118 107.413  0.00  0.00           C 0
+ATOM   5014    O GLU A 314      69.041  43.461 107.772  0.20  6.43           O 0
+ATOM   5019  OE2 GLU A 314      73.343  41.152 110.038  0.00  0.00           O 1
+ATOM   3072   CD LYS A 194      66.163  45.567 112.890  0.00  0.00           C 0
+ATOM   3070   CB LYS A 194      65.033  43.654 111.697  0.00  0.00           C 0
+ATOM   5026    N PHE A 315      69.873  45.432 107.270  0.63  1.09           N 0
+TER
+END

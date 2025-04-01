@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0534
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.6728
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6049
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -21.6667
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 134.1581
+HEADER 10 - Pocket volume (convex hull)       : 2.9688
+HEADER 11 - Charge Score                      :    -3
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   2352   CB ASP A 149      44.900  58.775  90.693  0.00  0.00           C 0
+ATOM   2354  OD1 ASP A 149      44.737  60.097  92.664  0.69  3.21           O 0
+ATOM   2775   CE LYS A 176      47.623  61.585  94.386  0.00  0.00           C 0
+ATOM   2776   NZ LYS A 176      48.952  62.118  94.051  0.67  9.84           N 1
+ATOM   2299   CA GLU A 146      49.104  58.078  88.483  0.00  0.00           C 0
+ATOM   2303   CG GLU A 146      50.703  60.021  87.758  0.00  0.00           C 0
+ATOM   2368  OE2 GLU A 150      46.122  60.089  84.580  0.60  7.50           O 1
+ATOM   2302   CB GLU A 146      49.989  58.713  87.408  0.00  0.00           C 0
+ATOM   2301    O GLU A 146      47.045  56.861  87.958  0.00  0.00           O 0
+ATOM   2287   CB GLU A 145      50.811  58.455  92.612  0.00  0.00           C 0
+ATOM   2249    O ALA A 142      52.829  59.275  90.101  0.48  3.21           O 0
+ATOM   2298    N GLU A 146      49.881  57.784  89.696  0.00  0.00           N 0
+ATOM   2286    O GLU A 145      48.116  57.508  91.143  0.00  0.00           O 0
+ATOM   2285    C GLU A 145      49.314  57.503  90.866  0.00  0.00           C 0
+TER
+END

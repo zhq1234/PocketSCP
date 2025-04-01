@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    15:
+HEADER 0  - Pocket Score                      : -0.1183
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0724
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6491
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 18.1429
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 247.7289
+HEADER 10 - Pocket volume (convex hull)       : 11.0077
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2778
+ATOM   1984    N LEU A 124      73.548  45.358  78.751  0.67  3.28           N 0
+ATOM   1923  OE2 GLU A 120      70.202  42.150  74.055  0.47  5.36           O 1
+ATOM   1987    O LEU A 124      75.818  46.403  77.112  0.44  8.57           O 0
+ATOM   1988   CB LEU A 124      75.112  43.582  78.331  0.00  0.00           C 0
+ATOM   1919   CB GLU A 120      68.313  43.905  75.961  0.00  0.00           C 0
+ATOM   1899   CD LYS A 119      68.471  46.530  71.095  0.00  0.00           C 0
+ATOM   1920   CG GLU A 120      68.165  43.356  74.541  0.00  0.00           C 0
+ATOM   1953    O PHE A 122      70.760  43.862  78.846  0.46  2.14           O 0
+ATOM   1915    N GLU A 120      67.320  46.224  75.495  0.58  2.19           N 0
+ATOM   1971   CA PRO A 123      71.497  46.431  79.374  0.00  0.00           C 0
+ATOM   1897   CB LYS A 119      67.567  47.812  72.918  0.00  0.00           C 0
+ATOM   1972    C PRO A 123      73.007  46.267  79.557  0.00  0.00           C 0
+ATOM   1875    O PRO A 117      68.023  52.057  77.193  0.24  9.64           O 0
+ATOM   1974   CB PRO A 123      70.964  47.860  79.497  0.00  0.00           C 0
+ATOM   1893    N LYS A 119      66.529  49.170  74.710  0.66  4.37           N 0
+ATOM   2083  CG1 VAL A 131      74.192  50.218  80.482  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : -0.0955
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9988
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6890
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -38.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 143.2094
+HEADER 10 - Pocket volume (convex hull)       : 0.9514
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.7333
+ATOM   3618   CB GLU A 229      66.717  17.667 100.321  0.00  0.00           C 0
+ATOM   3617    O GLU A 229      67.792  17.930 102.731  0.24  9.64           O 0
+ATOM   3615   CA GLU A 229      65.774  17.717 101.526  0.00  0.00           C 0
+ATOM   3619   CG GLU A 229      66.108  16.780  99.233  0.00  0.00           C 0
+ATOM   3706   NZ LYS A 234      63.162  13.144 101.196  0.00  0.00           N 1
+ATOM   3646   CG PRO A 231      68.424  15.149 107.271  0.00  0.00           C 0
+ATOM   3704   CD LYS A 234      62.603  13.763 103.580  0.00  0.00           C 0
+ATOM   3705   CE LYS A 234      62.848  14.225 102.141  0.00  0.00           C 0
+ATOM   3642   CA PRO A 231      66.202  15.529 107.906  0.00  0.00           C 0
+ATOM   3641    N PRO A 231      66.612  16.643 107.040  0.00  0.00           N 0
+ATOM   3616    C GLU A 229      66.566  17.923 102.820  0.00  0.00           C 0
+ATOM   3631    C ASP A 230      65.784  17.345 106.271  0.00  0.00           C 0
+ATOM   3647   CD PRO A 231      68.069  16.577 106.853  0.00  0.00           C 0
+ATOM   3629    N ASP A 230      65.947  18.122 103.979  0.00  0.00           N 0
+TER
+END

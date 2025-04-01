@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0942
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.0262
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5359
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 27.1429
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 265.1926
+HEADER 10 - Pocket volume (convex hull)       : 5.2412
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   4920  OD2 ASP A 308      68.268  53.572  96.601  0.45  9.64           O 1
+ATOM   2164  CG1 ILE A 137      64.087  55.080  95.362  0.00  0.00           C 0
+ATOM   2644   SD MET A 168      66.599  57.005 102.748  0.00  0.00           S 0
+ATOM   2184  CD1 LEU A 138      62.167  57.589  97.303  0.00  0.00           C 0
+ATOM   2166   CD ILE A 137      64.485  53.888  96.235  0.00  0.00           C 0
+ATOM   2595   CG GLN A 165      66.285  51.493  99.734  0.00  0.00           C 0
+ATOM   2591   CA GLN A 165      64.763  52.346 101.576  0.00  0.00           C 0
+ATOM   2642   CB MET A 168      63.785  56.853 102.465  0.00  0.00           C 0
+ATOM   2593    O GLN A 165      62.550  53.323 101.615  0.00  0.00           O 0
+ATOM   2152  OD1 ASN A 136      64.209  59.583  94.196  0.00  0.00           O 0
+ATOM   4919  OD1 ASP A 308      69.327  54.376  94.853  0.00  0.00           O 0
+ATOM   2146   CA ASN A 136      65.685  58.422  91.993  0.00  0.00           C 0
+ATOM   2159    N ILE A 137      64.330  56.595  92.875  0.61  1.09           N 0
+ATOM   2134    O THR A 135      68.094  57.153  91.342  0.39  6.43           O 0
+ATOM   2149   CB ASN A 136      65.480  59.922  92.212  0.00  0.00           C 0
+TER
+END

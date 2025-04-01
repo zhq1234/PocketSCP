@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     3:
+HEADER 0  - Pocket Score                      : 0.0034
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.6939
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3913
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 39.6250
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 125.4679
+HEADER 10 - Pocket volume (convex hull)       : 2.5680
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.4286
+ATOM    596   CG ARG A  40      41.238  31.593  93.203  0.00  0.00           C 0
+ATOM    193   CB PRO A  13      44.279  34.298  97.261  0.00  0.00           C 0
+ATOM   4351   CZ PHE A 273      43.212  27.568  97.558  0.00  0.00           C 0
+ATOM    595   CB ARG A  40      42.519  32.429  93.163  0.00  0.00           C 0
+ATOM   4349  CE1 PHE A 273      44.487  27.897  97.113  0.00  0.00           C 0
+ATOM    591    N ARG A  40      44.279  30.745  92.953  0.57  1.09           N 0
+ATOM     18   OG SER A   2      40.595  31.729 101.513  0.33  3.21           O 0
+ATOM     33  NH1 ARG A   3      38.413  33.036  97.690  0.37  5.47           N 1
+ATOM     34  NH2 ARG A   3      39.228  33.698  95.657  0.55  1.09           N 0
+ATOM    222    N LEU A  15      47.797  32.164  99.437  0.00  0.00           N 0
+ATOM    203    N ILE A  14      45.860  34.119 100.170  0.00  0.00           N 0
+ATOM   4409   CZ PHE A 276      43.454  28.112 101.557  0.00  0.00           C 0
+ATOM    228  CD1 LEU A  15      46.911  28.247  99.775  0.00  0.00           C 0
+ATOM    209  CG2 ILE A  14      46.063  32.123 102.340  0.00  0.00           C 0
+ATOM     16    O SER A   2      42.834  33.903 101.078  0.57  3.21           O 0
+TER
+END

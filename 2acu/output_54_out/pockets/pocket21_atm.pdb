@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.1495
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.0765
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5297
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -6.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 336.3996
+HEADER 10 - Pocket volume (convex hull)       : 7.7373
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.3810
+ATOM    726  NE2 HIS A  48      65.149  35.026  81.073  0.73  7.66           N 1
+ATOM    724  ND1 HIS A  48      63.519  34.516  82.394  0.57  1.09           N 1
+ATOM    723  CD2 HIS A  48      64.003  35.427  80.528  0.00  0.00           C 0
+ATOM    315    O LYS A  21      62.077  28.909  83.217  0.00  0.00           O 0
+ATOM    737    O GLN A  49      56.656  35.154  78.506  0.70  3.21           O 0
+ATOM    337    O SER A  22      59.014  29.902  82.223  0.00  0.00           O 0
+ATOM    365   CD PRO A  24      58.264  29.904  77.601  0.00  0.00           C 0
+ATOM    720    O HIS A  48      58.654  35.766  80.765  0.35  6.43           O 0
+ATOM    403  CG2 VAL A  27      55.656  30.397  81.991  0.00  0.00           C 0
+ATOM    721   CB HIS A  48      61.499  35.245  81.017  0.00  0.00           C 0
+ATOM    346   CA PRO A  23      59.287  28.298  79.794  0.00  0.00           C 0
+ATOM    738   CB GLN A  49      57.591  37.684  77.171  0.00  0.00           C 0
+ATOM    364   CG PRO A  24      57.473  30.563  76.468  0.00  0.00           C 0
+ATOM    734    N GLN A  49      59.024  37.251  79.108  0.67  3.28           N 0
+ATOM    725  CE1 HIS A  48      64.841  34.501  82.255  0.00  0.00           C 0
+ATOM    722   CG HIS A  48      62.990  35.115  81.332  0.00  0.00           C 0
+ATOM    719    C HIS A  48      59.422  36.352  80.003  0.00  0.00           C 0
+ATOM    718   CA HIS A  48      60.927  36.448  80.262  0.00  0.00           C 0
+TER
+END

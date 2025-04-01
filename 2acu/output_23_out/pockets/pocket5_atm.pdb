@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : -0.0143
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8553
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5014
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 27.0000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 315.8233
+HEADER 10 - Pocket volume (convex hull)       : 21.6593
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.6842
+ATOM   4400    N PHE A 276      44.961  25.089 104.713  0.00  0.00           N 0
+ATOM   4366   CB LYS A 274      44.514  21.694 100.331  0.00  0.00           C 0
+ATOM   4364    C LYS A 274      46.071  23.066 101.807  0.00  0.00           C 0
+ATOM   4424   CB ASP A 277      42.777  21.678 107.219  0.00  0.00           C 0
+ATOM   4365    O LYS A 274      46.660  22.055 102.182  0.71  2.14           O 0
+ATOM   3890  NE2 GLN A 246      48.530  19.505 101.101  0.00  0.00           N 1
+ATOM   3831   NZ LYS A 242      47.041  17.536 105.051  0.00  0.00           N 1
+ATOM   4367   CG LYS A 274      43.143  21.994  99.723  0.00  0.00           C 0
+ATOM   4420    N ASP A 277      43.624  23.879 106.854  0.68  1.09           N 0
+ATOM   4368   CD LYS A 274      42.577  20.606  99.416  0.00  0.00           C 0
+ATOM   4370   NZ LYS A 274      40.186  21.289  99.250  0.00  0.00           N 1
+ATOM   4404   CB PHE A 276      42.791  26.143 104.786  0.00  0.00           C 0
+ATOM   4407  CD2 PHE A 276      43.394  26.598 102.352  0.00  0.00           C 0
+ATOM   4351  CE2 PHE A 273      42.332  26.604  97.786  0.00  0.00           C 0
+ATOM   4438  CD1 PHE A 278      47.413  21.060 106.537  0.00  0.00           C 0
+ATOM   4363   CA LYS A 274      45.229  23.033 100.529  0.00  0.00           C 0
+TER
+END

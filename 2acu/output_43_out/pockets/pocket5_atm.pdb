@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : 0.0141
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6630
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4979
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -3.8000
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 181.0929
+HEADER 10 - Pocket volume (convex hull)       : 2.4928
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM   4672   NE ARG A 293      73.815  26.683 107.313  0.59  1.09           N 0
+ATOM   3556   CG PRO A 225      73.642  25.269 100.776  0.00  0.00           C 0
+ATOM   4675  NH2 ARG A 293      75.398  25.394 106.355  0.53  9.84           N 0
+ATOM   3555   CB PRO A 225      72.368  24.725 101.426  0.00  0.00           C 0
+ATOM   4654    O ASN A 292      72.721  31.020 109.308  0.19  7.50           O 0
+ATOM   4674  NH1 ARG A 293      75.675  26.172 108.589  0.00  0.00           N 1
+ATOM   4671   CD ARG A 293      73.009  27.386 108.321  0.00  0.00           C 0
+ATOM   4669   CB ARG A 293      71.679  28.522 106.424  0.00  0.00           C 0
+ATOM   4692    O ASN A 294      74.649  30.221 101.866  0.63  7.50           O 0
+ATOM   4689    N ASN A 294      73.599  30.965 105.009  0.62  5.47           N 0
+ATOM   4673   CZ ARG A 293      75.031  26.128 107.414  0.00  0.00           C 0
+ATOM   4693   CB ASN A 294      75.571  31.971 103.917  0.00  0.00           C 0
+ATOM   4707   CB TRP A 295      71.778  29.153 100.857  0.00  0.00           C 0
+TER
+END

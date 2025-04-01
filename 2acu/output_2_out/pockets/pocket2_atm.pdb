@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.0181
+HEADER 1  - Drug Score                        : 0.0040
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5326
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3810
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 78.7143
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 105.1768
+HEADER 10 - Pocket volume (convex hull)       : 1.8977
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1064   CB ARG A  69      36.541  40.140  86.386  0.00  0.00           C 0
+ATOM   1061   CA ARG A  69      36.930  39.044  87.382  0.00  0.00           C 0
+ATOM    937  CD1 LEU A  62      38.494  36.409  81.363  0.00  0.00           C 0
+ATOM   1066   CD ARG A  69      39.013  40.734  86.075  0.00  0.00           C 0
+ATOM    864  CG2 ILE A  58      41.954  35.062  83.166  0.00  0.00           C 0
+ATOM   1600  CD2 LEU A 101      42.237  40.646  83.091  0.00  0.00           C 0
+ATOM   1118   CB LEU A  72      41.427  36.958  88.964  0.00  0.00           C 0
+ATOM   1069  NH1 ARG A  69      40.904  40.826  88.380  0.00  0.00           N 1
+ATOM   1068   CZ ARG A  69      40.975  41.669  87.341  0.00  0.00           C 0
+ATOM   1119   CG LEU A  72      41.649  35.577  88.341  0.00  0.00           C 0
+ATOM   1158  CG1 ILE A  74      45.126  38.893  87.270  0.00  0.00           C 0
+ATOM   1027  CG1 VAL A  67      38.656  34.293  85.482  0.00  0.00           C 0
+ATOM    938  CD2 LEU A  62      36.233  35.801  82.369  0.00  0.00           C 0
+ATOM   1160   CD ILE A  74      45.545  37.425  87.167  0.00  0.00           C 0
+TER
+END

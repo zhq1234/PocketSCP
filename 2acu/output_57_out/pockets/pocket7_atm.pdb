@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     7:
+HEADER 0  - Pocket Score                      : -0.0364
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.5932
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4104
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 29.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 144.0338
+HEADER 10 - Pocket volume (convex hull)       : 4.8597
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0588
+ATOM   3228    O GLY A 203      50.457  48.582 106.126  0.50  4.29           O 0
+ATOM    109   CB ASN A   7      46.613  50.283 100.482  0.00  0.00           C 0
+ATOM    111  ND2 ASN A   7      47.534  52.394 101.125  0.38  7.66           N 0
+ATOM   2848   CA ALA A 180      50.414  48.264 100.390  0.00  0.00           C 0
+ATOM   2850    O ALA A 180      50.627  46.535 101.918  0.59  1.07           O 0
+ATOM    106   CA ASN A   7      45.256  49.892 101.071  0.00  0.00           C 0
+ATOM   2817   CD LYS A 178      49.611  54.832 104.023  0.00  0.00           C 0
+ATOM   3206    O LYS A 202      52.952  50.671 108.139  0.76  9.64           O 0
+ATOM   2679  CD1 LEU A 170      54.718  53.200 104.410  0.00  0.00           C 0
+ATOM    105    N ASN A   7      45.415  48.451 101.312  0.71  3.28           N 0
+ATOM   2815   CB LYS A 178      50.706  54.052 101.986  0.00  0.00           C 0
+ATOM   3257  CG2 VAL A 205      48.953  44.210 104.139  0.00  0.00           C 0
+ATOM     70    O LEU A   5      45.050  44.979 103.651  0.54  6.43           O 0
+ATOM   3237  CG1 ILE A 204      54.010  49.100 104.648  0.00  0.00           C 0
+ATOM   2836    O PRO A 179      52.200  49.820 101.799  0.71  2.14           O 0
+TER
+END

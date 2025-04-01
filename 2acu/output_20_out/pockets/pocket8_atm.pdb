@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0169
+HEADER 1  - Drug Score                        : 0.0021
+HEADER 2  - Number of alpha spheres           :    31
+HEADER 3  - Mean alpha-sphere radius          : 3.8168
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5310
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 24.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 342.0079
+HEADER 10 - Pocket volume (convex hull)       : 16.3871
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.4194
+ATOM   1045   CE LYS A  68      30.061  35.565  89.810  0.00  0.00           C 0
+ATOM    992    O GLN A  65      31.495  29.960  84.041  0.00  0.00           O 0
+ATOM    997  OE1 GLN A  65      28.858  34.915  83.937  0.00  0.00           O 0
+ATOM    993   CB GLN A  65      30.726  32.752  83.170  0.00  0.00           C 0
+ATOM    991    C GLN A  65      32.259  30.918  83.944  0.00  0.00           C 0
+ATOM   1009    O VAL A  66      34.245  30.528  87.865  0.57  7.50           O 0
+ATOM   1107  OE2 GLU A  71      34.670  34.076  90.533  0.76  1.07           O 1
+ATOM   1106  OE1 GLU A  71      33.619  33.677  92.418  0.50  6.43           O 0
+ATOM   1008    C VAL A  66      34.434  30.909  86.710  0.00  0.00           C 0
+ATOM    995   CD GLN A  65      29.268  34.732  82.791  0.00  0.00           C 0
+ATOM    934    O LEU A  62      34.011  35.472  81.439  0.77  8.57           O 0
+ATOM    994   CG GLN A  65      30.573  34.050  82.376  0.00  0.00           C 0
+ATOM   1043   CG LYS A  68      32.159  36.366  88.680  0.00  0.00           C 0
+ATOM   1022    N VAL A  67      35.164  31.958  86.341  0.00  0.00           N 0
+ATOM   1006    N VAL A  66      33.490  30.899  84.449  0.00  0.00           N 0
+ATOM   1039   CA LYS A  68      34.455  36.560  87.742  0.00  0.00           C 0
+ATOM    937  CD1 LEU A  62      35.993  37.668  83.533  0.00  0.00           C 0
+ATOM   1060    N ARG A  69      35.698  38.596  87.195  0.77  2.19           N 0
+ATOM   1024    C VAL A  67      35.269  34.397  86.829  0.00  0.00           C 0
+ATOM   1025    O VAL A  67      35.319  34.690  85.635  0.67  1.07           O 0
+ATOM   1038    N LYS A  68      34.710  35.113  87.799  0.00  0.00           N 0
+TER
+END

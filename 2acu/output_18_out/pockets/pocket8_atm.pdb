@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0247
+HEADER 1  - Drug Score                        : 0.0029
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0525
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5615
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 17.5714
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 267.4250
+HEADER 10 - Pocket volume (convex hull)       : 7.8446
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6250
+ATOM   4985  CD2 HIS A 312      75.385  48.150 103.758  0.00  0.00           C 0
+ATOM   2576  CD1 LEU A 164      68.853  53.681 106.255  0.00  0.00           C 0
+ATOM   2545  ND2 ASN A 162      68.646  48.204 102.980  0.62  4.37           N 0
+ATOM   2561  CE1 HIS A 163      68.117  48.893 106.939  0.00  0.00           C 0
+ATOM   5037  OXT PHE A 315      68.637  45.957 105.131  0.43  5.36           O 1
+ATOM   4983   CB HIS A 312      73.466  46.821 102.884  0.00  0.00           C 0
+ATOM   5004  OE2 GLU A 313      76.646  45.689 107.772  0.00  0.00           O 1
+ATOM   2546  OD1 ASN A 162      67.476  50.110 102.673  0.68  5.36           O 0
+ATOM   4996    N GLU A 313      73.579  44.133 104.127  0.58  1.09           N 0
+ATOM   5000   CB GLU A 313      74.454  43.532 106.359  0.00  0.00           C 0
+ATOM   5034  CE1 PHE A 315      68.083  44.292 109.903  0.00  0.00           C 0
+ATOM   5032  CD1 PHE A 315      67.820  43.723 108.663  0.00  0.00           C 0
+ATOM   5015   CB GLU A 314      70.432  40.988 106.865  0.00  0.00           C 0
+ATOM   5011    N GLU A 314      71.690  42.359 105.202  0.59  1.09           N 0
+ATOM   5026    N PHE A 315      68.786  43.136 105.612  0.00  0.00           N 0
+TER
+END

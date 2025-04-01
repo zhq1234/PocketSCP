@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0788
+HEADER 1  - Drug Score                        : 0.0008
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.8683
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5885
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : -24.4286
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 225.5193
+HEADER 10 - Pocket volume (convex hull)       : 6.2347
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5263
+ATOM   2122    O ASP A 134      68.014  58.105  86.522  0.38  8.57           O 0
+ATOM   2204  OD2 ASP A 139      62.394  61.305  90.742  0.40  3.21           O 1
+ATOM   2145    N ASN A 136      65.439  57.414  90.408  0.61  5.47           N 0
+ATOM   2125  OD1 ASP A 134      69.235  60.828  87.442  0.00  0.00           O 0
+ATOM   1313    O HIS A  83      63.318  55.614  85.900  0.28  8.57           O 0
+ATOM   2132   CA THR A 135      67.085  56.642  88.762  0.00  0.00           C 0
+ATOM   2201   CB ASP A 139      60.929  59.712  89.778  0.00  0.00           C 0
+ATOM   2149   CB ASN A 136      64.465  59.008  91.901  0.00  0.00           C 0
+ATOM   2133    C THR A 135      66.710  57.104  90.172  0.00  0.00           C 0
+ATOM   2134    O THR A 135      67.537  57.252  91.070  0.24  8.57           O 0
+ATOM   1333   CG GLU A  84      61.289  58.215  83.024  0.00  0.00           C 0
+ATOM   2203  OD1 ASP A 139      60.582  62.106  89.794  0.00  0.00           O 0
+ATOM   1349   CD LYS A  85      57.619  61.754  86.839  0.00  0.00           C 0
+ATOM   1343    N LYS A  85      58.705  57.704  85.477  0.76  1.09           N 0
+ATOM   1348   CG LYS A  85      57.536  60.227  86.851  0.00  0.00           C 0
+ATOM   1347   CB LYS A  85      57.342  59.710  85.424  0.00  0.00           C 0
+ATOM   1336  OE2 GLU A  84      59.432  59.594  82.308  0.65  4.29           O 1
+ATOM   1329   CA GLU A  84      60.736  56.505  85.007  0.00  0.00           C 0
+ATOM   2202   CG ASP A 139      61.316  61.152  90.129  0.00  0.00           C 0
+TER
+END

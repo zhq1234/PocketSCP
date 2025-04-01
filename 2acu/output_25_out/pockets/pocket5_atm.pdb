@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : -0.0437
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.7584
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5369
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 39.2500
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 170.1411
+HEADER 10 - Pocket volume (convex hull)       : 1.2926
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 15.0000
+HEADER 13 - Number of apolar alpha sphere     :    16
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM     26    C ARG A   3      42.828  37.283 103.698  0.00  0.00           C 0
+ATOM     71   CB LEU A   5      42.213  42.991 104.437  0.00  0.00           C 0
+ATOM     27    O ARG A   3      42.450  37.400 104.861  0.38  9.64           O 0
+ATOM     50    C LEU A   4      44.162  40.515 103.007  0.00  0.00           C 0
+ATOM     29   CG ARG A   3      40.705  36.973 101.177  0.00  0.00           C 0
+ATOM     28   CB ARG A   3      40.869  36.506 102.624  0.00  0.00           C 0
+ATOM     73  CD1 LEU A   5      40.305  43.474 102.962  0.00  0.00           C 0
+ATOM     74  CD2 LEU A   5      39.984  43.752 105.362  0.00  0.00           C 0
+ATOM    155   CG LYS A  11      39.528  41.678  99.809  0.00  0.00           C 0
+ATOM    156   CD LYS A  11      38.015  41.467  99.907  0.00  0.00           C 0
+ATOM    157   CE LYS A  11      37.417  42.818 100.307  0.00  0.00           C 0
+ATOM     30   CD ARG A   3      39.192  36.993 100.946  0.00  0.00           C 0
+TER
+END

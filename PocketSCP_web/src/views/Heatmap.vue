@@ -14,42 +14,49 @@ import { request } from "@/network/request";
 import axios from "axios";
 import * as echarts from "echarts";
 let heatmap_frame_pocket = [
-  "1_1",
-  "2_4",
-  "3_3",
-  "4_6",
-  "4_11",
-  "5_4",
-  "6_3",
-  "7_2",
-  "20_1",
-  "86_1",
-  "13_9",
-  "21_4",
-  "37_6",
-  "12_4",
-  "19_5",
-  "54_5",
-  "95_5",
-  "97_6",
+  "1",
+  "2",
+  "3",
+  "4",
+  "5",
+  // "4_11",
+  // "1_1",
+  // "2_4",
+  // "3_3",
+  // "4_6",
+  // "4_11",
+  // "5_4",
+  // "6_3",
+  // "7_2",
+  // "20_1",
+  // "86_1",
+  // "13_9",
+  // "21_4",
+  // "37_6",
+  // "12_4",
+  // "19_5",
+  // "54_5",
+  // "95_5",
+  // "97_6",
 ];
 export default {
   name: "Heatmap",
   data() {
     return {
-      pocketData: [], // 请求的口袋参数
+      //pocketData: [], // 请求的口袋参数
+      pocketData: null,
       similarityArrs: [], // 返回的相似度数组
     };
   },
   mounted() {
-    this.pocketData = heatmap_frame_pocket;
+    // this.pocketData = heatmap_frame_pocket;
     this.initData();
     // this.myEcharts()
   },
   methods: {
     async initData() {
       //   let that = this;
-
+      this.pocketData=heatmap_frame_pocket;
       await axios({
         method: 'post',
         url: 'api/subPocket/index',
@@ -58,6 +65,12 @@ export default {
         }
       }).then((res) => {
           if (res.status === 200) {
+            // this.pocketData=res.data.data["residue"];
+            console.log("Raw residue data:", res.data.data["residue"]);
+            console.log(heatmap_frame_pocket);
+            // Transform residue data to match heatmap_frame_pocket format
+            this.pocketData = res.data.data["residue"].map(item => item.toString());
+            console.log("Transformed residue data:", this.pocketData);
             this.similarityArrs = res.data.data["subSimilarity"];
             this.myEcharts();
           }
@@ -121,7 +134,7 @@ export default {
           },
         ],
         visualMap: {
-          min: 0,
+          min: -1,
           max: 1,
           calculable: true,
           orient: "vertical",

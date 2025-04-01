@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     5:
+HEADER 0  - Pocket Score                      : -0.0198
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7534
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4167
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 10.1250
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 163.4393
+HEADER 10 - Pocket volume (convex hull)       : 1.8915
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.2000
+ATOM   1331   CB GLU A  84      62.142  58.044  84.556  0.00  0.00           C 0
+ATOM   1332   CG GLU A  84      62.108  58.044  83.026  0.00  0.00           C 0
+ATOM   2121    O ASP A 134      68.673  59.170  87.460  0.35  8.57           O 0
+ATOM   1313    O HIS A  83      63.846  56.134  86.138  0.55  5.36           O 0
+ATOM   1312    C HIS A  83      62.964  55.387  85.718  0.00  0.00           C 0
+ATOM   1876   CG PRO A 117      67.035  55.039  79.939  0.00  0.00           C 0
+ATOM   1377  CD1 LEU A  87      62.323  55.196  80.200  0.00  0.00           C 0
+ATOM   1877   CD PRO A 117      68.082  54.314  80.788  0.00  0.00           C 0
+ATOM   1310    N HIS A  83      62.843  53.182  84.421  0.47  1.09           N 0
+ATOM   1314   CB HIS A  83      64.413  53.316  86.242  0.00  0.00           C 0
+ATOM   2112   OG SER A 133      70.222  56.476  84.473  0.62  6.43           O 0
+ATOM   2135  CG2 THR A 135      67.325  55.541  87.668  0.00  0.00           C 0
+ATOM   1832    O PHE A 115      68.373  52.554  83.898  0.39  1.07           O 0
+TER
+END

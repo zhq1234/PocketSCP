@@ -1,0 +1,59 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.1771
+HEADER 1  - Drug Score                        : 0.0027
+HEADER 2  - Number of alpha spheres           :    43
+HEADER 3  - Mean alpha-sphere radius          : 3.8505
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5414
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 14.4286
+HEADER 7  - Polarity Score                    :     9
+HEADER 8  - Amino Acid based volume Score     : 4.3571
+HEADER 9  - Pocket volume (Monte Carlo)       : 654.5352
+HEADER 10 - Pocket volume (convex hull)       : 144.7866
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.1111
+HEADER 13 - Number of apolar alpha sphere     :    18
+HEADER 14 - Proportion of apolar alpha sphere : 0.4186
+ATOM   2735   CD PRO A 173      58.365  64.705 100.213  0.00  0.00           C 0
+ATOM   2185  CD2 LEU A 138      61.950  62.329  96.219  0.00  0.00           C 0
+ATOM   2641    O MET A 168      60.840  59.132 100.701  0.80  5.36           O 0
+ATOM   2708   CA LYS A 172      57.812  61.950 100.400  0.00  0.00           C 0
+ATOM   2696    O ASN A 171      58.629  62.633 102.920  0.54  7.50           O 0
+ATOM   2184  CD1 LEU A 138      61.878  59.993  96.786  0.00  0.00           C 0
+ATOM   2645   CE MET A 168      66.613  60.220 101.466  0.00  0.00           C 0
+ATOM   2642   CB MET A 168      63.715  57.852 100.946  0.00  0.00           C 0
+ATOM   2697   CB ASN A 171      59.968  60.528 104.603  0.00  0.00           C 0
+ATOM   2643   CG MET A 168      64.879  58.082 101.912  0.00  0.00           C 0
+ATOM   2699  ND2 ASN A 171      60.900  59.257 106.467  0.67  8.75           N 0
+ATOM   2151  ND2 ASN A 136      65.517  61.784  94.145  0.52  9.84           N 0
+ATOM   2644   SD MET A 168      66.543  58.455 101.247  0.00  0.00           S 0
+ATOM   2591   CA GLN A 165      64.559  53.302 100.638  0.00  0.00           C 0
+ATOM   4920  OD2 ASP A 308      68.432  53.705  97.095  0.00  0.00           O 1
+ATOM   2166   CD ILE A 137      63.772  55.526  97.367  0.00  0.00           C 0
+ATOM   2639   CA MET A 168      62.450  57.713 101.797  0.00  0.00           C 0
+ATOM   2152  OD1 ASN A 136      64.451  59.787  94.524  0.69  3.21           O 0
+ATOM   2164  CG1 ILE A 137      63.748  56.267  96.029  0.00  0.00           C 0
+ATOM   2590    N GLN A 165      65.295  52.991 101.873  0.00  0.00           N 0
+ATOM   2573    C LEU A 164      65.448  53.835 102.888  0.00  0.00           C 0
+ATOM   2575   CB LEU A 164      67.437  53.477 104.353  0.00  0.00           C 0
+ATOM   2595   CG GLN A 165      66.358  51.712  99.518  0.00  0.00           C 0
+ATOM   2578  CD2 LEU A 164      68.697  55.461 105.196  0.00  0.00           C 0
+ATOM   4919  OD1 ASP A 308      68.591  54.984  95.368  0.00  0.00           O 0
+ATOM   2134    O THR A 135      68.096  57.774  91.259  0.71  9.64           O 0
+ATOM   2150   CG ASN A 136      65.030  60.595  93.799  0.00  0.00           C 0
+ATOM   2146   CA ASN A 136      65.660  58.830  92.009  0.00  0.00           C 0
+ATOM   2546  ND2 ASN A 162      69.346  48.441 102.437  0.43  5.47           N 0
+ATOM   2544   CB ASN A 162      67.247  48.646 101.202  0.00  0.00           C 0
+ATOM   2596   CD GLN A 165      66.436  50.662  98.407  0.00  0.00           C 0
+ATOM   2545   CG ASN A 162      68.131  48.984 102.405  0.00  0.00           C 0
+ATOM   2547  OD1 ASN A 162      67.847  49.962 103.093  0.46  3.21           O 0
+ATOM   4928    O TYR A 309      71.272  48.055  97.521  0.25  8.57           O 0
+ATOM   4894    O LYS A 307      72.396  52.700  95.886  0.08  8.57           O 0
+ATOM   4914   CA ASP A 308      69.877  51.876  95.108  0.00  0.00           C 0
+ATOM   2597  NE2 GLN A 165      67.032  51.111  97.306  0.00  0.00           N 1
+TER
+END

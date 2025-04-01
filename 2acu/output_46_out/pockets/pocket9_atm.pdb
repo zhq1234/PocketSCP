@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0782
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8833
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5605
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 13.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.6667
+HEADER 9  - Pocket volume (Monte Carlo)       : 185.1811
+HEADER 10 - Pocket volume (convex hull)       : 4.0026
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.6667
+ATOM    387  NE2 GLN A  26      56.027  21.414  83.072  0.00  0.00           N 1
+ATOM    385   CG GLN A  26      55.483  23.130  81.464  0.00  0.00           C 0
+ATOM    432   CG GLU A  29      49.940  23.372  79.856  0.00  0.00           C 0
+ATOM    431   CB GLU A  29      50.282  23.815  81.280  0.00  0.00           C 0
+ATOM   4236   CD PRO A 266      49.267  19.288  86.983  0.00  0.00           C 0
+ATOM   4235   CG PRO A 266      47.754  19.072  86.926  0.00  0.00           C 0
+ATOM    495  CG1 VAL A  33      45.342  21.986  85.370  0.00  0.00           C 0
+ATOM    435  OE2 GLU A  29      47.971  22.168  80.317  0.00  0.00           O 1
+ATOM   4206  CG2 VAL A 264      53.748  23.730  84.824  0.00  0.00           C 0
+ATOM   4221  CG2 THR A 265      53.799  18.769  86.796  0.00  0.00           C 0
+ATOM   4203    O VAL A 264      51.259  22.839  86.936  0.83  4.29           O 0
+ATOM   4217   CA THR A 265      51.922  20.149  87.836  0.00  0.00           C 0
+ATOM    496  CG2 VAL A  33      47.243  22.975  86.610  0.00  0.00           C 0
+ATOM    430    O GLU A  29      48.241  24.826  83.653  0.76  1.07           O 0
+TER
+END

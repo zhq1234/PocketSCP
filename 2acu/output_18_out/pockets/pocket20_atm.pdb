@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : -0.1044
+HEADER 1  - Drug Score                        : 0.0023
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9105
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5720
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 4.8571
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 298.9225
+HEADER 10 - Pocket volume (convex hull)       : 5.8743
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4545
+ATOM    313   CA LYS A  21      61.271  29.140  85.115  0.00  0.00           C 0
+ATOM    722   CG HIS A  48      61.747  35.206  82.621  0.00  0.00           C 0
+ATOM    723  CD2 HIS A  48      62.936  35.384  82.049  0.00  0.00           C 0
+ATOM    315    O LYS A  21      60.865  27.423  83.442  0.57  5.36           O 0
+ATOM    726  NE2 HIS A  48      63.842  35.546  83.010  0.80  9.84           N 1
+ATOM    725  CE1 HIS A  48      63.207  35.416  84.172  0.00  0.00           C 0
+ATOM    317   CG LYS A  21      63.218  29.024  86.630  0.00  0.00           C 0
+ATOM    298  NE1 TRP A  20      63.482  33.080  88.128  0.88  5.47           N 0
+ATOM    294  CD1 TRP A  20      62.267  32.833  87.644  0.00  0.00           C 0
+ATOM    314    C LYS A  21      60.405  28.288  84.184  0.00  0.00           C 0
+ATOM    724  ND1 HIS A  48      61.923  35.169  83.938  0.89  2.19           N 1
+ATOM    312    N LYS A  21      60.501  30.263  85.670  0.54  3.28           N 0
+ATOM    721   CB HIS A  48      60.392  35.394  81.935  0.00  0.00           C 0
+ATOM    337    O SER A  22      57.717  29.455  81.935  0.40  7.50           O 0
+ATOM    277    O THR A  19      57.282  31.636  85.520  0.30  6.43           O 0
+ATOM    734    N GLN A  49      58.789  35.433  79.512  0.77  2.19           N 0
+ATOM    737    O GLN A  49      56.548  33.460  79.945  0.61  2.14           O 0
+ATOM    738   CB GLN A  49      57.859  34.232  77.468  0.00  0.00           C 0
+ATOM    365   CD PRO A  24      57.509  29.514  77.327  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : -0.1493
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 3.7650
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5363
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 37.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 160.2647
+HEADER 10 - Pocket volume (convex hull)       : 2.8704
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 11.0000
+HEADER 13 - Number of apolar alpha sphere     :    12
+HEADER 14 - Proportion of apolar alpha sphere : 0.4800
+ATOM   1628   CB TYR A 103      40.466  46.931  86.517  0.00  0.00           C 0
+ATOM   2377   CA GLY A 151      41.694  53.546  86.246  0.00  0.00           C 0
+ATOM   2379    O GLY A 151      41.972  51.697  84.756  0.62  4.29           O 0
+ATOM   2426   NZ LYS A 154      38.085  48.860  90.985  0.00  0.00           N 1
+ATOM   2378    C GLY A 151      42.468  52.361  85.664  0.00  0.00           C 0
+ATOM   2425   CE LYS A 154      39.108  47.804  90.997  0.00  0.00           C 0
+ATOM   2405    O VAL A 153      44.538  50.543  90.448  0.61  2.14           O 0
+ATOM   2336    O VAL A 148      43.428  54.177  89.567  0.69  5.36           O 0
+ATOM   2385    C LEU A 152      44.619  49.644  86.648  0.00  0.00           C 0
+ATOM   2402    N VAL A 153      45.113  49.989  87.835  0.00  0.00           N 0
+ATOM   2424   CD LYS A 154      40.309  48.088  91.902  0.00  0.00           C 0
+ATOM    125  ND2 ASN A   8      41.637  51.538  94.929  0.00  0.00           N 0
+ATOM   2383    N LEU A 152      43.687  52.013  86.067  0.00  0.00           N 0
+ATOM   2404    C VAL A 153      44.616  49.348  90.165  0.00  0.00           C 0
+ATOM   2418    N LYS A 154      44.007  48.393  90.863  0.00  0.00           N 0
+ATOM   2419   CA LYS A 154      43.417  48.633  92.188  0.00  0.00           C 0
+TER
+END

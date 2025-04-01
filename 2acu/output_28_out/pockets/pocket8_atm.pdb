@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0825
+HEADER 1  - Drug Score                        : 0.0005
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.9437
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5777
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 37.2857
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 183.8980
+HEADER 10 - Pocket volume (convex hull)       : 4.1105
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5000
+ATOM   2423   CD LYS A 154      40.707  48.322  92.259  0.00  0.00           C 0
+ATOM   2335    O VAL A 148      43.335  55.156  90.489  0.42  5.36           O 0
+ATOM   2376   CA GLY A 151      41.882  54.170  86.843  0.00  0.00           C 0
+ATOM    125  ND2 ASN A   8      41.823  51.445  94.167  0.70  8.75           N 0
+ATOM   1627   CB TYR A 103      41.216  47.113  86.977  0.00  0.00           C 0
+ATOM   2377    C GLY A 151      42.444  52.958  86.099  0.00  0.00           C 0
+ATOM   2378    O GLY A 151      41.886  52.399  85.155  0.42  8.57           O 0
+ATOM   1628   CG TYR A 103      40.381  46.052  87.700  0.00  0.00           C 0
+ATOM   1630  CD2 TYR A 103      39.008  45.908  87.536  0.00  0.00           C 0
+ATOM   2385    O LEU A 152      43.929  49.192  86.979  0.89  1.07           O 0
+ATOM   2422   CG LYS A 154      41.975  47.616  91.775  0.00  0.00           C 0
+ATOM   2403    C VAL A 153      45.033  50.094  90.473  0.00  0.00           C 0
+ATOM   2401    N VAL A 153      45.052  50.787  88.123  0.64  1.09           N 0
+ATOM   2404    O VAL A 153      44.934  51.158  91.082  0.42  2.14           O 0
+ATOM   2384    C LEU A 152      44.431  50.313  87.046  0.00  0.00           C 0
+TER
+END

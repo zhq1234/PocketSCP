@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.1437
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.9858
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6108
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 8.8889
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.4444
+HEADER 9  - Pocket volume (Monte Carlo)       : 233.9511
+HEADER 10 - Pocket volume (convex hull)       : 5.9675
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2667
+ATOM   2576  CD1 LEU A 164      70.010  51.721 105.399  0.00  0.00           C 0
+ATOM   2574   CB LEU A 164      67.723  52.173 104.432  0.00  0.00           C 0
+ATOM   2644   CE MET A 168      66.779  55.491 102.162  0.00  0.00           C 0
+ATOM   4918  OD1 ASP A 308      68.760  53.391  96.830  0.68  9.64           O 0
+ATOM   2594   CG GLN A 165      66.416  51.269  99.981  0.00  0.00           C 0
+ATOM   4927    O TYR A 309      71.333  47.719  97.634  0.00  0.00           O 0
+ATOM   4893    O LYS A 307      73.146  52.266  95.786  0.56  7.50           O 0
+ATOM   4913   CA ASP A 308      70.538  51.425  95.138  0.00  0.00           C 0
+ATOM   2596  NE2 GLN A 165      67.266  50.885  97.692  0.71  1.09           N 1
+ATOM   2546  OD1 ASN A 162      68.123  48.649 103.396  0.44  2.14           O 0
+ATOM   4948    O PRO A 310      69.340  45.777 100.023  0.50  1.07           O 0
+ATOM   2597  OE1 GLN A 165      66.709  49.135  98.965  0.00  0.00           O 0
+ATOM   4985  CD2 HIS A 312      74.297  48.471 103.599  0.00  0.00           C 0
+ATOM   2545  ND2 ASN A 162      68.863  46.672 102.974  0.46  2.19           N 0
+ATOM   4983   CB HIS A 312      73.118  46.268 103.106  0.00  0.00           C 0
+ATOM   2595   CD GLN A 165      66.859  50.351  98.840  0.00  0.00           C 0
+TER
+END

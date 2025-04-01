@@ -1,0 +1,43 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : -0.2541
+HEADER 1  - Drug Score                        : 0.0011
+HEADER 2  - Number of alpha spheres           :    25
+HEADER 3  - Mean alpha-sphere radius          : 4.0493
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6328
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 44.8750
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 3.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 300.1690
+HEADER 10 - Pocket volume (convex hull)       : 19.7702
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.5600
+ATOM   3227   CA GLY A 203      52.156  48.993 108.261  0.00  0.00           C 0
+ATOM   3229    O GLY A 203      51.246  49.169 106.085  0.58  6.43           O 0
+ATOM   3228    C GLY A 203      52.187  48.745 106.753  0.00  0.00           C 0
+ATOM   3258  CG2 VAL A 205      49.895  43.857 104.612  0.00  0.00           C 0
+ATOM   3253   CA VAL A 205      52.316  43.774 104.346  0.00  0.00           C 0
+ATOM   3181   CG GLN A 200      54.736  42.989 110.740  0.00  0.00           C 0
+ATOM   3236    O ILE A 204      54.338  45.334 105.645  0.72  1.07           O 0
+ATOM   3183  NE2 GLN A 200      54.393  40.596 110.944  0.66  5.47           N 1
+ATOM   3182   CD GLN A 200      54.578  41.737 111.603  0.00  0.00           C 0
+ATOM   4076  ND2 ASN A 256      49.167  38.523 111.763  0.00  0.00           N 0
+ATOM   3233    N ILE A 204      53.187  47.954 106.372  0.76  1.09           N 0
+ATOM   3274  CG2 VAL A 206      56.058  42.122 106.928  0.00  0.00           C 0
+ATOM   3268    N VAL A 206      54.001  42.056 104.822  0.60  1.09           N 0
+ATOM   3257  CG1 VAL A 205      50.747  41.852 103.580  0.00  0.00           C 0
+ATOM   4073    O ASN A 256      51.461  38.055 107.630  0.42  8.57           O 0
+ATOM     55  CD2 LEU A   4      46.005  40.411 105.343  0.00  0.00           C 0
+ATOM   4074   CB ASN A 256      51.035  37.632 110.455  0.00  0.00           C 0
+ATOM   3235    C ILE A 204      53.411  45.878 105.046  0.00  0.00           C 0
+ATOM   3177   CA GLN A 200      54.936  45.495 110.588  0.00  0.00           C 0
+ATOM   3179    O GLN A 200      53.510  47.277 111.298  0.74  6.43           O 0
+ATOM   3168    O CYS A 199      55.109  47.323 108.408  0.00  0.00           O 0
+TER
+END

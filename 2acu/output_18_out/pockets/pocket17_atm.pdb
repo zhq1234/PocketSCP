@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.0819
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9146
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6743
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 33.4286
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 193.0180
+HEADER 10 - Pocket volume (convex hull)       : 2.6687
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM   2385    O LEU A 152      43.989  49.241  86.756  0.81  3.21           O 0
+ATOM   1614    O ASP A 102      40.531  48.420  84.100  0.00  0.00           O 0
+ATOM   1627   CB TYR A 103      40.764  46.853  87.455  0.00  0.00           C 0
+ATOM   2382    N LEU A 152      43.582  52.562  86.306  0.59  2.19           N 0
+ATOM   2422   CG LYS A 154      42.303  48.233  91.824  0.00  0.00           C 0
+ATOM   2376   CA GLY A 151      42.802  54.464  87.535  0.00  0.00           C 0
+ATOM   2424   CE LYS A 154      40.091  47.056  91.931  0.00  0.00           C 0
+ATOM   2425   NZ LYS A 154      39.518  47.980  92.921  0.00  0.00           N 1
+ATOM   2335    O VAL A 148      44.202  55.505  91.686  0.45  7.50           O 0
+ATOM   2418   CA LYS A 154      44.351  49.601  92.280  0.00  0.00           C 0
+ATOM   2403    C VAL A 153      45.459  50.321  90.221  0.00  0.00           C 0
+ATOM   2417    N LYS A 154      44.919  49.348  90.948  0.00  0.00           N 0
+ATOM   2404    O VAL A 153      45.620  51.497  90.546  0.85  2.14           O 0
+ATOM   2377    C GLY A 151      43.863  53.384  87.313  0.00  0.00           C 0
+ATOM   2384    C LEU A 152      44.596  50.309  86.813  0.00  0.00           C 0
+TER
+END

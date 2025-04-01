@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     4:
+HEADER 0  - Pocket Score                      : 0.0007
+HEADER 1  - Drug Score                        : 0.0009
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.6211
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4312
+HEADER 5  - Mean B-factor of pocket residues  : 0.0000
+HEADER 6  - Hydrophobicity Score              : 44.5556
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 78.7681
+HEADER 10 - Pocket volume (convex hull)       : 0.4140
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.8125
+ATOM   2894  NE2 GLN A 183      56.959  37.828  94.826  0.79  4.37           N 1
+ATOM   2893   CD GLN A 183      57.115  39.094  95.203  0.00  0.00           C 0
+ATOM    657  OD1 ASP A  43      54.875  37.526  92.380  0.00  0.00           O 0
+ATOM   4141   CD ILE A 260      54.728  35.499  95.333  0.00  0.00           C 0
+ATOM   1177  CG1 VAL A  75      51.938  40.566  92.691  0.00  0.00           C 0
+ATOM   3288  CG2 THR A 207      54.101  37.428  98.741  0.00  0.00           C 0
+ATOM   3289  OG1 THR A 207      52.800  39.208  99.535  0.82  2.14           O 0
+ATOM    623  CE1 HIS A  41      50.640  36.495  94.770  0.00  0.00           C 0
+ATOM   2891   CB GLN A 183      57.121  40.765  97.137  0.00  0.00           C 0
+ATOM   1721  CD1 LEU A 108      54.740  42.538  93.338  0.00  0.00           C 0
+ATOM   2862  CG1 VAL A 181      52.282  42.502  99.110  0.00  0.00           C 0
+ATOM    624  NE2 HIS A  41      49.954  37.040  95.772  0.69  5.47           N 1
+ATOM   1682  CD2 LEU A 106      50.580  42.800  95.026  0.00  0.00           C 0
+TER
+END
